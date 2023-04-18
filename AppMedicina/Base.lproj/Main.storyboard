@@ -63,9 +63,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Terms and Conditions" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zSD-c5-pCW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Terms and Conditions" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zSD-c5-pCW">
                                 <rect key="frame" x="54" y="120" width="307" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
@@ -80,9 +79,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXs-Co-5Vk">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXs-Co-5Vk">
                                 <rect key="frame" x="123" y="722" width="169" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
@@ -90,12 +88,40 @@
                                     <segue destination="prA-jF-Zk5" kind="show" id="MN7-YZ-JGb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4f-Gw-1eb">
+                                <rect key="frame" x="192" y="683" width="30" height="31"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="2oI-tE-DVE"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="3L7-uh-9B4"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="OAV-M9-sqW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="PMm-ud-nch"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="30" id="UKA-vb-65t"/>
+                                    <constraint firstAttribute="height" constant="30" id="ggf-qB-ZGo"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="TermsAction:" destination="m5z-Rf-9o4" eventType="touchUpInside" id="l94-rS-jQz"/>
+                                    <action selector="checkMarkTapped:" destination="m5z-Rf-9o4" eventType="touchUpInside" id="10B-69-zRS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t3i-nl-VRm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xXs-Co-5Vk" firstAttribute="top" secondItem="g4f-Gw-1eb" secondAttribute="bottom" constant="319" id="KEf-Zo-iRs"/>
+                            <constraint firstItem="g4f-Gw-1eb" firstAttribute="leading" secondItem="t3i-nl-VRm" secondAttribute="leading" constant="164" id="NEE-GA-xl0"/>
+                            <constraint firstItem="g4f-Gw-1eb" firstAttribute="top" secondItem="zSD-c5-pCW" secondAttribute="bottom" constant="298" id="V6F-qL-anZ"/>
+                            <constraint firstItem="g4f-Gw-1eb" firstAttribute="leading" secondItem="t3i-nl-VRm" secondAttribute="leading" constant="164" id="gOn-Uz-gPR"/>
+                            <constraint firstItem="xXs-Co-5Vk" firstAttribute="top" secondItem="g4f-Gw-1eb" secondAttribute="bottom" constant="319" id="goI-Gz-M8Z"/>
+                            <constraint firstItem="t3i-nl-VRm" firstAttribute="trailing" secondItem="g4f-Gw-1eb" secondAttribute="trailing" constant="165" id="lA9-SC-0Le"/>
+                            <constraint firstItem="g4f-Gw-1eb" firstAttribute="top" secondItem="zSD-c5-pCW" secondAttribute="bottom" constant="298" id="vYr-pg-Zgx"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XTQ-Ca-e3T"/>
                     <connections>
+                        <outlet property="TermsOutlet" destination="g4f-Gw-1eb" id="ImB-f3-3h0"/>
                         <outlet property="termsCondiTitle" destination="zSD-c5-pCW" id="hen-g7-xUK"/>
                         <outlet property="textTermsCondi" destination="AKL-Z4-7uV" id="c2M-g2-eu9"/>
                     </connections>
@@ -1309,6 +1335,9 @@
         <image name="pills" catalog="system" width="128" height="106"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

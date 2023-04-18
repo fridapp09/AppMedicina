@@ -28,6 +28,8 @@
 		A82D614E29D4E858001B2EF5 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */; };
 		A82D615029D4E869001B2EF5 /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614F29D4E869001B2EF5 /* AccessibilityViewController.swift */; };
 		A82D615229D62A6A001B2EF5 /* InfoTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D615129D62A6A001B2EF5 /* InfoTipsViewController.swift */; };
+		A8DA007429EF5B7A00F9C7A1 /* Checkmarkempty.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DA007329EF5B7A00F9C7A1 /* Checkmarkempty.png */; };
+		A8DA007629EF5B8B00F9C7A1 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DA007529EF5B8B00F9C7A1 /* Checkmark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
 		A82D614F29D4E869001B2EF5 /* AccessibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
 		A82D615129D62A6A001B2EF5 /* InfoTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTipsViewController.swift; sourceTree = "<group>"; };
+		A8DA007329EF5B7A00F9C7A1 /* Checkmarkempty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmarkempty.png; sourceTree = "<group>"; };
+		A8DA007529EF5B8B00F9C7A1 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A82D613729D3A4E6001B2EF5 /* SignUpViewController.swift */,
 				A82D613529D3A373001B2EF5 /* LoginViewController.swift */,
 				A82D610A29D39EF0001B2EF5 /* Assets.xcassets */,
+				A8DA007329EF5B7A00F9C7A1 /* Checkmarkempty.png */,
+				A8DA007529EF5B8B00F9C7A1 /* Checkmark.png */,
 				A82D610C29D39EF0001B2EF5 /* LaunchScreen.storyboard */,
 				A82D610F29D39EF0001B2EF5 /* Info.plist */,
 			);
@@ -171,8 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82D610E29D39EF0001B2EF5 /* LaunchScreen.storyboard in Resources */,
+				A8DA007429EF5B7A00F9C7A1 /* Checkmarkempty.png in Resources */,
 				A82D610B29D39EF0001B2EF5 /* Assets.xcassets in Resources */,
 				A82D610929D39EEB001B2EF5 /* Main.storyboard in Resources */,
+				A8DA007629EF5B8B00F9C7A1 /* Checkmark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
