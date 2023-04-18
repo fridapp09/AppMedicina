@@ -104,6 +104,21 @@
             </objects>
             <point key="canvasLocation" x="1146" y="-660"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="jsE-aM-Xbg">
+            <objects>
+                <viewController id="psX-i9-7MY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h3r-GA-0ph">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RNk-kn-UK5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gMK-3g-tnm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2199" y="-683"/>
+        </scene>
         <!--Home-->
         <scene sceneID="usn-bP-38C">
             <objects>
@@ -196,7 +211,7 @@
             <objects>
                 <viewController id="NF3-gK-3ZN" customClass="TipsViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Eh-wX-040">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tip 1" translatesAutoresizingMaskIntoConstraints="NO" id="Ae1-jz-0zp">
@@ -370,7 +385,7 @@
             <objects>
                 <viewController id="Gm1-xm-EbN" customClass="MedicinesViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s3h-y4-Mci">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g6a-AE-jzA">
@@ -468,7 +483,7 @@
             <objects>
                 <viewController id="2Cg-3g-owR" customClass="InformationMedicinesViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CzY-7a-X0P">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name Medicine" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-Sz-oi9">
@@ -582,7 +597,7 @@
             <objects>
                 <viewController id="r9i-fk-Gze" customClass="DiagnosticViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kKY-Lc-RId">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Diagnostic Test" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DOa-Y9-Ioj">
@@ -721,7 +736,7 @@
             <objects>
                 <viewController id="Icc-9U-MIF" customClass="ResultsViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mvp-MJ-G7a">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Results" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZB5-rr-Eem">
@@ -784,7 +799,7 @@
             <objects>
                 <viewController id="bgw-Il-sRn" customClass="InfoTipsViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SFW-HB-bhF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name Tip" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="waA-ln-UTt">
@@ -1088,7 +1103,6 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Done"/>
                                 <connections>
                                     <action selector="nextLogButton:" destination="LwN-w3-1J2" eventType="touchUpInside" id="ukQ-w8-b3O"/>
-                                    <segue destination="5lG-sL-ftJ" kind="show" id="eO1-jU-Gae"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0h9-Pw-Szt">
