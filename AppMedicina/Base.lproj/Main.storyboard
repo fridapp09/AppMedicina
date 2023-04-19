@@ -176,11 +176,11 @@ These terms and conditions shall be governed by and construed in accordance with
             <objects>
                 <viewController id="9fT-Q7-rM5" customClass="HomePageViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tye-NO-U3y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5B-f2-mZS">
-                                <rect key="frame" x="62" y="412" width="290" height="72"/>
+                                <rect key="frame" x="59" y="384" width="290" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Start"/>
@@ -189,16 +189,8 @@ These terms and conditions shall be governed by and construed in accordance with
                                     <segue destination="r9i-fk-Gze" kind="show" id="bIk-xT-d12"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Logo" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hhj-g9-5mb">
-                                <rect key="frame" x="87" y="88" width="240" height="61.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Diagnostic Test" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dNX-Gg-0MG">
-                                <rect key="frame" x="39" y="158" width="336" height="73"/>
+                                <rect key="frame" x="36" y="130" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -206,7 +198,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="9ta-lE-JO2">
-                                <rect key="frame" x="46" y="212" width="323" height="192"/>
+                                <rect key="frame" x="43" y="184" width="323" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </string>
@@ -215,7 +207,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3cq-fw-Hca">
-                                <rect key="frame" x="46" y="504" width="336" height="73"/>
+                                <rect key="frame" x="43" y="476" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -223,7 +215,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="3Nd-5H-vzH">
-                                <rect key="frame" x="53" y="558" width="323" height="103"/>
+                                <rect key="frame" x="50" y="530" width="323" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
@@ -232,7 +224,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ix-IA-RUs">
-                                <rect key="frame" x="62" y="669" width="290" height="72"/>
+                                <rect key="frame" x="59" y="641" width="290" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Check out"/>
@@ -241,11 +233,19 @@ These terms and conditions shall be governed by and construed in accordance with
                                     <segue destination="NF3-gK-3ZN" kind="show" id="g9J-E1-R0M"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Logo" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hhj-g9-5mb">
+                                <rect key="frame" x="91" y="35" width="240" height="61.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jhM-DC-EC8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="mER-Mu-v4v"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="mER-Mu-v4v"/>
                     <navigationItem key="navigationItem" id="JBO-68-dLU"/>
                     <connections>
                         <outlet property="logoHomepageTitle" destination="Hhj-g9-5mb" id="3If-wE-b1C"/>
@@ -256,7 +256,7 @@ These terms and conditions shall be governed by and construed in accordance with
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OY8-Ce-SHn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2816" y="389"/>
+            <point key="canvasLocation" x="2436" y="331"/>
         </scene>
         <!--Tips View Controller-->
         <scene sceneID="jf3-nW-z75">
@@ -362,7 +362,7 @@ These terms and conditions shall be governed by and construed in accordance with
             <objects>
                 <viewController id="7qo-ik-Etu" customClass="SuggestedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XW0-fW-Bfs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Suggested Medicine" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="khj-Hc-kbW">
@@ -423,7 +423,7 @@ These terms and conditions shall be governed by and construed in accordance with
                         <viewLayoutGuide key="safeArea" id="Xic-SQ-Ns3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Meds" id="KSU-4s-Th2"/>
+                    <tabBarItem key="tabBarItem" title="Meds" image="pills" catalog="system" selectedImage="pills.fill" id="KSU-4s-Th2"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ERh-Im-yw4"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -637,12 +637,12 @@ These terms and conditions shall be governed by and construed in accordance with
                         <viewLayoutGuide key="safeArea" id="9NQ-3p-ySK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="1Vi-km-zJJ"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape" catalog="system" selectedImage="gearshape.fill" id="1Vi-km-zJJ"/>
                     <navigationItem key="navigationItem" id="gvg-oP-Oql"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vMq-Q6-dkP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1499" y="1440"/>
+            <point key="canvasLocation" x="1309" y="1246"/>
         </scene>
         <!--Diagnostic View Controller-->
         <scene sceneID="3rp-ej-uMN">
@@ -781,7 +781,7 @@ These terms and conditions shall be governed by and construed in accordance with
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CTT-ZS-tGW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4413" y="388"/>
+            <point key="canvasLocation" x="3857" y="288"/>
         </scene>
         <!--Results View Controller-->
         <scene sceneID="BWs-Zh-Y3a">
@@ -844,7 +844,7 @@ These terms and conditions shall be governed by and construed in accordance with
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zqG-ew-ygT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5774" y="135"/>
+            <point key="canvasLocation" x="5562" y="71"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="egJ-BN-OZb">
@@ -966,7 +966,7 @@ These terms and conditions shall be governed by and construed in accordance with
             <objects>
                 <viewController id="4Ix-DU-pII" customClass="ProfileViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5dL-po-Um8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Base Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Fc-RO-LMb">
@@ -1130,12 +1130,12 @@ These terms and conditions shall be governed by and construed in accordance with
                             <constraint firstItem="jsC-G5-j4p" firstAttribute="leading" secondItem="HiS-1l-lwc" secondAttribute="leading" constant="114" id="y70-1L-28Z"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="Ixp-3h-GMR"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" selectedImage="person.fill" id="Ixp-3h-GMR"/>
                     <navigationItem key="navigationItem" id="2Tb-VG-uPb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RVW-Dp-88b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-584" y="1440"/>
+            <point key="canvasLocation" x="-687" y="1264"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="vLh-02-pio">
@@ -1146,7 +1146,7 @@ These terms and conditions shall be governed by and construed in accordance with
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Sign Up" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0AW-J8-lUE">
-                                <rect key="frame" x="87" y="70" width="240" height="61.5"/>
+                                <rect key="frame" x="87" y="74" width="240" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1340,7 +1340,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="New Profile" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WjQ-cN-c60">
-                                <rect key="frame" x="87" y="70" width="240" height="61.5"/>
+                                <rect key="frame" x="87" y="74" width="240" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1468,21 +1468,24 @@ These terms and conditions shall be governed by and construed in accordance with
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGf-eW-f42" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1307" y="222"/>
+            <point key="canvasLocation" x="1309" y="331"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tRK-aP-kjF"/>
         <segue reference="fsR-uY-lyE"/>
-        <segue reference="ZEo-Cs-OkD"/>
+        <segue reference="Suc-oJ-y7p"/>
         <segue reference="lDv-O5-QOx"/>
         <segue reference="udd-1E-4Km"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="house" catalog="system" width="128" height="106"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="pills" catalog="system" width="128" height="106"/>
+        <image name="pills.fill" catalog="system" width="128" height="106"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
