@@ -27,7 +27,7 @@
 		A82D614C29D4E845001B2EF5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614B29D4E845001B2EF5 /* ProfileViewController.swift */; };
 		A82D614E29D4E858001B2EF5 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */; };
 		A82D615029D4E869001B2EF5 /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614F29D4E869001B2EF5 /* AccessibilityViewController.swift */; };
-		A82D615229D62A6A001B2EF5 /* InfoTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D615129D62A6A001B2EF5 /* InfoTipsViewController.swift */; };
+		A82D615229D62A6A001B2EF5 /* InfoTip1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */; };
 		A8DA007429EF5B7A00F9C7A1 /* Checkmarkempty.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DA007329EF5B7A00F9C7A1 /* Checkmarkempty.png */; };
 		A8DA007629EF5B8B00F9C7A1 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DA007529EF5B8B00F9C7A1 /* Checkmark.png */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,7 @@
 		A82D614B29D4E845001B2EF5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
 		A82D614F29D4E869001B2EF5 /* AccessibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
-		A82D615129D62A6A001B2EF5 /* InfoTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTipsViewController.swift; sourceTree = "<group>"; };
+		A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTip1ViewController.swift; sourceTree = "<group>"; };
 		A8DA007329EF5B7A00F9C7A1 /* Checkmarkempty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmarkempty.png; sourceTree = "<group>"; };
 		A8DA007529EF5B8B00F9C7A1 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +94,7 @@
 				A82D610329D39EEB001B2EF5 /* SceneDelegate.swift */,
 				A82D610529D39EEB001B2EF5 /* ViewController.swift */,
 				A82D610729D39EEB001B2EF5 /* Main.storyboard */,
-				A82D615129D62A6A001B2EF5 /* InfoTipsViewController.swift */,
+				A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */,
 				A82D614B29D4E845001B2EF5 /* ProfileViewController.swift */,
 				A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */,
 				A82D614F29D4E869001B2EF5 /* AccessibilityViewController.swift */,
@@ -199,7 +199,7 @@
 				A82D610229D39EEB001B2EF5 /* AppDelegate.swift in Sources */,
 				A82D613E29D4DC60001B2EF5 /* HomePageViewController.swift in Sources */,
 				A82D614029D4E370001B2EF5 /* TipsViewController.swift in Sources */,
-				A82D615229D62A6A001B2EF5 /* InfoTipsViewController.swift in Sources */,
+				A82D615229D62A6A001B2EF5 /* InfoTip1ViewController.swift in Sources */,
 				A82D610429D39EEB001B2EF5 /* SceneDelegate.swift in Sources */,
 				A82D614E29D4E858001B2EF5 /* ConfigurationViewController.swift in Sources */,
 				A82D614229D4E380001B2EF5 /* DiagnosticViewController.swift in Sources */,
