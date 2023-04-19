@@ -14,13 +14,13 @@ class TermsConditionsViewController: UIViewController {
     
     @IBOutlet var textTermsCondi: UITextView!
 
-    @IBOutlet weak var btnCheckBox:UIButton!
+   /* @IBOutlet weak var btnCheckBox:UIButton!*/
        
        override func viewDidLoad() {
            super.viewDidLoad()
-           // Do any additional setup after loading the view, typically from a nib.
-              btnCheckBox.setImage(UIImage(named:"Checkmarkempty"), for: .normal)
-              btnCheckBox.setImage(UIImage(named:"Checkmark"), for: .selected)
+           /*Do any additional setup after loading the view, typically from a nib.
+              //btnCheckBox.setImage(UIImage(named:"Checkmarkempty"), for: .normal)
+              //btnCheckBox.setImage(UIImage(named:"Checkmark"), for: .selected)
        }
     @IBAction func TermsAction(_ sender: UIButton) {
     }
@@ -39,7 +39,7 @@ class TermsConditionsViewController: UIViewController {
                         sender.transform = .identity
                     }, completion: nil)
                 }
-    }
+    */}
     
     @IBAction func nextTermsButton(_ sender: UIButton) {
     }
