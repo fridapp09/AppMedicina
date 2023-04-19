@@ -176,7 +176,7 @@ These terms and conditions shall be governed by and construed in accordance with
             <objects>
                 <viewController id="9fT-Q7-rM5" customClass="HomePageViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tye-NO-U3y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5B-f2-mZS">
@@ -230,7 +230,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <buttonConfiguration key="configuration" style="filled" title="Check out"/>
                                 <connections>
                                     <action selector="checkTipButton:" destination="9fT-Q7-rM5" eventType="touchUpInside" id="xmp-a5-ooQ"/>
-                                    <segue destination="XBu-Yz-esN" kind="show" id="A9l-Ib-qxH"/>
+                                    <segue destination="XBu-Yz-esN" kind="show" id="aeZ-C0-gQa"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Logo" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hhj-g9-5mb">
@@ -296,6 +296,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                                 <buttonConfiguration key="configuration" style="filled" title="Check it"/>
                                                 <connections>
                                                     <action selector="tips1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="uTx-Su-As1"/>
+                                                    <segue destination="bgw-Il-sRn" kind="show" id="YpX-qb-Za8"/>
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tip 2" translatesAutoresizingMaskIntoConstraints="NO" id="IIA-O0-ahk">
@@ -464,7 +465,7 @@ These terms and conditions shall be governed by and construed in accordance with
             <objects>
                 <viewController id="7qo-ik-Etu" customClass="SuggestedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XW0-fW-Bfs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Suggested Medicine" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="khj-Hc-kbW">
@@ -1388,10 +1389,10 @@ These terms and conditions shall be governed by and construed in accordance with
             </objects>
             <point key="canvasLocation" x="5562" y="71"/>
         </scene>
-        <!--View Controller-->
+        <!--Info Tip2 View Controller-->
         <scene sceneID="egJ-BN-OZb">
             <objects>
-                <viewController id="w8n-fu-6zY" sceneMemberID="viewController">
+                <viewController id="w8n-fu-6zY" customClass="InfoTip2ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8BO-nS-fB1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1427,10 +1428,10 @@ These terms and conditions shall be governed by and construed in accordance with
             </objects>
             <point key="canvasLocation" x="4945" y="-1917"/>
         </scene>
-        <!--View Controller-->
+        <!--Info Tip3 View Controller-->
         <scene sceneID="XRM-fm-ZRN">
             <objects>
-                <viewController id="HPm-z1-YaM" sceneMemberID="viewController">
+                <viewController id="HPm-z1-YaM" customClass="InfoTip3ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xEV-GR-Rpf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1466,10 +1467,10 @@ These terms and conditions shall be governed by and construed in accordance with
             </objects>
             <point key="canvasLocation" x="5758" y="-1917"/>
         </scene>
-        <!--View Controller-->
+        <!--Info Tip4 View Controller-->
         <scene sceneID="u4G-MT-O2P">
             <objects>
-                <viewController id="KG8-0f-KAf" sceneMemberID="viewController">
+                <viewController id="KG8-0f-KAf" customClass="InfoTip4ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VQN-vD-2go">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1505,10 +1506,10 @@ These terms and conditions shall be governed by and construed in accordance with
             </objects>
             <point key="canvasLocation" x="6523" y="-1917"/>
         </scene>
-        <!--View Controller-->
+        <!--Info Tip5 View Controller-->
         <scene sceneID="5CE-WX-XwM">
             <objects>
-                <viewController id="9ze-dr-80G" sceneMemberID="viewController">
+                <viewController id="9ze-dr-80G" customClass="InfoTip5ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SpU-Nb-ErC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1549,7 +1550,7 @@ These terms and conditions shall be governed by and construed in accordance with
             <objects>
                 <viewController id="bgw-Il-sRn" customClass="InfoTip1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SFW-HB-bhF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name Tip 1" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="waA-ln-UTt">
@@ -1588,7 +1589,7 @@ These terms and conditions shall be governed by and construed in accordance with
             <objects>
                 <viewController id="4Ix-DU-pII" customClass="ProfileViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5dL-po-Um8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Base Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Fc-RO-LMb">
@@ -2094,7 +2095,6 @@ These terms and conditions shall be governed by and construed in accordance with
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tRK-aP-kjF"/>
         <segue reference="fsR-uY-lyE"/>
         <segue reference="Suc-oJ-y7p"/>
         <segue reference="lDv-O5-QOx"/>
