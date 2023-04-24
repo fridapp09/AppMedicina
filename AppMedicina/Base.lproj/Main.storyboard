@@ -61,11 +61,11 @@
             <objects>
                 <viewController id="rh1-gS-gy6" customClass="TermsConditionsViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gAJ-Yh-Vhm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1892"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pm7-x2-0C8">
-                                <rect key="frame" x="0.0" y="44" width="414" height="1902"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="1848"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BqY-ZL-2AQ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1900"/>
@@ -127,6 +127,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="checkboxtn1:" destination="rh1-gS-gy6" eventType="touchUpInside" id="q7H-Bq-4QO"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Accept Terms and Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJk-4e-ZeU">
                                                 <rect key="frame" x="116" y="1699" width="233" height="21"/>
@@ -161,15 +164,16 @@ These terms and conditions shall be governed by and construed in accordance with
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BaT-KA-ci2"/>
-                    <size key="freeformSize" width="414" height="2000"/>
+                    <size key="freeformSize" width="414" height="1946"/>
                     <connections>
+                        <outlet property="checkbox1" destination="aB6-P4-zg5" id="dso-5l-7l2"/>
                         <outlet property="termsCondiTitle" destination="Hfi-kM-ctC" id="uij-Vo-NqU"/>
                         <outlet property="textTermsCondi" destination="eSe-Yt-S2T" id="Koo-bJ-zaH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Of1-lE-N4f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="-1362"/>
+            <point key="canvasLocation" x="1092.753623188406" y="-1398.2142857142856"/>
         </scene>
         <!--Home-->
         <scene sceneID="usn-bP-38C">
@@ -1829,7 +1833,7 @@ These terms and conditions shall be governed by and construed in accordance with
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BwU-Lr-BQB" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2027.5362318840582" y="-558.48214285714278"/>
+            <point key="canvasLocation" x="1933" y="-565"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="MCO-he-V1y">
@@ -2095,6 +2099,7 @@ These terms and conditions shall be governed by and construed in accordance with
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="DS9-xN-HXC"/>
         <segue reference="fsR-uY-lyE"/>
         <segue reference="Suc-oJ-y7p"/>
         <segue reference="lDv-O5-QOx"/>
