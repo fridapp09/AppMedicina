@@ -268,11 +268,11 @@ These terms and conditions shall be governed by and construed in accordance with
             <objects>
                 <viewController id="XBu-Yz-esN" customClass="TipsViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CPO-VO-lav">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1092"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OeU-L1-OGG">
-                                <rect key="frame" x="0.0" y="44" width="414" height="1102"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="1048"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1p-zM-niB">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
@@ -298,7 +298,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                                 <rect key="frame" x="39" y="245" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                    <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="tips1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="uTx-Su-As1"/>
                                                     <segue destination="bgw-Il-sRn" kind="show" id="YpX-qb-Za8"/>
@@ -325,7 +327,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                                 <rect key="frame" x="39" y="461" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                    <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="tips2Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="Olk-F5-Riu"/>
                                                     <segue destination="w8n-fu-6zY" kind="show" id="XRE-nh-jUD"/>
@@ -352,7 +356,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                                 <rect key="frame" x="39" y="677" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                    <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="tips3Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="J29-kd-Bwt"/>
                                                     <segue destination="HPm-z1-YaM" kind="show" id="Jl2-mJ-2eB"/>
@@ -387,7 +393,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                                 <rect key="frame" x="39" y="893" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                    <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="tips4Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="NUa-5a-eyg"/>
                                                     <segue destination="KG8-0f-KAf" kind="show" id="uTm-DH-vRb"/>
@@ -414,7 +422,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                                 <rect key="frame" x="39" y="1109" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                    <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="tips5Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="QBU-ys-A5a"/>
                                                     <segue destination="9ze-dr-80G" kind="show" id="xsc-O7-Yuc"/>
@@ -446,7 +456,7 @@ These terms and conditions shall be governed by and construed in accordance with
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YtQ-ck-rqG"/>
-                    <size key="freeformSize" width="414" height="1200"/>
+                    <size key="freeformSize" width="414" height="1146"/>
                     <connections>
                         <outlet property="tip1Text" destination="MlX-Uu-UaR" id="blf-K3-5we"/>
                         <outlet property="tip1Title" destination="MlX-Uu-UaR" id="PIU-vh-KvS"/>
@@ -463,7 +473,7 @@ These terms and conditions shall be governed by and construed in accordance with
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D0z-De-fbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5220.289855072464" y="-908.03571428571422"/>
+            <point key="canvasLocation" x="5220.289855072464" y="-944.19642857142856"/>
         </scene>
         <!--Meds-->
         <scene sceneID="Q9t-ep-YN2">
@@ -1920,13 +1930,13 @@ These terms and conditions shall be governed by and construed in accordance with
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gqk-B3-Jpu">
-                                <rect key="frame" x="72" y="300" width="270" height="34"/>
+                                <rect key="frame" x="72" y="315" width="270" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Age" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="zt4-I3-qNQ">
-                                <rect key="frame" x="72" y="256" width="270" height="43.5"/>
+                                <rect key="frame" x="72" y="271" width="270" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1934,7 +1944,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Genre" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="2pU-cp-9NR">
-                                <rect key="frame" x="72" y="344" width="270" height="44"/>
+                                <rect key="frame" x="72" y="359" width="270" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1942,7 +1952,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Country" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="i9y-mF-Gsw">
-                                <rect key="frame" x="72" y="432" width="270" height="44"/>
+                                <rect key="frame" x="72" y="447" width="270" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1950,7 +1960,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="State" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="pcN-q8-mwJ">
-                                <rect key="frame" x="72" y="520" width="270" height="44"/>
+                                <rect key="frame" x="72" y="535" width="270" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1958,7 +1968,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="GNj-AR-gJU">
-                                <rect key="frame" x="72" y="168" width="270" height="43.5"/>
+                                <rect key="frame" x="72" y="183" width="270" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1974,7 +1984,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J32-cZ-3rt">
-                                <rect key="frame" x="72" y="388" width="200" height="42"/>
+                                <rect key="frame" x="72" y="403" width="200" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <menu key="menu" id="MRJ-ij-dod">
@@ -1990,7 +2000,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COV-yW-3In">
-                                <rect key="frame" x="72" y="476" width="200" height="42"/>
+                                <rect key="frame" x="72" y="491" width="200" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <menu key="menu" id="TXK-D0-xyR">
@@ -2006,7 +2016,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TG-Qc-gFa">
-                                <rect key="frame" x="72" y="564" width="200" height="42"/>
+                                <rect key="frame" x="72" y="579" width="200" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <menu key="menu" id="EJm-MK-0vl">
@@ -2028,13 +2038,13 @@ These terms and conditions shall be governed by and construed in accordance with
                                 </state>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ATg-tz-kT8">
-                                <rect key="frame" x="72" y="212" width="270" height="34"/>
+                                <rect key="frame" x="72" y="227" width="270" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISO-0B-Dt3">
-                                <rect key="frame" x="129" y="654" width="156" height="66"/>
+                                <rect key="frame" x="129" y="669" width="156" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Done">
@@ -2095,6 +2105,9 @@ These terms and conditions shall be governed by and construed in accordance with
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="9fT-Q7-rM5" kind="relationship" relationship="viewControllers" id="lDv-O5-QOx"/>
@@ -2109,6 +2122,7 @@ These terms and conditions shall be governed by and construed in accordance with
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Esv-6O-6XR"/>
         <segue reference="fsR-uY-lyE"/>
         <segue reference="Suc-oJ-y7p"/>
         <segue reference="lDv-O5-QOx"/>
