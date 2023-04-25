@@ -67,8 +67,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pm7-x2-0C8">
                                 <rect key="frame" x="0.0" y="44" width="414" height="1848"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BqY-ZL-2AQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1900"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BqY-ZL-2AQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1880"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P56-G3-qbS">
                                                 <rect key="frame" x="117" y="1773" width="180" height="65"/>
@@ -143,7 +143,7 @@ These terms and conditions shall be governed by and construed in accordance with
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="YBz-tQ-cx2"/>
+                                            <constraint firstAttribute="height" constant="1880" id="YBz-tQ-cx2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -175,7 +175,7 @@ These terms and conditions shall be governed by and construed in accordance with
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Of1-lE-N4f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1162" y="-1069"/>
+            <point key="canvasLocation" x="1160.8695652173915" y="-1069.4196428571429"/>
         </scene>
         <!--Home-->
         <scene sceneID="usn-bP-38C">
@@ -584,7 +584,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <rect key="frame" x="39" y="312" width="320" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="2Cg-3g-owR" kind="show" id="w5s-aF-t0h"/>
                                 </connections>
@@ -610,7 +612,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <rect key="frame" x="39" y="528" width="320" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 3" translatesAutoresizingMaskIntoConstraints="NO" id="ZoE-VY-bsn">
                                 <rect key="frame" x="39" y="583" width="336" height="73"/>
@@ -633,7 +637,9 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <rect key="frame" x="39" y="757" width="320" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dsr-oJ-rHL"/>
@@ -1374,24 +1380,28 @@ These terms and conditions shall be governed by and construed in accordance with
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akX-10-6t3">
-                                <rect key="frame" x="47" y="737" width="320" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Okay"/>
-                                <connections>
-                                    <action selector="okayResuButton:" destination="Icc-9U-MIF" eventType="touchUpInside" id="Tzd-YB-BxL"/>
-                                    <segue destination="9fT-Q7-rM5" kind="show" id="juT-FT-hUv"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aq-XY-PMb">
-                                <rect key="frame" x="47" y="647" width="320" height="55"/>
+                                <rect key="frame" x="59" y="641" width="290" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Suggested Medicine"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Suggested Medicine">
+                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="suggestedMedButton:" destination="Icc-9U-MIF" eventType="touchUpInside" id="w8t-mK-N6M"/>
                                     <segue destination="Gm1-xm-EbN" kind="show" id="ZEo-Cs-OkD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akX-10-6t3">
+                                <rect key="frame" x="112" y="533" width="191" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Okay">
+                                    <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="okayResuButton:" destination="Icc-9U-MIF" eventType="touchUpInside" id="Tzd-YB-BxL"/>
+                                    <segue destination="9fT-Q7-rM5" kind="show" id="juT-FT-hUv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1402,7 +1412,7 @@ These terms and conditions shall be governed by and construed in accordance with
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zqG-ew-ygT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5562" y="71"/>
+            <point key="canvasLocation" x="5560.8695652173919" y="70.982142857142847"/>
         </scene>
         <!--Info Tip2 View Controller-->
         <scene sceneID="egJ-BN-OZb">
@@ -2124,8 +2134,8 @@ These terms and conditions shall be governed by and construed in accordance with
     <inferredMetricsTieBreakers>
         <segue reference="Esv-6O-6XR"/>
         <segue reference="fsR-uY-lyE"/>
-        <segue reference="Suc-oJ-y7p"/>
-        <segue reference="lDv-O5-QOx"/>
+        <segue reference="ZEo-Cs-OkD"/>
+        <segue reference="juT-FT-hUv"/>
         <segue reference="udd-1E-4Km"/>
     </inferredMetricsTieBreakers>
     <resources>
