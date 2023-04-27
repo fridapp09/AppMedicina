@@ -29,7 +29,7 @@ class TermsConditionsViewController: UIViewController {
             flag1 = true
         }
         else{
-            sender.backgroundColor = UIColor.red
+            sender.backgroundColor = UIColor.lightGray
             flag1 = false
         }
     }
