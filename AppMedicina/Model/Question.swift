@@ -13,12 +13,12 @@ class Question{
     let optionB: String
     let optionC: String
     let optionD: String
-    let WeigthA: Int
-    let WeigthB: Int
-    let WeigthC: Int
-    let WeigthD: Int
+    let WeigthA: [Int]
+    let WeigthB: [Int]
+    let WeigthC: [Int]
+    let WeigthD: [Int]
         
-    init(questionText:String, choiceA:String,choiceB:String, choiceC:String, choiceD:String, WA: Int, WB: Int, WC: Int, WD: Int )
+    init(questionText:String, choiceA:String,choiceB:String, choiceC:String, choiceD:String, WA: [Int], WB: [Int], WC: [Int], WD: [Int] )
     {
         question = questionText
         optionA = choiceA

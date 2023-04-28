@@ -19,7 +19,7 @@ class DiagnosticViewController: UIViewController {
     
     let allQuestions = QuestionBank()
     var questionNumber: Int = 0
-    var myList = [Int]()
+    var selectedAnswer = [Int]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +27,15 @@ class DiagnosticViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    //[0] cold/flu
+    //[1] headache
+    //[2] somacache
+    //[3] Diarrhea
+    //[4] UTI
+    //[5] Consipation
+    //[6] Food Poisoning
+    //[7] Dehydration
+    //[8] Unknown
     
     @IBAction func answerPressed(_ sender: UIButton) {
         
@@ -49,6 +58,19 @@ class DiagnosticViewController: UIViewController {
     }
     
     func updateQuestion(){
+        QuestionLabel.text = allQuestions.list[questionNumber].question
+        OptionA.setTitle ( allQuestions.list[questionNumber].optionA, for: UIControl.State.normal)
+        OptionB.setTitle ( allQuestions.list[questionNumber].optionB, for: UIControl.State.normal)
+        OptionC.setTitle ( allQuestions.list[questionNumber].optionC, for: UIControl.State.normal)
+        OptionD.setTitle ( allQuestions.list[questionNumber].optionD, for: UIControl.State.normal)
+    
+    }
+    
+    func updateUI(){
+        
+    }
+    
+    func restartQuiz(){
         
     }
     

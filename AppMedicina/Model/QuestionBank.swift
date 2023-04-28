@@ -17,42 +17,42 @@ class QuestionBank{
             choiceB: "Stomacache",
             choiceC: "Body Ache",
             choiceD: "I dont feel pain",
-            WA: 1,
-            WB: 1,
-            WC: 1,
-            WD: 1))
+            WA: [0,1,0,0,0,0,1,1,0],
+            WB: [0,0,1,0,0,0,0,0,0],
+            WC: [1,0,1,1,1,1,1,0,0],
+            WD: [0,0,0,0,0,0,0,0,0]))
         
         list.append(Question(
             questionText: "do you feel?...",
             choiceA: "Naucea",
-            choiceB: "fever",
-            choiceC: "Body Ache",
+            choiceB: "Fever",
+            choiceC: "Abdominal pain",
             choiceD: "None of the above",
-            WA: 1,
-            WB: 1,
-            WC: 1,
-            WD: 1))
+            WA: [0,1,1,1,0,0,1,0,0],
+            WB: [1,0,0,0,1,0,1,0,0],
+            WC: [0,0,1,1,0,1,1,0,0],
+            WD: [0,0,0,0,0,0,0,0,0]))
         
         list.append(Question(
-            questionText: "Do you frequently drink alcohol?",
-            choiceA: "Yes",
-            choiceB: "No",
-            choiceC: "Sometimes",
-            choiceD: "I'm not really sure",
-            WA: 1,
-            WB: 1,
-            WC: 1,
-            WD: 1))
+            questionText: "do you feel?...",
+            choiceA: "Like vomiting",
+            choiceB: "Fatigue",
+            choiceC: "Cough",
+            choiceD: "None of the above",
+            WA: [0,0,1,0,0,0,1,0,0],
+            WB: [1,0,0,0,0,0,1,1,0],
+            WC: [1,0,0,0,0,0,0,0,0],
+            WD: [0,0,0,0,0,0,0,0,0]))
         
         list.append(Question(
-            questionText: "Do you have a recent injury?",
-            choiceA: "Minor (cuts bumps)",
-            choiceB: "Major (big recent injury)",
-            choiceC: "No",
-            choiceD: "i'm not sure",
-            WA: 1,
-            WB: 1,
-            WC: 1,
-            WD: 1))
+            questionText: "do you feel?...",
+            choiceA: "Runny nose",
+            choiceB: "Bloating",
+            choiceC: "Dizziness",
+            choiceD: "None of the above",
+            WA: [1,0,0,0,0,0,0,0,0],
+            WB: [0,0,1,1,0,0,0,0,0],
+            WC: [0,0,0,0,0,0,0,1,0],
+            WD: [0,0,0,0,0,0,0,0,0]))
     }
 }
