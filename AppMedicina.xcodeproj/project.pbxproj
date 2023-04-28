@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80621C229FC606600EAAFC3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80621C129FC606600EAAFC3 /* Question.swift */; };
+		A80621C429FC64C000EAAFC3 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80621C329FC64C000EAAFC3 /* QuestionBank.swift */; };
 		A82D610229D39EEB001B2EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D610129D39EEB001B2EF5 /* AppDelegate.swift */; };
 		A82D610429D39EEB001B2EF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D610329D39EEB001B2EF5 /* SceneDelegate.swift */; };
 		A82D610629D39EEB001B2EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D610529D39EEB001B2EF5 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A80621C129FC606600EAAFC3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A80621C329FC64C000EAAFC3 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		A82D60FE29D39EEB001B2EF5 /* AppMedicina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMedicina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82D610129D39EEB001B2EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A82D610329D39EEB001B2EF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A80621C029FC600700EAAFC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A80621C129FC606600EAAFC3 /* Question.swift */,
+				A80621C329FC64C000EAAFC3 /* QuestionBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A82D60F529D39EEB001B2EF5 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +111,7 @@
 		A82D610029D39EEB001B2EF5 /* AppMedicina */ = {
 			isa = PBXGroup;
 			children = (
+				A80621C029FC600700EAAFC3 /* Model */,
 				A82D610129D39EEB001B2EF5 /* AppDelegate.swift */,
 				A82D610329D39EEB001B2EF5 /* SceneDelegate.swift */,
 				A82D610529D39EEB001B2EF5 /* ViewController.swift */,
@@ -220,7 +234,9 @@
 				A8485CC829F0AFA300F02EE6 /* InfoTip2ViewController.swift in Sources */,
 				A8485CCA29F0AFC800F02EE6 /* InfoTip3ViewController.swift in Sources */,
 				A82D614429D4E636001B2EF5 /* MedicinesViewController.swift in Sources */,
+				A80621C429FC64C000EAAFC3 /* QuestionBank.swift in Sources */,
 				A82D614C29D4E845001B2EF5 /* ProfileViewController.swift in Sources */,
+				A80621C229FC606600EAAFC3 /* Question.swift in Sources */,
 				A82D613829D3A4E6001B2EF5 /* SignUpViewController.swift in Sources */,
 				A82D613C29D4DC0B001B2EF5 /* NewProfileViewController.swift in Sources */,
 				A82D615029D4E869001B2EF5 /* AccessibilityViewController.swift in Sources */,

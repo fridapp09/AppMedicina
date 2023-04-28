@@ -17,6 +17,10 @@ class DiagnosticViewController: UIViewController {
     @IBOutlet weak var OptionC: UIButton!
     @IBOutlet weak var OptionD: UIButton!
     
+    let allQuestions = QuestionBank()
+    var questionNumber: Int = 0
+    var myList = [Int]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,6 +29,26 @@ class DiagnosticViewController: UIViewController {
 
     
     @IBAction func answerPressed(_ sender: UIButton) {
+        
+        /*
+        if sender.tag == 1{
+            print("option A")
+        }
+        else if sender.tag == 2{
+            print("option B")
+        }
+        else if sender.tag == 3{
+            print("option C")
+        }
+        else if sender.tag == 4{
+            print("option D")
+        } */
+        
+        
+        
+    }
+    
+    func updateQuestion(){
         
     }
     
