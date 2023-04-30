@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3689F0AB29FF178A00515797 /* RobotoSlab-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F09E29FF178A00515797 /* RobotoSlab-VariableFont_wght.ttf */; };
+		3689F0AC29FF178A00515797 /* RobotoSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A029FF178A00515797 /* RobotoSlab-Medium.ttf */; };
+		3689F0AD29FF178A00515797 /* RobotoSlab-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A129FF178A00515797 /* RobotoSlab-SemiBold.ttf */; };
+		3689F0AE29FF178A00515797 /* RobotoSlab-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A229FF178A00515797 /* RobotoSlab-ExtraBold.ttf */; };
+		3689F0AF29FF178A00515797 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A329FF178A00515797 /* RobotoSlab-Thin.ttf */; };
+		3689F0B029FF178A00515797 /* RobotoSlab-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A429FF178A00515797 /* RobotoSlab-Black.ttf */; };
+		3689F0B129FF178A00515797 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A529FF178A00515797 /* RobotoSlab-Bold.ttf */; };
+		3689F0B229FF178A00515797 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A629FF178A00515797 /* RobotoSlab-Light.ttf */; };
+		3689F0B329FF178A00515797 /* RobotoSlab-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A729FF178A00515797 /* RobotoSlab-ExtraLight.ttf */; };
+		3689F0B429FF178A00515797 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A829FF178A00515797 /* RobotoSlab-Regular.ttf */; };
+		3689F0B529FF178A00515797 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A929FF178A00515797 /* README.txt */; };
+		3689F0B629FF178A00515797 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0AA29FF178A00515797 /* LICENSE.txt */; };
 		A80621C229FC606600EAAFC3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80621C129FC606600EAAFC3 /* Question.swift */; };
 		A80621C429FC64C000EAAFC3 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80621C329FC64C000EAAFC3 /* QuestionBank.swift */; };
 		A82D610229D39EEB001B2EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D610129D39EEB001B2EF5 /* AppDelegate.swift */; };
@@ -39,6 +51,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3689F09E29FF178A00515797 /* RobotoSlab-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3689F0A029FF178A00515797 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Medium.ttf"; sourceTree = "<group>"; };
+		3689F0A129FF178A00515797 /* RobotoSlab-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-SemiBold.ttf"; sourceTree = "<group>"; };
+		3689F0A229FF178A00515797 /* RobotoSlab-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3689F0A329FF178A00515797 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		3689F0A429FF178A00515797 /* RobotoSlab-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Black.ttf"; sourceTree = "<group>"; };
+		3689F0A529FF178A00515797 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		3689F0A629FF178A00515797 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		3689F0A729FF178A00515797 /* RobotoSlab-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3689F0A829FF178A00515797 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		3689F0A929FF178A00515797 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3689F0AA29FF178A00515797 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		A80621C129FC606600EAAFC3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A80621C329FC64C000EAAFC3 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		A82D60FE29D39EEB001B2EF5 /* AppMedicina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMedicina.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +107,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3689F09C29FF178A00515797 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3689F09D29FF178A00515797 /* Roboto_Slab */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3689F09D29FF178A00515797 /* Roboto_Slab */ = {
+			isa = PBXGroup;
+			children = (
+				3689F09E29FF178A00515797 /* RobotoSlab-VariableFont_wght.ttf */,
+				3689F09F29FF178A00515797 /* static */,
+				3689F0A929FF178A00515797 /* README.txt */,
+				3689F0AA29FF178A00515797 /* LICENSE.txt */,
+			);
+			path = Roboto_Slab;
+			sourceTree = "<group>";
+		};
+		3689F09F29FF178A00515797 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				3689F0A029FF178A00515797 /* RobotoSlab-Medium.ttf */,
+				3689F0A129FF178A00515797 /* RobotoSlab-SemiBold.ttf */,
+				3689F0A229FF178A00515797 /* RobotoSlab-ExtraBold.ttf */,
+				3689F0A329FF178A00515797 /* RobotoSlab-Thin.ttf */,
+				3689F0A429FF178A00515797 /* RobotoSlab-Black.ttf */,
+				3689F0A529FF178A00515797 /* RobotoSlab-Bold.ttf */,
+				3689F0A629FF178A00515797 /* RobotoSlab-Light.ttf */,
+				3689F0A729FF178A00515797 /* RobotoSlab-ExtraLight.ttf */,
+				3689F0A829FF178A00515797 /* RobotoSlab-Regular.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 		A80621C029FC600700EAAFC3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +195,7 @@
 				A82D613729D3A4E6001B2EF5 /* SignUpViewController.swift */,
 				A82D613529D3A373001B2EF5 /* LoginViewController.swift */,
 				A82D610A29D39EF0001B2EF5 /* Assets.xcassets */,
+				3689F09C29FF178A00515797 /* Fonts */,
 				A8DA007329EF5B7A00F9C7A1 /* Checkmarkempty.png */,
 				A8DA007529EF5B8B00F9C7A1 /* Checkmark.png */,
 				A82D610C29D39EF0001B2EF5 /* LaunchScreen.storyboard */,
@@ -202,11 +262,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3689F0B629FF178A00515797 /* LICENSE.txt in Resources */,
+				3689F0B229FF178A00515797 /* RobotoSlab-Light.ttf in Resources */,
 				A82D610E29D39EF0001B2EF5 /* LaunchScreen.storyboard in Resources */,
 				A8DA007429EF5B7A00F9C7A1 /* Checkmarkempty.png in Resources */,
+				3689F0B329FF178A00515797 /* RobotoSlab-ExtraLight.ttf in Resources */,
 				A82D610B29D39EF0001B2EF5 /* Assets.xcassets in Resources */,
 				A82D610929D39EEB001B2EF5 /* Main.storyboard in Resources */,
+				3689F0B529FF178A00515797 /* README.txt in Resources */,
+				3689F0B429FF178A00515797 /* RobotoSlab-Regular.ttf in Resources */,
+				3689F0AB29FF178A00515797 /* RobotoSlab-VariableFont_wght.ttf in Resources */,
+				3689F0AC29FF178A00515797 /* RobotoSlab-Medium.ttf in Resources */,
+				3689F0B029FF178A00515797 /* RobotoSlab-Black.ttf in Resources */,
+				3689F0AF29FF178A00515797 /* RobotoSlab-Thin.ttf in Resources */,
+				3689F0B129FF178A00515797 /* RobotoSlab-Bold.ttf in Resources */,
+				3689F0AD29FF178A00515797 /* RobotoSlab-SemiBold.ttf in Resources */,
 				A8DA007629EF5B8B00F9C7A1 /* Checkmark.png in Resources */,
+				3689F0AE29FF178A00515797 /* RobotoSlab-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
