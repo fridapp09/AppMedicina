@@ -9,21 +9,15 @@ import UIKit
 
 class InfoTip5ViewController: UIViewController {
 
+    @IBOutlet weak var titleTip5: UITextView!
+    
+    @IBOutlet weak var imageTip5: UIImageView!
+    
+    @IBOutlet weak var descripTip5: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

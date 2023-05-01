@@ -9,9 +9,9 @@ import Foundation
 
 class DiagnosticBank{
     var list = [Diagnostic]()
-    //[0] cold/flu
-    //[1] headache
-    //[2] somacache
+    //[0] Cold/flu
+    //[1] Headache
+    //[2] Somacache
     //[3] Diarrhea
     //[4] UTI
     //[5] Consipation
@@ -21,15 +21,15 @@ class DiagnosticBank{
 
     init(){
         list.append(Diagnostic(
-            theTitle: "Cancer Etapa 1",
+            theTitle: "Cold/Flue",
             theDescription: "Mamaste..."))
         
         list.append(Diagnostic(
-            theTitle: "Cancer Etapa 2",
+            theTitle: "Headache",
             theDescription: "Mamaste..."))
         
         list.append(Diagnostic(
-            theTitle: "Cancer Etapa 3",
+            theTitle: "Stomachache",
             theDescription: "Mamaste..."))
         
         list.append(Diagnostic(

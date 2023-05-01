@@ -88,7 +88,7 @@ class DiagnosticViewController: UIViewController {
             OptionC.setTitle ( allQuestions.list[questionNumber].optionC, for: UIControl.State.normal)
             OptionD.setTitle ( allQuestions.list[questionNumber].optionD, for: UIControl.State.normal)
         } else {
-            print("MAMASTE")
+            print("Result")
             giveDiagnostic()
         }
     }
