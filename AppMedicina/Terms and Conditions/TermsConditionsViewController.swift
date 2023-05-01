@@ -28,7 +28,7 @@ class TermsConditionsViewController: UIViewController {
             sender.backgroundColor = UIColor.green
             flag1 = true
         }
-        else{
+        else {
             sender.backgroundColor = UIColor.lightGray
             flag1 = false
         }
@@ -36,5 +36,4 @@ class TermsConditionsViewController: UIViewController {
     
     @IBAction func nextTermsButton(_ sender: UIButton) {
     }
-    
 }

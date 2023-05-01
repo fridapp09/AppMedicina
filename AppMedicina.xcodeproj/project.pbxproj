@@ -146,6 +146,82 @@
 			path = static;
 			sourceTree = "<group>";
 		};
+		36DF311C2A001812003F27CD /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				A82D613F29D4E370001B2EF5 /* TipsViewController.swift */,
+				A8485CCD29F0B00F00F02EE6 /* InfoTip5ViewController.swift */,
+				A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */,
+				A8485CC729F0AFA300F02EE6 /* InfoTip2ViewController.swift */,
+				A8485CCB29F0AFED00F02EE6 /* InfoTip4ViewController.swift */,
+				A8485CC929F0AFC800F02EE6 /* InfoTip3ViewController.swift */,
+			);
+			name = Tips;
+			sourceTree = "<group>";
+		};
+		36DF311F2A001888003F27CD /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				A82D613D29D4DC60001B2EF5 /* HomePageViewController.swift */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		36DF31202A0018BB003F27CD /* Log In and Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				A82D613729D3A4E6001B2EF5 /* SignUpViewController.swift */,
+				A82D613529D3A373001B2EF5 /* LoginViewController.swift */,
+			);
+			path = "Log In and Sign Up";
+			sourceTree = "<group>";
+		};
+		36DF31212A0018E8003F27CD /* Medicines */ = {
+			isa = PBXGroup;
+			children = (
+				A82D614729D4E706001B2EF5 /* SuggestedViewController.swift */,
+				A82D614529D4E68F001B2EF5 /* InformationMedicinesViewController.swift */,
+				A82D614329D4E636001B2EF5 /* MedicinesViewController.swift */,
+			);
+			path = Medicines;
+			sourceTree = "<group>";
+		};
+		36DF31222A001908003F27CD /* Terms and Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				A82D613929D4D9D3001B2EF5 /* TermsConditionsViewController.swift */,
+			);
+			path = "Terms and Conditions";
+			sourceTree = "<group>";
+		};
+		36DF31232A00192B003F27CD /* New Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A82D613B29D4DC0B001B2EF5 /* NewProfileViewController.swift */,
+			);
+			path = "New Profile";
+			sourceTree = "<group>";
+		};
+		36DF31242A00194C003F27CD /* Diagnostic */ = {
+			isa = PBXGroup;
+			children = (
+				A82D614929D4E7EB001B2EF5 /* ResultsViewController.swift */,
+				A82D614129D4E380001B2EF5 /* DiagnosticViewController.swift */,
+				A80621C029FC600700EAAFC3 /* Model */,
+			);
+			path = Diagnostic;
+			sourceTree = "<group>";
+		};
+		36DF31252A001965003F27CD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A82D614F29D4E869001B2EF5 /* AccessibilityViewController.swift */,
+				A82D614B29D4E845001B2EF5 /* ProfileViewController.swift */,
+				A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		A80621C029FC600700EAAFC3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,30 +252,18 @@
 		A82D610029D39EEB001B2EF5 /* AppMedicina */ = {
 			isa = PBXGroup;
 			children = (
-				A80621C029FC600700EAAFC3 /* Model */,
 				A82D610129D39EEB001B2EF5 /* AppDelegate.swift */,
 				A82D610329D39EEB001B2EF5 /* SceneDelegate.swift */,
 				A82D610529D39EEB001B2EF5 /* ViewController.swift */,
 				A82D610729D39EEB001B2EF5 /* Main.storyboard */,
-				A8485CCD29F0B00F00F02EE6 /* InfoTip5ViewController.swift */,
-				A8485CCB29F0AFED00F02EE6 /* InfoTip4ViewController.swift */,
-				A8485CC929F0AFC800F02EE6 /* InfoTip3ViewController.swift */,
-				A8485CC729F0AFA300F02EE6 /* InfoTip2ViewController.swift */,
-				A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */,
-				A82D614B29D4E845001B2EF5 /* ProfileViewController.swift */,
-				A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */,
-				A82D614F29D4E869001B2EF5 /* AccessibilityViewController.swift */,
-				A82D614929D4E7EB001B2EF5 /* ResultsViewController.swift */,
-				A82D614729D4E706001B2EF5 /* SuggestedViewController.swift */,
-				A82D614529D4E68F001B2EF5 /* InformationMedicinesViewController.swift */,
-				A82D614329D4E636001B2EF5 /* MedicinesViewController.swift */,
-				A82D613F29D4E370001B2EF5 /* TipsViewController.swift */,
-				A82D614129D4E380001B2EF5 /* DiagnosticViewController.swift */,
-				A82D613D29D4DC60001B2EF5 /* HomePageViewController.swift */,
-				A82D613B29D4DC0B001B2EF5 /* NewProfileViewController.swift */,
-				A82D613929D4D9D3001B2EF5 /* TermsConditionsViewController.swift */,
-				A82D613729D3A4E6001B2EF5 /* SignUpViewController.swift */,
-				A82D613529D3A373001B2EF5 /* LoginViewController.swift */,
+				36DF311C2A001812003F27CD /* Tips */,
+				36DF31252A001965003F27CD /* Configuration */,
+				36DF31232A00192B003F27CD /* New Profile */,
+				36DF31212A0018E8003F27CD /* Medicines */,
+				36DF31202A0018BB003F27CD /* Log In and Sign Up */,
+				36DF31242A00194C003F27CD /* Diagnostic */,
+				36DF311F2A001888003F27CD /* Homepage */,
+				36DF31222A001908003F27CD /* Terms and Conditions */,
 				A82D610A29D39EF0001B2EF5 /* Assets.xcassets */,
 				3689F09C29FF178A00515797 /* Fonts */,
 				A8DA007329EF5B7A00F9C7A1 /* Checkmarkempty.png */,

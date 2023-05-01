@@ -31,4 +31,4 @@ class Question{
         weigthD = WD
         
     }
-}º
+}

@@ -21,32 +21,19 @@ class NewProfileViewController: UIViewController {
     
     @IBOutlet var genreText: UITextView!
 
-    @IBOutlet var genreField: UITextField!
+    @IBOutlet weak var genreField: UIButton!
     
     @IBOutlet var countryText: UITextView!
     
-    @IBOutlet var countryField: UITextField!
+    @IBOutlet weak var countryField: UIButton!
+    
     @IBOutlet var stateText: UITextView!
     
-    @IBOutlet var stateField: UITextField!
+    @IBOutlet weak var stateField: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
     
     @IBAction func doneProfileButton(_ sender: UIButton) {
     }

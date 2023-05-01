@@ -9,7 +9,7 @@ import UIKit
 
 class HomePageViewController: UIViewController {
 
-    @IBOutlet var logoHomepageTitle: UITextView!
+    @IBOutlet weak var logoHome: UIImageView!
     
     @IBOutlet var textDiagnostic: UITextView!
     
@@ -27,27 +27,9 @@ class HomePageViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = backButton
     }
 
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
-    
-
-
-
     @IBAction func startDiagnoButton(_ sender: UIButton) {
     }
     
     @IBAction func checkTipButton(_ sender: UIButton) {
     }
-    
-    
 }
