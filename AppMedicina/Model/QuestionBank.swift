@@ -1,5 +1,5 @@
 //
-//  QuestionBank.swift
+//  QuestionBank.swift/Users/fridaperez/Documents/Xcode/AppMedicina/AppMedicina/Model/Question.swift
 //  AppMedicina
 //
 //  Created by UDLAP03 on 28/04/23.
@@ -9,6 +9,17 @@ import Foundation
 
 class QuestionBank{
     var list = [Question]()
+    
+    //[0] cold/flu
+    //[1] headache
+    //[2] somacache
+    //[3] Diarrhea
+    //[4] UTI
+    //[5] Consipation
+    //[6] Food Poisoning
+    //[7] Dehydration
+    //[8] Unknown
+
     
     init(){
         list.append(Question(

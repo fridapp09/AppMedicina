@@ -13,10 +13,10 @@ class Question{
     let optionB: String
     let optionC: String
     let optionD: String
-    let WeigthA: [Int]
-    let WeigthB: [Int]
-    let WeigthC: [Int]
-    let WeigthD: [Int]
+    let weigthA: [Int]
+    let weigthB: [Int]
+    let weigthC: [Int]
+    let weigthD: [Int]
         
     init(questionText:String, choiceA:String,choiceB:String, choiceC:String, choiceD:String, WA: [Int], WB: [Int], WC: [Int], WD: [Int] )
     {
@@ -25,10 +25,10 @@ class Question{
         optionB = choiceB
         optionC = choiceC
         optionD = choiceD
-        WeigthA = WA
-        WeigthB = WB
-        WeigthC = WC
-        WeigthD = WD
+        weigthA = WA
+        weigthB = WB
+        weigthC = WC
+        weigthD = WD
         
     }
-}
+}º
