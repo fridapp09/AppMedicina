@@ -1,5 +1,5 @@
 //
-//  ProfileViewController.swift
+//  ConfigurationViewController.swift
 //  AppMedicina
 //
 //  Created by UDLAP23 on 29/03/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

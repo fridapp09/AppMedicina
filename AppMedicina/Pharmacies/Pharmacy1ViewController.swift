@@ -1,13 +1,13 @@
 //
-//  ConfigurationViewController.swift
+//  Pharmacy1ViewController.swift
 //  AppMedicina
 //
-//  Created by UDLAP23 on 29/03/23.
+//  Created by Frida Pérez on 02/05/23.
 //
 
 import UIKit
 
-class ConfigurationViewController: UIViewController {
+class Pharmacy1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

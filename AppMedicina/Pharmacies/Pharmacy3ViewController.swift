@@ -1,13 +1,13 @@
 //
-//  AccessibilityViewController.swift
+//  Pharmacy3ViewController.swift
 //  AppMedicina
 //
-//  Created by UDLAP23 on 29/03/23.
+//  Created by Frida Pérez on 02/05/23.
 //
 
 import UIKit
 
-class AccessibilityViewController: UIViewController {
+class Pharmacy3ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
