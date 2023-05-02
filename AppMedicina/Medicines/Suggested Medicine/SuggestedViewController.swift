@@ -9,25 +9,53 @@ import UIKit
 
 class SuggestedViewController: UIViewController {
 
+    @IBOutlet weak var suggestedTitle: UILabel!
+    
+    @IBOutlet weak var suggestedText: UITextView!
+    
+    @IBOutlet weak var disease1Title: UITextView!
+    
+    @IBOutlet weak var disease2Title: UITextView!
+    
+    @IBOutlet weak var disease3Title: UITextView!
+    
+    @IBOutlet weak var disease4Title: UITextView!
+    
+    @IBOutlet weak var disease5Title: UITextView!
+    
+    @IBOutlet weak var disease6Title: UITextView!
+    
+    @IBOutlet weak var disease7Title: UITextView!
+    
+    @IBOutlet weak var disease8Title: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-    
-    @IBAction func headacheButton(_ sender: UIButton) {
+    @IBAction func disease1Button(_ sender: UIButton) {
     }
     
+    @IBAction func disease2Button(_ sender: UIButton) {
+    }
+    
+    @IBAction func disease3Button(_ sender: UIButton) {
+    }
+    
+    @IBAction func disease4Button(_ sender: UIButton) {
+    }
+    
+    @IBAction func disease5Button(_ sender: UIButton) {
+    }
+    
+    @IBAction func disease6Button(_ sender: UIButton) {
+    }
+    
+    @IBAction func disease7Button(_ sender: UIButton) {
+    }
+    
+    @IBAction func disease8Button(_ sender: UIButton) {
+    }
 }
