@@ -257,7 +257,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="46" y="706" width="323" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="Check them out">
                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -558,7 +558,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="39" y="245" width="320" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
+                                                <buttonConfiguration key="configuration" style="filled" title="More information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -587,7 +587,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="39" y="466" width="320" height="46"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
+                                                <buttonConfiguration key="configuration" style="filled" title="More information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -641,7 +641,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="39" y="908" width="320" height="46"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
+                                                <buttonConfiguration key="configuration" style="filled" title="More information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -670,7 +670,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="39" y="1129" width="320" height="46"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
+                                                <buttonConfiguration key="configuration" style="filled" title="More information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -682,7 +682,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="39" y="687" width="320" height="46"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
+                                                <buttonConfiguration key="configuration" style="filled" title="More information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -756,15 +756,22 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avs-EU-TAj">
-                                <rect key="frame" x="39" y="435" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
+                                <mutableString key="text">Instructions
+Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
+
+Warnings
+Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
+
+Benefits
+Relief of moderate to severe pain and reduces fever.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="df5-7h-AHW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d971cbcc987707e33f314717ee6d3164fdd1a155144bac1b0cd594fc597a5f0a" translatesAutoresizingMaskIntoConstraints="NO" id="df5-7h-AHW">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -799,15 +806,22 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zkd-BY-GER">
-                                <rect key="frame" x="39" y="435" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
+                                <mutableString key="text">Instructions
+For the relief of pain and fever, as well as some discomfort related to flu and cold. Pediatric use: Tempra should not be used in children under 12 years of age. Oral. Adults and over 12 years: 1 or 2 tablets every 4 to 6 hours, not to exceed eight tablets per day. For a maximum period of 5 days.
+
+Warnings
+Do not use Tempra if you have hypersensitivity to the components of the formula, renal insufficiency or liver and kidney damage; simultaneous administration with anticoagulants, severe malnutrition or chronic alcoholism. In case of pregnancy or lactation, consult your doctor. The use of Tempra can cause: skin rash, stomach pain, diarrhea. Paracetamol can cause skin reactions. Symptoms may include: reddening of the skin, blisters, and rashes. If skin reactions occur, stop taking the medicine and consult your doctor immediately. If you use Tempra do not take phenytoin, probenecid, salicylamide, enzyme-inducing substances and anticoagulants. If you use another medication, consult your doctor before taking Tempra. Overdose with an acute ingestion of 7.5 g or more of acetaminophen in adults or 140 mg/kg body weight in children causes severe liver damage, metabolic acidosis, and encephalopathy. Symptoms generally appear within the first 24 hours and include nausea, vomiting, anorexia, paleness, malaise, and diaphoresis. Keep out of reach of children. If symptoms are persistent, consult your doctor. Protect yourself from light. Store at no more than 30°C. Keep the box tightly closed.
+
+Benefits
+Auxiliary for the relief of pain and fever, as well as some discomfort related to the cold.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lhW-g3-3bK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="06c4df3dafebc99bb416c9b8f7cd82d3d29af4b4a4f7eada625ebd0c18f9100b" translatesAutoresizingMaskIntoConstraints="NO" id="lhW-g3-3bK">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -833,6 +847,26 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OVp-hm-jO4">
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gmA-vg-Iqp">
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compra-naproxeno-500-mg-caja-con-45-tabletas-precio" translatesAutoresizingMaskIntoConstraints="NO" id="afj-dU-1bh">
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vFl-GZ-1dv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -855,7 +889,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Plidan" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YsP-lX-3Rz">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Plidán" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YsP-lX-3Rz">
                                 <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -864,15 +898,19 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jU2-y4-qpr">
-                                <rect key="frame" x="39" y="435" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
+                                <string key="text">Instructions
+Dose: the one indicated by the doctor. Administration way: Oral. Your purchase requires a medical prescription. Store at room temperature at no more than 30°C and in a dry place.
+
+Warnings
+Your purchase requires a medical prescription. Store at room temperature at no more than 30°C and in a dry place. Keep out of reach of children. The use of this medicine during pregnancy is under the responsibility of the doctor.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XaA-Co-9e8">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7501300408259_01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XaA-Co-9e8">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -896,6 +934,26 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="UgK-6D-41U">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFI-HB-MgB">
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S6j-mk-BSN">
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ixy-MW-yPA">
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -929,15 +987,27 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XYR-V0-Xhg">
-                                <rect key="frame" x="39" y="435" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
+                                <mutableString key="text">Instructions
+Infants and children under 12 years: 1 vial every 12 hours. Without exceeding 2 vials a day. Children over 12 years of age and adults: 1 vial every 8 hours, without exceeding 3 vials per day.
+
+Warnings
+Precautions and Warnings: Do not exceed the recommended dose. This medication is for oral use only. It must not be injected or administered by any other route.
+
+Benefits
+Strengthens digestive health.
+Helps relieve diarrhea.
+Restores and protects the balance of the intestinal flora.
+2 billion CFU.
+Stimulates the body's natural defenses.
+Take 1 vial 2 times a day.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-v0-Stl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3664798025705_A" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-v0-Stl">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -971,16 +1041,15 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FAP-kQ-hcL">
-                                <rect key="frame" x="39" y="435" width="336" height="267"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FAP-kQ-hcL">
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JW0-7F-Z9z">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Layer-16" translatesAutoresizingMaskIntoConstraints="NO" id="JW0-7F-Z9z">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1006,7 +1075,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ciruelex" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oRN-ro-LU2">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ciruelax" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oRN-ro-LU2">
                                 <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1015,15 +1084,22 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fK9-82-f07">
-                                <rect key="frame" x="39" y="435" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
+                                <mutableString key="text">Instructions
+Dose: 2 tablets a day with a glass of water at bedtime. Administration way: Oral. Indications: auxiliary laxative in the treatment of constipation.
+
+Warnings
+Contraindications: do not administer in the following cases: hypersensitivity to the components of the formula; intestinal obstruction; nausea, vomiting, or fever; severe dehydration; abdominal pain of unknown cause; appendicitis; undiagnosed rectal bleeding; pyloric stenosis, and under 10 years of age. Use in pregnancy and lactation: its use is safe during the second and third month of pregnancy. Its use during the first trimester of pregnancy is at the discretion of the physician, who must determine its administration. It can be used at the recommended dose in mothers who are breastfeeding, since it does not have laxative or harmful effects on the infant. Pediatric use: use in children over 10 years of age, only under medical prescription. General precautions: do not administer more than the recommended dose, nor for more than 2 weeks, if necessary, require medical supervision. If you are taking any medication, consult your doctor before taking the product. Frequent and prolonged use of laxatives can be habit forming. Side reactions: colic, meteorism, nausea may occur. when its use is prolonged or with overdosage, there is the possibility of diarrhea and an increase in loss of water and salts. Drug and Food Interactions: Due to the loss of potassium, the use of this drug may potentiate the toxic effects of digitalis glycosides. Do not use concomitantly with thiazide diuretics, adrenocorticoids and liquorice root, may exacerbate electrolyte imbalance. Laxatives can decrease the absorption of any medication, in addition to interacting with anti-arrhythmics (quinidines). Do not take together with antidiarrheals, unless medically indicated. If you are taking an oral potassium medication or supplement, or potassium-sparing diuretics, take it 2 hours before or after the product. Accidental ingestion and overdose: diarrhea occurs and consequently
+
+Benefits
+Laxative 100% of natural origin.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qdf-6l-Kcg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7803510000590_2_1_" translatesAutoresizingMaskIntoConstraints="NO" id="Qdf-6l-Kcg">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1044,6 +1120,32 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                     <view key="view" contentMode="scaleToFill" id="ceF-X0-n5h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="mgK-1l-iUh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ej8-M3-obr">
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vaj-nN-cab">
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mPk-cf-tnf">
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4KW-Ji-8Iv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -1051,7 +1153,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I6S-tx-hxW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6290" y="3288"/>
+            <point key="canvasLocation" x="6289.8550724637689" y="3287.9464285714284"/>
         </scene>
         <!--Med1 Dis7 View Controller-->
         <scene sceneID="Sjb-We-qXi">
@@ -1074,15 +1176,19 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qsx-Hd-G1r">
-                                <rect key="frame" x="39" y="435" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
+                                <mutableString key="text">Instructions
+Dosage and directions for use: Adults take one capsule every 12 hours. Administration way: Oral.
+
+Warnings
+Use in pregnancy and lactation: Do not administer during pregnancy and lactation. Pediatric use: Consult your doctor. Contraindications: Hypersensitivity to the components of the formula, patients with intestinal obstruction, stomach ulcer, duodenal ulcer or sphagitis. Precautions and Warnings: This medicine contains red dye no. 6 that can cause allergic hypersensitivity reactions. Adverse reactions: nausea, rash, pruritus, rash, diarrhea, dry mouth, constipation, regurgitation, difficulty swallowing, headache, and drowsiness may occur. Drug and food interactions: None have been reported to date. Accidental ingestion and overdose: No cases of toxic effects due to overdose have been reported. Keep out of reach of children. If symptoms are persistent, consult your doctor. Store at no more than 30°C and in a dry place.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ElM-3R-sUr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10897_PINAVERIO DIMETICONA 100 300MG C16 CAPS  NESAJAR" translatesAutoresizingMaskIntoConstraints="NO" id="ElM-3R-sUr">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1117,10 +1223,14 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hPY-FK-nKQ">
-                                <rect key="frame" x="39" y="435" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
+                                <mutableString key="text">Instructions
+Administration way: Oral. Dose: take 1 to 2 liters the first 24 hours.
+
+Warnings
+Once the container is opened, consume the content within 24 hours or discard the excess. Store at no more than 30°C. Keep out of reach of children. If symptoms are persistent, consult your doctor. Use in pregnancy and lactation: the use of this product during these states does not require special care as long as the dose and instructions for use are followed, unless your doctor indicates otherwise. Contraindications: Do not administer in case of intestinal obstruction or perforation or paralytic ileus. This medicine contains blue color No. 1, which can cause allergic reactions. Note: to treat dehydration caused by diarrhea or vomiting in children under 6 years of age, it is recommended to take pediatric serums.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1146,6 +1256,32 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                     <view key="view" contentMode="scaleToFill" id="ubP-pE-WrA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="BHl-Oh-6IP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SN2-dX-ZYu">
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ipe-Mw-LHF">
+                                <rect key="frame" x="39" y="435" width="336" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mp0-NE-kIh">
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="eyl-nE-qHq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -1153,7 +1289,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wj-B4-OeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7654" y="3288"/>
+            <point key="canvasLocation" x="7653.6231884057979" y="3287.9464285714284"/>
         </scene>
         <!--Dis1 Med View Controller-->
         <scene sceneID="bZw-Dp-Rus">
@@ -1180,8 +1316,8 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S2h-fj-CFe">
-                                <rect key="frame" x="47" y="230" width="320" height="46"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ibuprofeno" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S2h-fj-CFe">
+                                <rect key="frame" x="47" y="230" width="320" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1192,7 +1328,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                <string key="text">Ibuprofeno is a non-steroidal anti-inflammatory drug that is used to relieve pain and reduce inflammation in the body. It is commonly used to treat a variety of conditions, including headaches, menstrual cramps, dental pain, back pain, arthritis, and fever.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1201,7 +1337,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1254,15 +1390,15 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ggt-VS-qCH">
-                                <rect key="frame" x="47" y="230" width="320" height="46"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Paracetamol" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ggt-VS-qCH">
+                                <rect key="frame" x="47" y="230" width="320" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mjm-8U-38A">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Naproxeno" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mjm-8U-38A">
                                 <rect key="frame" x="47" y="441" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1274,7 +1410,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                <string key="text">Paracetamol is an analgesic and antipyretic medication used to relieve pain and reduce fever. It is commonly used to treat a variety of conditions, including headaches, menstrual pain, dental pain, muscle pain, back pain, arthritis, fever and common colds.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1283,7 +1419,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="491" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                <string key="text">Naproxeno is a non-steroidal anti-inflammatory drug that is used to relieve pain and reduce inflammation in the body. It is commonly used to treat conditions such as headache, menstrual pain, arthritis, tendonitis, bursitis, gout, and other types of pain and inflammation.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1292,7 +1428,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1304,7 +1440,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="602" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1355,7 +1491,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q1G-Qe-uYr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Plidán" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q1G-Qe-uYr">
                                 <rect key="frame" x="47" y="230" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1371,20 +1507,18 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JpG-9S-snW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JpG-9S-snW">
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pel-U6-dQw">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pel-U6-dQw">
                                 <rect key="frame" x="47" y="491" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1393,7 +1527,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1405,7 +1539,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="602" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1447,6 +1581,36 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="480" y="1708"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="2jk-fw-KgP">
+            <objects>
+                <viewController id="Sap-Ah-gRe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gI9-Rz-1wH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="51r-OJ-2JE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HXN-XW-Eee" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-689" y="2466"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uti-t0-CSu">
+            <objects>
+                <viewController id="rnJ-kP-Y4b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FcL-uT-gsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="N6d-dH-pgN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o33-VH-aON" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256" y="2446"/>
+        </scene>
         <!--Dis4 Med View Controller-->
         <scene sceneID="CSi-KG-8tw">
             <objects>
@@ -1472,7 +1636,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXM-x4-fzG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Sinuberase" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXM-x4-fzG">
                                 <rect key="frame" x="47" y="230" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1484,7 +1648,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                <string key="text">Sinuberase is a brand name for a medication that contains a combination of enzymes used to treat conditions associated with mucus buildup in the airways, such as sinusitis and chronic bronchitis.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1493,7 +1657,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1542,7 +1706,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fha-ZK-Z9m">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Candiflux" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fha-ZK-Z9m">
                                 <rect key="frame" x="47" y="230" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1554,7 +1718,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                <string key="text">Candiflux is a medicine that serves as a treatment for infections caused by yeasts and fungi. Candiflux is available for vaginal infection, especially acute and recurrent vaginal candidiasis.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1563,7 +1727,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1612,7 +1776,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lpg-Dn-H5T">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ciruelax" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lpg-Dn-H5T">
                                 <rect key="frame" x="47" y="230" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1632,16 +1796,15 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                <string key="text">Ciruelax is a laxative used to treat occasional constipation. It contains as an active ingredient the Senna alexandrina plant, which acts by stimulating intestinal movements and promoting bowel evacuation.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-g9-gvd">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-g9-gvd">
                                 <rect key="frame" x="47" y="491" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1650,7 +1813,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1662,7 +1825,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="602" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1713,7 +1876,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8OX-BJ-mGR">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8OX-BJ-mGR">
                                 <rect key="frame" x="47" y="230" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1721,11 +1884,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FpG-wT-h9W">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FpG-wT-h9W">
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1734,7 +1896,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1783,7 +1945,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="clW-Xa-Fjd">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Oral Serum" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="clW-Xa-Fjd">
                                 <rect key="frame" x="47" y="230" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1799,20 +1961,18 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpZ-lS-olF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpZ-lS-olF">
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bj5-Qt-7Ff">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bj5-Qt-7Ff">
                                 <rect key="frame" x="47" y="491" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1821,7 +1981,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -1833,7 +1993,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="47" y="602" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -2754,13 +2914,21 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
         <segue reference="udd-1E-4Km"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="06c4df3dafebc99bb416c9b8f7cd82d3d29af4b4a4f7eada625ebd0c18f9100b" width="700" height="700"/>
+        <image name="10897_PINAVERIO DIMETICONA 100 300MG C16 CAPS  NESAJAR" width="850" height="850"/>
+        <image name="3664798025705_A" width="1000" height="1000"/>
+        <image name="7501300408259_01.jpg" width="1200" height="1200"/>
+        <image name="7803510000590_2_1_" width="500" height="500"/>
         <image name="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" width="5618" height="3745"/>
         <image name="Close-up-of-woman-washing-her-hands-with-soap-1296x728-header.jpg" width="1155" height="648"/>
+        <image name="Layer-16" width="422" height="345"/>
         <image name="NYPICHPDPICT000007191289.jpg" width="1024" height="653"/>
         <image name="Screen Shot 2023-02-21 at 17.26.12-2" width="1924" height="1120"/>
         <image name="best-time-to-drink-water" width="850" height="567"/>
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
+        <image name="compra-naproxeno-500-mg-caja-con-45-tabletas-precio" width="1000" height="1000"/>
+        <image name="d971cbcc987707e33f314717ee6d3164fdd1a155144bac1b0cd594fc597a5f0a" width="700" height="700"/>
         <image name="fondo-papel-tapiz-colorido-borroso-vivo" width="4016" height="6016"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
