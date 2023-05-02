@@ -301,7 +301,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1250"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suggested Medicine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9Y-pr-Uh0">
-                                                <rect key="frame" x="62" y="36" width="291" height="40"/>
+                                                <rect key="frame" x="62" y="35" width="291" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                 <nil key="textColor"/>
@@ -869,7 +869,7 @@ Auxiliary for the relief of pain and fever, as well as some discomfort related t
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Pharmacological properties
+                                <string key="text">Pharmacological properties
 
 Naproxen (methoxynaphthylpropionic acid) is a synthetic drug; Like acetylsalicylic acid and indomethacin, it has analgesic, anti-inflammatory, and antipyretic properties, effects attributed to its ability to block prostaglandin, thromboxane, and prostacyclin biosynthesis by inhibiting prostaglandin synthetase (cyclooxygenase). It also inhibits platelet aggregation and prolongs prothrombin time. In weight terms, the analgesic and anti-inflammatory potency of naproxen is less than that seen with indomethacin and greater than that of aspirin. Naproxen is well absorbed through the gastrointestinal mucosa, reaching peak plasma concentrations within 1–2 hours after oral administration; rectally, these concentrations are achieved more slowly. The presence of food in the stomach modifies the speed but not the degree of absorption. An important feature of naproxen is its longer plasma half-life (13 hours) than that of its congeners (ibuprofen, fenoprofen), which makes it possible to apply it at longer intervals. About 99% is bound to plasma proteins and is widely distributed in the body. It crosses the placental barrier. It is metabolized by demethylation and excreted in the urine, particularly as glucuronide, as well as in breast milk.
 
@@ -891,7 +891,7 @@ Rare: confusion, mental depression, exfoliative dermatitis, agranulocytosis, leu
 
 Warnings for the patient
 
-Take with food to reduce gastrointestinal upset. Avoid driving vehicles or dangerous machinery. The doctor must be informed immediately if the gastrointestinal complaints are very intense or if any of the following manifestations occur: bleeding, fever, darkening of the stool, weight gain, edema of the extremities, skin reactions.</mutableString>
+Take with food to reduce gastrointestinal upset. Avoid driving vehicles or dangerous machinery. The doctor must be informed immediately if the gastrointestinal complaints are very intense or if any of the following manifestations occur: bleeding, fever, darkening of the stool, weight gain, edema of the extremities, skin reactions.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -991,7 +991,7 @@ Your purchase requires a medical prescription. Store at room temperature at no m
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Instructions
+                                <string key="text">Instructions
 The recommended dose for adults and children over 6 years of age is 1 to 2 coated tablets, 3 to 5 times a day.
  
 It must be administered orally. Swallow the coated tablets with a little liquid without chewing.
@@ -1021,7 +1021,7 @@ If you have suffered from the aforementioned diseases at the time of treatment, 
 If severe and unexplained abdominal pain persists or worsens, or presents with symptoms such as fever, nausea, vomiting, changes in bowel movements, tenderness in the abdomen, decreased blood pressure, fainting, or presence of of blood in the stool, you should see your doctor immediately.
  
 Children
-Due to the dose, this medicine is not indicated in children under 6 years of age.</mutableString>
+Due to the dose, this medicine is not indicated in children under 6 years of age.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1129,7 +1129,7 @@ Take 1 vial 2 times a day.</string>
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Instructions
+                                <string key="text">Instructions
 Candiflux is a broad-spectrum antifungal indicated for the treatment of systemic and skin infections caused by fungi. Candiflux is indicated in patients with vaginal candidiasis or candida balanitis.
 
 Other indications are: Oropharyngeal and esophageal candidiasis, systemic forms of candidiasis and even forms of invasive candidiasis, in the prophylaxis of fungal infections in cancer patients managed with radiology or chemotherapy and in the prevention of relapses of fungal infections in HIV patients. /AIDS.
@@ -1141,7 +1141,7 @@ Restrictions on use during pregnancy and lactation
 The use of fluconazole should be avoided during pregnancy and lactation, with the exception of women with severe, life-threatening fungal infections, in whom the potential benefit outweighs the likely risk of harm to the fetus.
 
 Adverse reactions
-In general, fluconazole is well tolerated. The most frequently observed side effects are: headache, dizziness, seizures, and taste disturbances; elevated liver enzymes, jaundice, and rare cases of death from liver toxicity; skin rash, alopecia, and exfoliative and bullous syndromes, such as: Stevens-Johnson syndrome, toxic epidermal necrolysis, and erythema multiforme; abdominal pain, diarrhoea, flatulence, nausea, dyspepsia, vomiting. Leukopenia, agranulocytosis, neutropenia, thrombocytopenia have also been observed; hypercholesterolemia, hypertriglyceridemia and hypokalemia.</mutableString>
+In general, fluconazole is well tolerated. The most frequently observed side effects are: headache, dizziness, seizures, and taste disturbances; elevated liver enzymes, jaundice, and rare cases of death from liver toxicity; skin rash, alopecia, and exfoliative and bullous syndromes, such as: Stevens-Johnson syndrome, toxic epidermal necrolysis, and erythema multiforme; abdominal pain, diarrhoea, flatulence, nausea, dyspepsia, vomiting. Leukopenia, agranulocytosis, neutropenia, thrombocytopenia have also been observed; hypercholesterolemia, hypertriglyceridemia and hypokalemia.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1244,7 +1244,7 @@ Laxative 100% of natural origin.</string>
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Metamucil is a compound of vegetable fibers and has a great capacity to retain liquids, increases the volume and decreases the consistency of feces (thus facilitating its evacuation), which decreases the level of cholesterol in the blood and glycemia after meals. , provided it is accompanied by a hypocholesterolemic diet.
+                                <string key="text">Metamucil is a compound of vegetable fibers and has a great capacity to retain liquids, increases the volume and decreases the consistency of feces (thus facilitating its evacuation), which decreases the level of cholesterol in the blood and glycemia after meals. , provided it is accompanied by a hypocholesterolemic diet.
 
 oral administration
 Instant orange flavor soluble powder, sugar free.
@@ -1265,7 +1265,7 @@ Children: 6-12 years Medium (1/2) about (2.9g).
 It produces effect between 12-72 hours after consumption. If this is your first time taking it, start with 1 daily dose. Gradually increase up to 3 daily doses if required. Use daily to maintain regularity.
 
 Precautions
-Do not use in children under 6 years of age. Do not exceed suggested dose. Do not take this product immediately before bedtime or if you have difficulty swallowing it. If you experience chest pain, vomiting, or difficulty breathing, discontinue use. If symptoms persist or you have abdominal pain, discontinue use and consult a doctor or pharmacist. Keep out of reach of children. Contains Aspartame.</mutableString>
+Do not use in children under 6 years of age. Do not exceed suggested dose. Do not take this product immediately before bedtime or if you have difficulty swallowing it. If you experience chest pain, vomiting, or difficulty breathing, discontinue use. If symptoms persist or you have abdominal pain, discontinue use and consult a doctor or pharmacist. Keep out of reach of children. Contains Aspartame.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1417,7 +1417,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Covers, protects and soothes:
+                                <string key="text">Covers, protects and soothes:
 Acidity: calms irritation with its protective action without causing constipation.
 Indigestion: Provides effective and safe relief.
 Upset Stomach: Relieves upset stomach caused by feeling full.
@@ -1450,7 +1450,7 @@ Pepto-Bismol® may temporarily darken the tongue and stool, which disappears at 
 
 Drug and food interactions
 Do not take Pepto-Bismol if you are allergic to salicylates including aspirin (or any of the other ingredients in Pepto-Bismol).
-Consult your doctor if you take blood thinners or tetracycline.</mutableString>
+Consult your doctor if you take blood thinners or tetracycline.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1881,7 +1881,7 @@ Consult your doctor if you take blood thinners or tetracycline.</mutableString>
                                 <rect key="frame" x="39" y="430" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">PUEBLA FORGERS
+                                <string key="text">PUEBLA FORGERS
 Address: Blvd. Forj. de Puebla #8503 L3 72170
 Schedule:
 Open 24 hours
@@ -1935,7 +1935,7 @@ Has store pickup
 Home delivery:
 24 hour home service
 Doctor's office:
-Hours of attention from 10 a.m. to 5 p.m.</mutableString>
+Hours of attention from 10 a.m. to 5 p.m.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1986,7 +1986,7 @@ Hours of attention from 10 a.m. to 5 p.m.</mutableString>
                                 <rect key="frame" x="39" y="430" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">PUEBLA UDLA MAY 5
+                                <string key="text">PUEBLA UDLA MAY 5
 MAY 5 1409 COL: DOWNTOWN PUEBLA, SAN ANDRES CHOLULA MX
 Open: 07:00 - 23:00
 2222313383
@@ -2014,7 +2014,7 @@ Open: 07:00 - 23:00
 PUEBLA LOMAS DE ANGELOPOLIS
 AVENIDA DEL CASTILLO 5500 LOCAL 9A-B LOCAL 9A-B COL: VALLE REAL PUEBLA, SAN ANDRES CHOLULA MX
 Open: 07:00 - 23:00
-2222313383</mutableString>
+2222313383</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2073,7 +2073,7 @@ Open: 07:00 - 23:00
                                 <rect key="frame" x="39" y="430" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Street: 25 Poniente
+                                <string key="text">Street: 25 Poniente
 External number: 1101
 Internal Number: LC A
 ZIP Code: 72410
@@ -2120,7 +2120,7 @@ External number: 2915
 Inside Number: S/N
 ZIP Code: 72090
 Colony: Villa San Alejandro
-TEL: 800 911 6666</mutableString>
+TEL: 800 911 6666</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
