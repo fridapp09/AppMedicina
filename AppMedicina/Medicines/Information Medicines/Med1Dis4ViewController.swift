@@ -8,12 +8,12 @@
 import UIKit
 
 class Med1Dis4ViewController: UIViewController {
-
-    @IBOutlet weak var med1Title: UITextView!
     
-    @IBOutlet weak var med1Imagen: UIImageView!
+    @IBOutlet weak var dis4Med1Title: UITextView!
     
-    @IBOutlet weak var med1Text: UITextView!
+    @IBOutlet weak var dis4Med1Imagen: UIImageView!
+    
+    @IBOutlet weak var dis4Med1Text: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

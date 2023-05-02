@@ -9,11 +9,11 @@ import UIKit
 
 class Med2Dis4ViewController: UIViewController {
     
-    @IBOutlet weak var med2Title: UITextView!
-            
-    @IBOutlet weak var med2Imagen: UIImageView!
-            
-    @IBOutlet weak var med2Text: UITextView!
+    @IBOutlet weak var dis4Med2Title: UITextView!
+    
+    @IBOutlet weak var dis4Med2Imagen: UIImageView!
+    
+    @IBOutlet weak var dis4Med2Text: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

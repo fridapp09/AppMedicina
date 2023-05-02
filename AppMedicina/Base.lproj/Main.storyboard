@@ -1042,9 +1042,9 @@ Take 1 vial 2 times a day.</string>
                     </view>
                     <navigationItem key="navigationItem" id="zX2-3e-cjV"/>
                     <connections>
-                        <outlet property="med1Imagen" destination="hRo-v0-Stl" id="ZqL-6L-Nko"/>
-                        <outlet property="med1Texy" destination="XYR-V0-Xhg" id="dAc-H9-ffi"/>
-                        <outlet property="med1Title" destination="j3O-AP-CBj" id="RDg-LK-Fl7"/>
+                        <outlet property="dis4Med1Imagen" destination="hRo-v0-Stl" id="NJ7-Ux-wJG"/>
+                        <outlet property="dis4Med1Text" destination="XYR-V0-Xhg" id="lWZ-d6-19O"/>
+                        <outlet property="dis4Med1Title" destination="j3O-AP-CBj" id="VS7-R8-Zyo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PaQ-dW-hIj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1342,9 +1342,9 @@ Once the container is opened, consume the content within 24 hours or discard the
                     </view>
                     <navigationItem key="navigationItem" id="7cU-dr-GeP"/>
                     <connections>
-                        <outlet property="med2Imagen" destination="mp0-NE-kIh" id="YQx-Ww-rR1"/>
-                        <outlet property="med2Text" destination="ipe-Mw-LHF" id="ES8-6z-M1p"/>
-                        <outlet property="med2Title" destination="SN2-dX-ZYu" id="NLI-Id-cyd"/>
+                        <outlet property="dis4Med2Imagen" destination="mp0-NE-kIh" id="Ii9-LT-Vcg"/>
+                        <outlet property="dis4Med2Text" destination="ipe-Mw-LHF" id="Rvo-W8-9NE"/>
+                        <outlet property="dis4Med2Title" destination="SN2-dX-ZYu" id="fMr-RQ-9aE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wj-B4-OeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1985,18 +1985,6 @@ Relief of moderate to severe pain and reduces fever.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymc-Qe-tvk">
-                                <rect key="frame" x="47" y="391" width="320" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="See More">
-                                    <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="dis4Med1Button:" destination="m5P-Oi-IKg" eventType="touchUpInside" id="8Qe-ac-ofk"/>
-                                    <segue destination="vtD-4k-UMy" kind="show" id="Lqc-au-z2a"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ix-wN-evA">
                                 <rect key="frame" x="47" y="602" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2005,9 +1993,20 @@ Relief of moderate to severe pain and reduces fever.</string>
                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="dis4Med1Button:" destination="m5P-Oi-IKg" eventType="touchUpInside" id="D9h-kb-Tc4"/>
-                                    <action selector="dis4Med2Button:" destination="m5P-Oi-IKg" eventType="touchUpInside" id="azf-T6-h8Q"/>
-                                    <segue destination="j3Z-58-FgO" kind="show" id="HaX-9a-8z9"/>
+                                    <action selector="dis4Med2Button:" destination="m5P-Oi-IKg" eventType="touchUpInside" id="ISR-dZ-9jN"/>
+                                    <segue destination="j3Z-58-FgO" kind="show" id="Pb7-lo-FpB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymc-Qe-tvk">
+                                <rect key="frame" x="47" y="391" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
+                                    <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dis4Med1Button:" destination="m5P-Oi-IKg" eventType="touchUpInside" id="GAn-Mv-wTt"/>
+                                    <segue destination="vtD-4k-UMy" kind="show" id="xvm-DH-E7O"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2016,10 +2015,12 @@ Relief of moderate to severe pain and reduces fever.</string>
                     </view>
                     <navigationItem key="navigationItem" id="53H-t6-ruc"/>
                     <connections>
-                        <outlet property="dis4Med1" destination="tXM-x4-fzG" id="GYi-vm-ZDc"/>
-                        <outlet property="disTitle4" destination="UJR-aw-aNi" id="9t6-ev-iNG"/>
-                        <outlet property="med1Text" destination="kzb-Wl-FEA" id="rYJ-tU-Dai"/>
-                        <outlet property="search4" destination="JDY-0I-I3D" id="Vfj-fU-BNN"/>
+                        <outlet property="dis4Title" destination="UJR-aw-aNi" id="5p6-JI-3hN"/>
+                        <outlet property="med1Text" destination="kzb-Wl-FEA" id="YWs-Wa-Wmp"/>
+                        <outlet property="med1Title" destination="tXM-x4-fzG" id="OT9-US-UXL"/>
+                        <outlet property="med2Text" destination="Sh4-H4-FHo" id="vSe-OY-oPL"/>
+                        <outlet property="med2Title" destination="oSn-SH-H4e" id="oHF-cS-5OK"/>
+                        <outlet property="search4" destination="JDY-0I-I3D" id="oZ9-gn-qKY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q8W-lf-nWK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

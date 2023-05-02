@@ -8,14 +8,18 @@
 import UIKit
 
 class Dis4MedViewController: UIViewController {
-
+    
     @IBOutlet weak var search4: UISearchBar!
     
-    @IBOutlet weak var disTitle4: UITextView!
+    @IBOutlet weak var dis4Title: UITextView!
     
-    @IBOutlet weak var dis4Med1: UITextView!
+    @IBOutlet weak var med1Title: UITextView!
     
     @IBOutlet weak var med1Text: UITextView!
+    
+    @IBOutlet weak var med2Title: UITextView!
+    
+    @IBOutlet weak var med2Text: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
