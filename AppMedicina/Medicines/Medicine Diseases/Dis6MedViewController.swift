@@ -24,10 +24,11 @@ class Dis6MedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     @IBAction func dis6Med1Button(_ sender: UIButton) {
     }
     
     @IBAction func dis6Med2Button(_ sender: UIButton) {
     }
+    
 }
