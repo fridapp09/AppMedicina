@@ -1,13 +1,13 @@
 //
-//  MedicinesViewController.swift
+//  Disease5ViewController.swift
 //  AppMedicina
 //
-//  Created by UDLAP23 on 29/03/23.
+//  Created by Frida Pérez on 01/05/23.
 //
 
 import UIKit
 
-class MedicinesViewController: UIViewController {
+class Disease5ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

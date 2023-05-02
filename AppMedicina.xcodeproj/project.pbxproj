@@ -21,6 +21,14 @@
 		3689F0B629FF178A00515797 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0AA29FF178A00515797 /* LICENSE.txt */; };
 		36B676DF29FF5DCC00A8957A /* Diagnostic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B676DE29FF5DCC00A8957A /* Diagnostic.swift */; };
 		36B676E129FF5EEA00A8957A /* DiagnosticBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B676E029FF5EEA00A8957A /* DiagnosticBank.swift */; };
+		36C4EE562A009A3A006115E5 /* Disease1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE552A009A3A006115E5 /* Disease1ViewController.swift */; };
+		36C4EE582A009A55006115E5 /* Disease2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE572A009A55006115E5 /* Disease2ViewController.swift */; };
+		36C4EE5A2A009A62006115E5 /* Disease3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE592A009A62006115E5 /* Disease3ViewController.swift */; };
+		36C4EE5C2A009A72006115E5 /* Disease4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE5B2A009A72006115E5 /* Disease4ViewController.swift */; };
+		36C4EE5E2A009A82006115E5 /* Disease5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE5D2A009A82006115E5 /* Disease5ViewController.swift */; };
+		36C4EE602A009A8C006115E5 /* Disease6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE5F2A009A8C006115E5 /* Disease6ViewController.swift */; };
+		36C4EE622A009A9C006115E5 /* Disease7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE612A009A9C006115E5 /* Disease7ViewController.swift */; };
+		36C4EE642A009AA9006115E5 /* Disease8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE632A009AA9006115E5 /* Disease8ViewController.swift */; };
 		A80621C229FC606600EAAFC3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80621C129FC606600EAAFC3 /* Question.swift */; };
 		A80621C429FC64C000EAAFC3 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80621C329FC64C000EAAFC3 /* QuestionBank.swift */; };
 		A82D610229D39EEB001B2EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D610129D39EEB001B2EF5 /* AppDelegate.swift */; };
@@ -36,8 +44,6 @@
 		A82D613E29D4DC60001B2EF5 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D613D29D4DC60001B2EF5 /* HomePageViewController.swift */; };
 		A82D614029D4E370001B2EF5 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D613F29D4E370001B2EF5 /* TipsViewController.swift */; };
 		A82D614229D4E380001B2EF5 /* DiagnosticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614129D4E380001B2EF5 /* DiagnosticViewController.swift */; };
-		A82D614429D4E636001B2EF5 /* MedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614329D4E636001B2EF5 /* MedicinesViewController.swift */; };
-		A82D614629D4E68F001B2EF5 /* InformationMedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614529D4E68F001B2EF5 /* InformationMedicinesViewController.swift */; };
 		A82D614829D4E706001B2EF5 /* SuggestedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614729D4E706001B2EF5 /* SuggestedViewController.swift */; };
 		A82D614C29D4E845001B2EF5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614B29D4E845001B2EF5 /* ProfileViewController.swift */; };
 		A82D614E29D4E858001B2EF5 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */; };
@@ -66,6 +72,14 @@
 		3689F0AA29FF178A00515797 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		36B676DE29FF5DCC00A8957A /* Diagnostic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic.swift; sourceTree = "<group>"; };
 		36B676E029FF5EEA00A8957A /* DiagnosticBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticBank.swift; sourceTree = "<group>"; };
+		36C4EE552A009A3A006115E5 /* Disease1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease1ViewController.swift; sourceTree = "<group>"; };
+		36C4EE572A009A55006115E5 /* Disease2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease2ViewController.swift; sourceTree = "<group>"; };
+		36C4EE592A009A62006115E5 /* Disease3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease3ViewController.swift; sourceTree = "<group>"; };
+		36C4EE5B2A009A72006115E5 /* Disease4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease4ViewController.swift; sourceTree = "<group>"; };
+		36C4EE5D2A009A82006115E5 /* Disease5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease5ViewController.swift; sourceTree = "<group>"; };
+		36C4EE5F2A009A8C006115E5 /* Disease6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease6ViewController.swift; sourceTree = "<group>"; };
+		36C4EE612A009A9C006115E5 /* Disease7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease7ViewController.swift; sourceTree = "<group>"; };
+		36C4EE632A009AA9006115E5 /* Disease8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease8ViewController.swift; sourceTree = "<group>"; };
 		A80621C129FC606600EAAFC3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A80621C329FC64C000EAAFC3 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		A82D60FE29D39EEB001B2EF5 /* AppMedicina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMedicina.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,8 +97,6 @@
 		A82D613D29D4DC60001B2EF5 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		A82D613F29D4E370001B2EF5 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
 		A82D614129D4E380001B2EF5 /* DiagnosticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticViewController.swift; sourceTree = "<group>"; };
-		A82D614329D4E636001B2EF5 /* MedicinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesViewController.swift; sourceTree = "<group>"; };
-		A82D614529D4E68F001B2EF5 /* InformationMedicinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationMedicinesViewController.swift; sourceTree = "<group>"; };
 		A82D614729D4E706001B2EF5 /* SuggestedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedViewController.swift; sourceTree = "<group>"; };
 		A82D614B29D4E845001B2EF5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A82D614D29D4E858001B2EF5 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
@@ -144,15 +156,46 @@
 			path = static;
 			sourceTree = "<group>";
 		};
+		36C4EE652A009ACE006115E5 /* Suggested Medicine */ = {
+			isa = PBXGroup;
+			children = (
+				A82D614729D4E706001B2EF5 /* SuggestedViewController.swift */,
+			);
+			path = "Suggested Medicine";
+			sourceTree = "<group>";
+		};
+		36C4EE662A009AEA006115E5 /* Diseases */ = {
+			isa = PBXGroup;
+			children = (
+				36C4EE552A009A3A006115E5 /* Disease1ViewController.swift */,
+				36C4EE572A009A55006115E5 /* Disease2ViewController.swift */,
+				36C4EE592A009A62006115E5 /* Disease3ViewController.swift */,
+				36C4EE5B2A009A72006115E5 /* Disease4ViewController.swift */,
+				36C4EE5D2A009A82006115E5 /* Disease5ViewController.swift */,
+				36C4EE5F2A009A8C006115E5 /* Disease6ViewController.swift */,
+				36C4EE612A009A9C006115E5 /* Disease7ViewController.swift */,
+				36C4EE632A009AA9006115E5 /* Disease8ViewController.swift */,
+			);
+			path = Diseases;
+			sourceTree = "<group>";
+		};
+		36C4EE672A009B13006115E5 /* Information Tips */ = {
+			isa = PBXGroup;
+			children = (
+				A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */,
+				A8485CC729F0AFA300F02EE6 /* InfoTip2ViewController.swift */,
+				A8485CC929F0AFC800F02EE6 /* InfoTip3ViewController.swift */,
+				A8485CCB29F0AFED00F02EE6 /* InfoTip4ViewController.swift */,
+				A8485CCD29F0B00F00F02EE6 /* InfoTip5ViewController.swift */,
+			);
+			name = "Information Tips";
+			sourceTree = "<group>";
+		};
 		36DF311C2A001812003F27CD /* Tips */ = {
 			isa = PBXGroup;
 			children = (
 				A82D613F29D4E370001B2EF5 /* TipsViewController.swift */,
-				A8485CCD29F0B00F00F02EE6 /* InfoTip5ViewController.swift */,
-				A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */,
-				A8485CC729F0AFA300F02EE6 /* InfoTip2ViewController.swift */,
-				A8485CCB29F0AFED00F02EE6 /* InfoTip4ViewController.swift */,
-				A8485CC929F0AFC800F02EE6 /* InfoTip3ViewController.swift */,
+				36C4EE672A009B13006115E5 /* Information Tips */,
 			);
 			name = Tips;
 			sourceTree = "<group>";
@@ -177,9 +220,8 @@
 		36DF31212A0018E8003F27CD /* Medicines */ = {
 			isa = PBXGroup;
 			children = (
-				A82D614729D4E706001B2EF5 /* SuggestedViewController.swift */,
-				A82D614529D4E68F001B2EF5 /* InformationMedicinesViewController.swift */,
-				A82D614329D4E636001B2EF5 /* MedicinesViewController.swift */,
+				36C4EE652A009ACE006115E5 /* Suggested Medicine */,
+				36C4EE662A009AEA006115E5 /* Diseases */,
 			);
 			path = Medicines;
 			sourceTree = "<group>";
@@ -357,30 +399,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82D613629D3A373001B2EF5 /* LoginViewController.swift in Sources */,
-				A82D614629D4E68F001B2EF5 /* InformationMedicinesViewController.swift in Sources */,
+				36C4EE5E2A009A82006115E5 /* Disease5ViewController.swift in Sources */,
+				36C4EE582A009A55006115E5 /* Disease2ViewController.swift in Sources */,
 				A82D610629D39EEB001B2EF5 /* ViewController.swift in Sources */,
 				36B676E129FF5EEA00A8957A /* DiagnosticBank.swift in Sources */,
 				A82D613A29D4D9D3001B2EF5 /* TermsConditionsViewController.swift in Sources */,
 				A82D610229D39EEB001B2EF5 /* AppDelegate.swift in Sources */,
+				36C4EE602A009A8C006115E5 /* Disease6ViewController.swift in Sources */,
+				36C4EE562A009A3A006115E5 /* Disease1ViewController.swift in Sources */,
 				A82D613E29D4DC60001B2EF5 /* HomePageViewController.swift in Sources */,
 				A82D614029D4E370001B2EF5 /* TipsViewController.swift in Sources */,
 				A82D615229D62A6A001B2EF5 /* InfoTip1ViewController.swift in Sources */,
 				A82D610429D39EEB001B2EF5 /* SceneDelegate.swift in Sources */,
+				36C4EE5A2A009A62006115E5 /* Disease3ViewController.swift in Sources */,
 				A82D614E29D4E858001B2EF5 /* ConfigurationViewController.swift in Sources */,
 				A82D614229D4E380001B2EF5 /* DiagnosticViewController.swift in Sources */,
 				A8485CCE29F0B00F00F02EE6 /* InfoTip5ViewController.swift in Sources */,
 				36B676DF29FF5DCC00A8957A /* Diagnostic.swift in Sources */,
 				A82D614829D4E706001B2EF5 /* SuggestedViewController.swift in Sources */,
 				A8485CC829F0AFA300F02EE6 /* InfoTip2ViewController.swift in Sources */,
+				36C4EE642A009AA9006115E5 /* Disease8ViewController.swift in Sources */,
 				A8485CCA29F0AFC800F02EE6 /* InfoTip3ViewController.swift in Sources */,
-				A82D614429D4E636001B2EF5 /* MedicinesViewController.swift in Sources */,
 				A80621C429FC64C000EAAFC3 /* QuestionBank.swift in Sources */,
 				A82D614C29D4E845001B2EF5 /* ProfileViewController.swift in Sources */,
 				A80621C229FC606600EAAFC3 /* Question.swift in Sources */,
 				A82D613829D3A4E6001B2EF5 /* SignUpViewController.swift in Sources */,
+				36C4EE622A009A9C006115E5 /* Disease7ViewController.swift in Sources */,
 				A82D613C29D4DC0B001B2EF5 /* NewProfileViewController.swift in Sources */,
 				A82D615029D4E869001B2EF5 /* AccessibilityViewController.swift in Sources */,
 				A8485CCC29F0AFED00F02EE6 /* InfoTip4ViewController.swift in Sources */,
+				36C4EE5C2A009A72006115E5 /* Disease4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
