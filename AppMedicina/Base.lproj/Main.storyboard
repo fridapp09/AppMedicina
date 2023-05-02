@@ -865,10 +865,33 @@ Auxiliary for the relief of pain and fever, as well as some discomfort related t
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gmA-vg-Iqp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gmA-vg-Iqp">
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Pharmacological properties
+
+Naproxen (methoxynaphthylpropionic acid) is a synthetic drug; Like acetylsalicylic acid and indomethacin, it has analgesic, anti-inflammatory, and antipyretic properties, effects attributed to its ability to block prostaglandin, thromboxane, and prostacyclin biosynthesis by inhibiting prostaglandin synthetase (cyclooxygenase). It also inhibits platelet aggregation and prolongs prothrombin time. In weight terms, the analgesic and anti-inflammatory potency of naproxen is less than that seen with indomethacin and greater than that of aspirin. Naproxen is well absorbed through the gastrointestinal mucosa, reaching peak plasma concentrations within 1–2 hours after oral administration; rectally, these concentrations are achieved more slowly. The presence of food in the stomach modifies the speed but not the degree of absorption. An important feature of naproxen is its longer plasma half-life (13 hours) than that of its congeners (ibuprofen, fenoprofen), which makes it possible to apply it at longer intervals. About 99% is bound to plasma proteins and is widely distributed in the body. It crosses the placental barrier. It is metabolized by demethylation and excreted in the urine, particularly as glucuronide, as well as in breast milk.
+
+Indications
+
+Rheumatic diseases, such as rheumatoid arthritis, osteoarthritis, ankylosing spondylitis. Pain of low to moderate intensity. Dysmenorrhea. acute gout
+
+Contraindications and precautions
+
+Contraindicated in cases of hypersensitivity to naproxen and acetylsalicylic acid, in patients with gastrointestinal bleeding, peptic ulcer, liver or kidney failure, during pregnancy and lactation. Naproxen competes with oral anticoagulants (warfarin), oral hypoglycemic agents (sulfonylureas), and hydantoins (phenytoin) for binding sites on plasma proteins, resulting in higher concentrations of the displaced drug. Aspirin increases the clearance rate of naproxen by displacing its protein binding. Simultaneous administration of sodium bicarbonate accelerates gastrointestinal absorption, while magnesium and aluminum oxides reduce it.
+
+Adverse reactions
+
+Common: gastric discomfort and pain, nausea, heartburn, rectal irritation when administered as suppositories, allergic dermatitis, tinnitus, fluid retention edema, dizziness, somnolence, headache.
+
+Uncommon: diarrhoea, blurred vision, decreased hearing.
+
+Rare: confusion, mental depression, exfoliative dermatitis, agranulocytosis, leukopenia, thrombocytopenia, hepatitis, fever, nephritis, nephrotic syndrome, renal failure, insomnia.
+
+Warnings for the patient
+
+Take with food to reduce gastrointestinal upset. Avoid driving vehicles or dangerous machinery. The doctor must be informed immediately if the gastrointestinal complaints are very intense or if any of the following manifestations occur: bleeding, fever, darkening of the stool, weight gain, edema of the extremities, skin reactions.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -964,10 +987,41 @@ Your purchase requires a medical prescription. Store at room temperature at no m
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S6j-mk-BSN">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S6j-mk-BSN">
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Instructions
+The recommended dose for adults and children over 6 years of age is 1 to 2 coated tablets, 3 to 5 times a day.
+ 
+It must be administered orally. Swallow the coated tablets with a little liquid without chewing.
+ 
+The maximum daily dose should not exceed 100 mg of butylscopolamine bromide (10 coated tablets of Buscapin 10 mg coated tablets).
+ 
+The optimal duration of symptomatic treatment depends on the indication. No limit has been established for the duration of treatment.
+ 
+Buscopine should not be administered continuously or for long periods of time without knowing the cause of the pain in the abdomen.
+ 
+No dose adjustment is required in patients with impaired kidney and/or liver function.
+
+active ingredient
+The active substance is butylscopolamine bromide. Each film-coated tablet contains 10 mg butylscopolamine bromide.
+ 
+The other ingredients are calcium hydrogen phosphate, dry maize starch, soluble maize starch, colloidal anhydrous silica, tartaric acid (E 334), stearic-palmitic acid, povidone, sucrose, talc, gum arabic, titanium dioxide (E 171 ), macrogol 6000, carnauba wax and white wax.
+
+Warnings and Cautions
+Take special care with Buscopan if you have ever had:
+Increased pressure in the eye (narrow-angle glaucoma).
+Tachycardia.
+Intestinal or urinary obstructions.
+Prostatic enlargement with urinary retention.
+ 
+If you have suffered from the aforementioned diseases at the time of treatment, consult your doctor.
+ 
+If severe and unexplained abdominal pain persists or worsens, or presents with symptoms such as fever, nausea, vomiting, changes in bowel movements, tenderness in the abdomen, decreased blood pressure, fainting, or presence of of blood in the stool, you should see your doctor immediately.
+ 
+Children
+Due to the dose, this medicine is not indicated in children under 6 years of age.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1071,10 +1125,23 @@ Take 1 vial 2 times a day.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FAP-kQ-hcL">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FAP-kQ-hcL">
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Instructions
+Candiflux is a broad-spectrum antifungal indicated for the treatment of systemic and skin infections caused by fungi. Candiflux is indicated in patients with vaginal candidiasis or candida balanitis.
+
+Other indications are: Oropharyngeal and esophageal candidiasis, systemic forms of candidiasis and even forms of invasive candidiasis, in the prophylaxis of fungal infections in cancer patients managed with radiology or chemotherapy and in the prevention of relapses of fungal infections in HIV patients. /AIDS.
+
+Contraindications
+Fluconazole is contraindicated in patients with allergy or hypersensitivity to the components of the formula. Although there are no cross-reactive data between fluconazole and other imidazole agents, extreme caution should be exercised in case of use. The concomitant use of fluconazole in doses of 400 mg daily or higher, and terfenadine is contraindicated. Likewise, the concomitant use of fluconazole and cisapride is contraindicated. Do not administer to children under 12 years of age.
+
+Restrictions on use during pregnancy and lactation
+The use of fluconazole should be avoided during pregnancy and lactation, with the exception of women with severe, life-threatening fungal infections, in whom the potential benefit outweighs the likely risk of harm to the fetus.
+
+Adverse reactions
+In general, fluconazole is well tolerated. The most frequently observed side effects are: headache, dizziness, seizures, and taste disturbances; elevated liver enzymes, jaundice, and rare cases of death from liver toxicity; skin rash, alopecia, and exfoliative and bullous syndromes, such as: Stevens-Johnson syndrome, toxic epidermal necrolysis, and erythema multiforme; abdominal pain, diarrhoea, flatulence, nausea, dyspepsia, vomiting. Leukopenia, agranulocytosis, neutropenia, thrombocytopenia have also been observed; hypercholesterolemia, hypertriglyceridemia and hypokalemia.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1173,10 +1240,32 @@ Laxative 100% of natural origin.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vaj-nN-cab">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vaj-nN-cab">
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Metamucil is a compound of vegetable fibers and has a great capacity to retain liquids, increases the volume and decreases the consistency of feces (thus facilitating its evacuation), which decreases the level of cholesterol in the blood and glycemia after meals. , provided it is accompanied by a hypocholesterolemic diet.
+
+oral administration
+Instant orange flavor soluble powder, sugar free.
+
+Benefits
+Helps regularize your intestine in case of constipation, without chemical stimulants
+Helps you reduce your cholesterol levels*
+Helps you feel lighter
+Fiber of 100% natural origin
+Auxiliary in the treatment of constipation. Auxiliary to lower cholesterol levels: accompanied by regular exercise and a diet low in saturated fat and cholesterol.
+
+Active ingredients
+Plantago Psyllium Seed Husk Powder.
+
+Recommended dose
+Adults: 1 sachet (5.8g) in 240ml of water or natural juice up to 3 times a day.
+Children: 6-12 years Medium (1/2) about (2.9g).
+It produces effect between 12-72 hours after consumption. If this is your first time taking it, start with 1 daily dose. Gradually increase up to 3 daily doses if required. Use daily to maintain regularity.
+
+Precautions
+Do not use in children under 6 years of age. Do not exceed suggested dose. Do not take this product immediately before bedtime or if you have difficulty swallowing it. If you experience chest pain, vomiting, or difficulty breathing, discontinue use. If symptoms persist or you have abdominal pain, discontinue use and consult a doctor or pharmacist. Keep out of reach of children. Contains Aspartame.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1324,10 +1413,44 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ipe-Mw-LHF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ipe-Mw-LHF">
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Covers, protects and soothes:
+Acidity: calms irritation with its protective action without causing constipation.
+Indigestion: Provides effective and safe relief.
+Upset Stomach: Relieves upset stomach caused by feeling full.
+Nausea: effective relief of nausea caused by indigestion.
+Diarrhea: controls diarrhea in 4-24 hours.
+
+Active ingredient
+Bismuth Subsalicylate 262.5mg (per 15mL tablespoon)
+
+Warnings and Cautions
+
+contraindications
+It should not be used if symptoms are severe or if you are allergic to salicylates. Do not use if you have bleeding ulcers, kidney failure, or hemophilia.
+
+Cautions and Warnings
+Contains sodium salicylate and saccharin.
+Do not take it with other salicylates including aspirin.
+Stop use and consult your doctor if ringing in the ears occurs; children or adolescents with a current rash or febrile illness.
+It should not be used by children and adolescents who have or are recovering from viral infections such as chickenpox, flu or influenza, due to a possible association between salicylates and Reye's Syndrome, a rare but very serious disease, if they occur. changes in behavior accompanied by nausea and/or vomiting, or if the child or adolescent appears dehydrated.
+Consult your doctor if: you have diabetes or gout.
+Do not take for more than 5 days. If discomfort persists, discontinue use and consult your doctor.
+Keep out of reach of children.
+Store the bottle tightly closed at no more than 40°C.
+
+pediatric use
+IT SHOULD NOT BE USED BY CHILDREN UNDER 12 YEARS OLD, or consult your doctor.
+
+Adverse reactions
+Pepto-Bismol® may temporarily darken the tongue and stool, which disappears at the end of administration.
+
+Drug and food interactions
+Do not take Pepto-Bismol if you are allergic to salicylates including aspirin (or any of the other ingredients in Pepto-Bismol).
+Consult your doctor if you take blood thinners or tetracycline.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1758,14 +1881,61 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <rect key="frame" x="39" y="430" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Instructions
-Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
+                                <mutableString key="text">PUEBLA FORGERS
+Address: Blvd. Forj. de Puebla #8503 L3 72170
+Schedule:
+Open 24 hours
+Doctor's office:
+Hours of attention from 10 am to 5 pm.
 
-Warnings
-Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
+PLAZA ALMENDROS
+Address: Av. Camino Real Cholula Momoxpan #2221 LOC.8 A 12 72760
+Schedule:
+Open 24 hours
 
-Benefits
-Relief of moderate to severe pain and reduces fever.</string>
+SAN PEDRO CHOLULA
+Address: Hidalgo #525 72760
+Schedule:
+Open 24 hours
+
+REFORMa
+Address: Prol. Reforma #4508 72140
+Schedule:
+Open 24 hours
+Photographic Services:
+Available during store hours
+Pick up at Superpharmacy:
+Has store pickup
+Home delivery:
+24 hour home service
+Doctor's office:
+Hours of attention from 10 a.m. to 5 p.m.
+
+ZAVALETA II
+Address: Calz. Zavaleta #1905 LOCAL 3 72700
+Schedule:
+Open 24 hours
+
+SAN JOSÉ DEL PUENTE
+Address: Ctra. Federal Mex-Puebla #7502 72120
+Schedule:
+Open 24 hours
+
+CARRETERAFEDERAL PUEBLA-ATLIXCO
+Address: Puebla-Atlixco Federal Highway #3557 72197
+Schedule:
+Open 24 hours
+
+CD. JUDICIAL
+Address: Orion Sur #504 72810
+Schedule:
+Open 24 hours
+Pick up at Superpharmacy:
+Has store pickup
+Home delivery:
+24 hour home service
+Doctor's office:
+Hours of attention from 10 a.m. to 5 p.m.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1816,14 +1986,35 @@ Relief of moderate to severe pain and reduces fever.</string>
                                 <rect key="frame" x="39" y="430" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Instructions
-Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
+                                <mutableString key="text">PUEBLA UDLA MAY 5
+MAY 5 1409 COL: DOWNTOWN PUEBLA, SAN ANDRES CHOLULA MX
+Open: 07:00 - 23:00
+2222313383
 
-Warnings
-Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
+PUEBLA CAMINO REAL TO CHOLULA
+CAMINO REAL A CHOLULA 4401 A COL: CONCEPCION BUENAVISTA PUEBLA, SAN ANDRES CHOLULA MX
+Open: 07:00 - 23:00
+2222313383
 
-Benefits
-Relief of moderate to severe pain and reduces fever.</string>
+PUEBLA SAN DIEGO
+BLVD. FORJADORES DE PUEBLA 1010 LOCAL 1 COL: CHOLULA DE RIVADABIA DOWNTOWN PUEBLA, SAN PEDRO CHOLULA MX
+Open: 07:00 - 23:00
+2222313383
+
+PUEBLA FORJADORES
+AV FORJADORES 316 COL: SANTIAGO MOMOXPAN PUEBLA, SAN PEDRO CHOLULA MX
+Open: 07:00 - 23:00
+2222313383
+
+POPULATE THE SOULS
+JUAN PABLO II CIRCUIT (39 WEST) 3302 L 2-4 75 TO 78 COL: LAS ANIMAS PUEBLA, PUEBLA MX
+Open: 07:00 - 23:00
+2222313383
+
+PUEBLA LOMAS DE ANGELOPOLIS
+AVENIDA DEL CASTILLO 5500 LOCAL 9A-B LOCAL 9A-B COL: VALLE REAL PUEBLA, SAN ANDRES CHOLULA MX
+Open: 07:00 - 23:00
+2222313383</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1882,14 +2073,54 @@ Relief of moderate to severe pain and reduces fever.</string>
                                 <rect key="frame" x="39" y="430" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Instructions
-Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
+                                <mutableString key="text">Street: 25 Poniente
+External number: 1101
+Internal Number: LC A
+ZIP Code: 72410
+Colony: The Volcanoes
+TEL: 800 911 6666
 
-Warnings
-Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
+Street: Real A Cholula
+External number: 810
+Interior Number: LOCAL D
+ZIP Code: 72170
+Colony: Santa Cruz Guadalupe
+TEL: 800 911 6666
 
-Benefits
-Relief of moderate to severe pain and reduces fever.</string>
+Street: Reforma
+Outside Number: 3714
+Internal Number: LC B
+ZIP Code: 72140
+Cologne: Achilles Serdan
+TEL: 800 911 6666
+
+Street: Diagonal Defensores De La Republica
+External number: 659
+Inside Number: S/N
+ZIP Code: 72080
+Cologne: Adolfo Lopez Mateos
+TEL: 800 911 6666
+
+Street: Prolongacion De La 14 Sur
+External number: 11925
+Interior Number: LOCAL 7
+ZIP Code: 72584
+Colony: Ex-Hacienda Chapulco
+TEL: 800 911 6666
+
+Street: Zavaleta
+Exterior Number: 4306
+Interior Number: LOCAL 1
+ZIP Code: 72150
+Colony: Santa Cruz Buenavista
+TEL: 800 911 6666
+
+Street: 10 Poniente
+External number: 2915
+Inside Number: S/N
+ZIP Code: 72090
+Colony: Villa San Alejandro
+TEL: 800 911 6666</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
