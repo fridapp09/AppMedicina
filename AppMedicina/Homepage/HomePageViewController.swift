@@ -20,11 +20,6 @@ class HomePageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Create a custom back button
-        let backButton = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-        
-        // Set the custom back button as the left bar button item
-        self.navigationItem.leftBarButtonItem = backButton
     }
 
     @IBAction func startDiagnoButton(_ sender: UIButton) {

@@ -18,5 +18,4 @@ class InfoTip1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
 }

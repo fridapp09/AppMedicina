@@ -19,5 +19,4 @@ class InfoTip5ViewController: UIViewController {
         super.viewDidLoad()
 
     }
-
 }

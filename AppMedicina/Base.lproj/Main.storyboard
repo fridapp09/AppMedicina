@@ -106,7 +106,7 @@
                                                 <rect key="frame" x="29" y="169" width="357" height="1457"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">All content on the app, including but not limited to text, graphics, logos, icons, images, and software, is the exclusive property of MedKit or its suppliers and is protected by copyright laws.
+                                                <string key="text">All content on the app, including but not limited to text, graphics, logos, icons, images, and software, is the exclusive property of MedKit or its suppliers and is protected by copyright laws.
 
 Use of the app
 You are authorized to use our app for legal and personal purposes only. You may not use our app for commercial purposes without our express written permission.
@@ -133,7 +133,7 @@ Governing Law and Jurisdiction
 These terms and conditions shall be governed by and construed in accordance with the laws of your country. Any dispute arising in connection with these terms and conditions will be submitted to the exclusive jurisdiction of the courts of the country of the user.
 
 Disclaimer
-The use of our app is at your own risk. We shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or related to the use of our app. We do not make any representations or warranties about the accuracy or completeness of the information contained in the app or the results that may be obtained from the use of the app. You acknowledge that any reliance on the app or any information or materials contained in the app is solely at your own risk.</mutableString>
+The use of our app is at your own risk. We shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or related to the use of our app. We do not make any representations or warranties about the accuracy or completeness of the information contained in the app or the results that may be obtained from the use of the app. You acknowledge that any reliance on the app or any information or materials contained in the app is solely at your own risk.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -310,26 +310,22 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="MlX-Uu-UaR">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MlX-Uu-UaR">
                                                 <rect key="frame" x="39" y="134" width="320" height="103"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Wash your hands frequently: washing your hands is one of the most effective ways to prevent the spread of germs and reduce your risk of getting sick.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irk-Nu-Y1w">
                                                 <rect key="frame" x="39" y="245" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="tips1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="uTx-Su-As1"/>
-                                                    <segue destination="bgw-Il-sRn" kind="show" id="YpX-qb-Za8"/>
-                                                </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tip 2" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIA-O0-ahk">
                                                 <rect key="frame" x="39" y="305" width="320" height="46"/>
@@ -339,26 +335,22 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="NGQ-fk-6TA">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NGQ-fk-6TA">
                                                 <rect key="frame" x="39" y="355" width="320" height="103"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Get enough sleep: getting enough sleep is crucial for overall health and wellbeing. It helps your body recharge and can reduce your risk of developing chronic diseases.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qo0-sl-Rph">
                                                 <rect key="frame" x="39" y="466" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="tips2Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="Olk-F5-Riu"/>
-                                                    <segue destination="w8n-fu-6zY" kind="show" id="XRE-nh-jUD"/>
-                                                </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tip 3" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXx-ck-N70">
                                                 <rect key="frame" x="39" y="526" width="320" height="46"/>
@@ -368,13 +360,13 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="EmD-Mg-qJ2">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EmD-Mg-qJ2">
                                                 <rect key="frame" x="39" y="576" width="320" height="103"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Stay active and exercise regularly: regular exercise can improve your physical and mental health, reduce your risk of chronic diseases, and boost your energy levels.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tips" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zmq-Gn-gyb">
@@ -393,26 +385,22 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="fHf-UO-9cI">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fHf-UO-9cI">
                                                 <rect key="frame" x="39" y="797" width="320" height="103"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Drink plenty of water: Staying hydrated is important for maintaining healthy body function and can help prevent dehydration, which can lead to fatigue, headaches, and other health problems.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0x-qg-gfx">
                                                 <rect key="frame" x="39" y="908" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="tips4Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="NUa-5a-eyg"/>
-                                                    <segue destination="KG8-0f-KAf" kind="show" id="uTm-DH-vRb"/>
-                                                </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tip 5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAz-BV-dLH">
                                                 <rect key="frame" x="39" y="968" width="320" height="46"/>
@@ -422,38 +410,30 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="26L-h6-bL8">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26L-h6-bL8">
                                                 <rect key="frame" x="39" y="1018" width="320" height="103"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </string>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Eat a balanced diet: eating a balanced diet that includes a variety of fruits, vegetables, lean proteins, and whole grains can provide your body with the nutrients it needs to function properly and reduce your risk of chronic diseases.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3C-Q1-PRv">
                                                 <rect key="frame" x="39" y="1129" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="tips5Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="QBU-ys-A5a"/>
-                                                    <segue destination="9ze-dr-80G" kind="show" id="xsc-O7-Yuc"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mph-Ec-TrM">
                                                 <rect key="frame" x="39" y="687" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Check it">
+                                                <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="tips3Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="J29-kd-Bwt"/>
-                                                    <segue destination="HPm-z1-YaM" kind="show" id="Jl2-mJ-2eB"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -482,19 +462,6 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                     </view>
                     <navigationItem key="navigationItem" id="YtQ-ck-rqG"/>
                     <size key="freeformSize" width="414" height="1146"/>
-                    <connections>
-                        <outlet property="tip1Text" destination="MlX-Uu-UaR" id="blf-K3-5we"/>
-                        <outlet property="tip1Title" destination="MlX-Uu-UaR" id="PIU-vh-KvS"/>
-                        <outlet property="tip2Text" destination="NGQ-fk-6TA" id="DcF-8f-KR4"/>
-                        <outlet property="tip2Title" destination="IIA-O0-ahk" id="dXK-o3-4Xd"/>
-                        <outlet property="tip3Text" destination="EmD-Mg-qJ2" id="3ec-eg-eMh"/>
-                        <outlet property="tip3Title" destination="xXx-ck-N70" id="vpi-RQ-kCR"/>
-                        <outlet property="tip4Text" destination="fHf-UO-9cI" id="TPT-mZ-eqB"/>
-                        <outlet property="tip4Title" destination="Ibc-Dc-o93" id="Cgk-Og-ByM"/>
-                        <outlet property="tip5Text" destination="26L-h6-bL8" id="DpL-1b-qW6"/>
-                        <outlet property="tip5Title" destination="26L-h6-bL8" id="ngA-8X-kiO"/>
-                        <outlet property="tipsTitle" destination="zmq-Gn-gyb" id="gse-I5-lDJ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D0z-De-fbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -884,17 +851,6 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="931"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vp-xk-gVY">
-                                <rect key="frame" x="228" y="694" width="156" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Tip">
-                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="doneProfileButton:" destination="cup-cL-kSj" eventType="touchUpInside" id="zZg-Mq-MzY"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Get enough sleep" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8o6-al-kWi">
                                 <rect key="frame" x="39" y="81" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -916,27 +872,11 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="39" y="202" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nm-xS-Zrg">
-                                <rect key="frame" x="50" y="694" width="156" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Tip">
-                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="doneProfileButton:" destination="cup-cL-kSj" eventType="touchUpInside" id="DEw-Ef-6As"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rxj-sD-dYj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="4UZ-ww-cbp"/>
-                    <connections>
-                        <outlet property="descripTip2" destination="puA-cR-NQX" id="oMF-oP-gzc"/>
-                        <outlet property="imageTip2" destination="nDJ-QN-jRD" id="8H4-Na-nhu"/>
-                        <outlet property="titleTip2" destination="8o6-al-kWi" id="NUW-tl-yvj"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYL-pQ-p70" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -954,17 +894,6 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="931"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXn-y5-7C7">
-                                <rect key="frame" x="129" y="700" width="156" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Tip">
-                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="doneProfileButton:" destination="cup-cL-kSj" eventType="touchUpInside" id="yF0-Vh-265"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Exercise regularly" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C93-dF-QPR">
                                 <rect key="frame" x="39" y="81" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -982,7 +911,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fBJ-LP-Fss">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NYPICHPDPICT000007191289.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fBJ-LP-Fss">
                                 <rect key="frame" x="39" y="202" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -991,11 +920,6 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="xfJ-RN-rRR"/>
-                    <connections>
-                        <outlet property="descripTip3" destination="S9S-3V-muC" id="k4i-lp-q5O"/>
-                        <outlet property="imageTip3" destination="fBJ-LP-Fss" id="fqY-tw-jKX"/>
-                        <outlet property="titleTip3" destination="C93-dF-QPR" id="6b1-Jf-vwX"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwN-7f-5my" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1013,17 +937,6 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="931"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzg-hK-W24">
-                                <rect key="frame" x="129" y="700" width="156" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Tip">
-                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="doneProfileButton:" destination="cup-cL-kSj" eventType="touchUpInside" id="gbQ-ml-uW6"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Drink plenty water" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PgE-rB-glm">
                                 <rect key="frame" x="39" y="81" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1041,7 +954,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eY0-DW-N14">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="best-time-to-drink-water" translatesAutoresizingMaskIntoConstraints="NO" id="eY0-DW-N14">
                                 <rect key="frame" x="39" y="202" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1050,11 +963,6 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="gxq-US-rUE"/>
-                    <connections>
-                        <outlet property="descripTip4" destination="sTH-2f-T6V" id="ceJ-aE-bdi"/>
-                        <outlet property="imageTip4" destination="eY0-DW-N14" id="Hee-SN-g8J"/>
-                        <outlet property="titleTip4" destination="PgE-rB-glm" id="Uhx-t5-VFd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hg1-6a-O1Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1089,18 +997,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONi-sH-FDR">
-                                <rect key="frame" x="129" y="700" width="156" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Tip">
-                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="doneProfileButton:" destination="cup-cL-kSj" eventType="touchUpInside" id="SV1-FJ-O0b"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sac-yN-YiI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="Sac-yN-YiI">
                                 <rect key="frame" x="39" y="202" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1109,11 +1006,6 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="g4a-dg-UwA"/>
-                    <connections>
-                        <outlet property="descripTip5" destination="8mN-mB-i7O" id="xKA-wL-3Fl"/>
-                        <outlet property="imageTip5" destination="Sac-yN-YiI" id="y73-yl-T8j"/>
-                        <outlet property="titleTip5" destination="n60-0l-aVT" id="zMH-oV-a0k"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="udH-vN-Qpg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1152,28 +1044,11 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="39" y="202" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6L-0D-Jmy">
-                                <rect key="frame" x="129" y="700" width="156" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Tip">
-                                    <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="doneProfileButton:" destination="cup-cL-kSj" eventType="touchUpInside" id="MOg-ij-KWC"/>
-                                    <segue destination="w8n-fu-6zY" kind="show" id="gDa-FX-QTR"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Nny-UQ-2Xq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="OJ7-Fb-a5Y"/>
-                    <connections>
-                        <outlet property="descripTip1" destination="4Sk-E5-DNd" id="TVj-Lc-H8K"/>
-                        <outlet property="imageTip1" destination="GnM-P6-MGS" id="4wu-B2-1ej"/>
-                        <outlet property="titleTip1" destination="waA-ln-UTt" id="8dv-TX-oxw"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zy6-ls-Pes" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1721,13 +1596,14 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="fsR-uY-lyE"/>
-        <segue reference="gDa-FX-QTR"/>
         <segue reference="Hfk-gV-osq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" width="5618" height="3745"/>
         <image name="Close-up-of-woman-washing-her-hands-with-soap-1296x728-header.jpg" width="1155" height="648"/>
+        <image name="NYPICHPDPICT000007191289.jpg" width="1024" height="653"/>
         <image name="Screen Shot 2023-02-21 at 17.26.12-2" width="1924" height="1120"/>
+        <image name="best-time-to-drink-water" width="850" height="567"/>
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="fondo-papel-tapiz-colorido-borroso-vivo" width="4016" height="6016"/>
@@ -1735,6 +1611,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="image" width="1200" height="900"/>
         <image name="pills" catalog="system" width="128" height="106"/>
         <image name="pills.fill" catalog="system" width="128" height="106"/>
         <systemColor name="labelColor">

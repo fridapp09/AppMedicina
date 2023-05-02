@@ -38,10 +38,10 @@ class TipsViewController: UIViewController {
     
     @IBAction func tips3Button(_ sender: UIButton) {
     }
-    
-    @IBAction func tips4Button(_ sender: Any) {
+   
+    @IBAction func tip4Button(_ sender: UIButton) {
     }
     
-    @IBAction func tips5Button(_ sender: Any) {
+    @IBAction func tip5Button(_ sender: UIButton) {
     }
 }
