@@ -8,8 +8,6 @@
 import UIKit
 
 class InfoTip4ViewController: UIViewController {
-
-  
     
     override func viewDidLoad() {
         super.viewDidLoad()

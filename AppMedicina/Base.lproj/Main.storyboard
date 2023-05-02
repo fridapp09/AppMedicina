@@ -1659,10 +1659,6 @@ Once the container is opened, consume the content within 24 hours or discard the
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="tip1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="E5G-Dd-35b"/>
-                                    <segue destination="Gdd-an-sxt" kind="show" id="nah-Tg-NDW"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vW0-sq-xe7">
                                 <rect key="frame" x="47" y="383" width="320" height="45"/>
@@ -1693,6 +1689,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="doneProfileButton:" destination="cup-cL-kSj" eventType="touchUpInside" id="flK-wk-p9d"/>
+                                    <action selector="logOutButton:" destination="A72-9h-2O7" eventType="touchUpInside" id="2RK-5g-6nL"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="vRG-5U-MjH"/>
                                 </connections>
                             </button>
@@ -1725,56 +1722,17 @@ Once the container is opened, consume the content within 24 hours or discard the
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="gearshape" catalog="system" selectedImage="gearshape.fill" id="PXH-gu-7LL"/>
+                    <connections>
+                        <outlet property="helpButton" destination="TZ7-e9-oFC" id="N1I-oV-BoZ"/>
+                        <outlet property="profileButton" destination="PeK-WX-tRX" id="cJC-nb-Y0n"/>
+                        <outlet property="settingTitle" destination="JLx-6I-cQI" id="a3l-hr-wRH"/>
+                        <outlet property="termsButton" destination="xZl-BP-HyL" id="bgN-cN-b4Q"/>
+                        <outlet property="versionButton" destination="vW0-sq-xe7" id="v3a-LS-Zsv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FYr-w9-Sal" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="496" y="1604"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ZVq-72-yMg">
-            <objects>
-                <viewController id="Gdd-an-sxt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aGf-8F-I0s">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="q7M-Wj-I4D">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="921"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="About" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8UT-oj-f0a">
-                                <rect key="frame" x="39" y="91" width="336" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uA-ao-zPD">
-                                <rect key="frame" x="39" y="172" width="336" height="598"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Instructions
-Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
-
-Warnings
-Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
-
-Benefits
-Relief of moderate to severe pain and reduces fever.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="97f-eR-KJU"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="eF0-tZ-Vmc"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TFb-Mz-GP1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1268" y="2101"/>
         </scene>
         <!--Pharmacy3 View Controller-->
         <scene sceneID="MoG-Pq-Lj6">
@@ -2757,6 +2715,7 @@ Relief of moderate to severe pain and reduces fever.</string>
                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="pharmacy1Button:" destination="4Ix-DU-pII" eventType="touchUpInside" id="UtI-zq-yWT"/>
                                     <action selector="tip1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="f4Y-iH-SDJ"/>
                                     <segue destination="Sap-Ah-gRe" kind="show" id="MbY-6H-Agp"/>
                                 </connections>
@@ -2786,6 +2745,7 @@ Relief of moderate to severe pain and reduces fever.</string>
                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="pharmacy2Button:" destination="4Ix-DU-pII" eventType="touchUpInside" id="O1k-Yt-kuL"/>
                                     <action selector="tip2Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="uLe-k6-qSn"/>
                                     <segue destination="rnJ-kP-Y4b" kind="show" id="9jj-Ut-O8s"/>
                                 </connections>
@@ -2815,6 +2775,7 @@ Relief of moderate to severe pain and reduces fever.</string>
                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="pharmacy3Button:" destination="4Ix-DU-pII" eventType="touchUpInside" id="NYd-j3-HFt"/>
                                     <action selector="tip3Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="GBx-fX-CHO"/>
                                     <segue destination="xNe-XA-EN6" kind="show" id="Nt4-09-eyz"/>
                                 </connections>
@@ -2837,6 +2798,18 @@ Relief of moderate to severe pain and reduces fever.</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pharmacies" image="cart" catalog="system" selectedImage="cart.fill" id="Ixp-3h-GMR"/>
                     <navigationItem key="navigationItem" id="2Tb-VG-uPb"/>
+                    <connections>
+                        <outlet property="pharmaciesTitle" destination="fQy-F1-GvH" id="Hiw-vo-Qha"/>
+                        <outlet property="pharmacy1Imagen" destination="a9a-MN-8T2" id="8bI-yh-4sv"/>
+                        <outlet property="pharmacy1Text" destination="EBT-Y4-hBM" id="jCm-5X-LoF"/>
+                        <outlet property="pharmacy1Title" destination="YJj-nU-WbT" id="Y0C-Gg-6h2"/>
+                        <outlet property="pharmacy2Imagen" destination="BH4-ic-JcX" id="mzf-1x-Pau"/>
+                        <outlet property="pharmacy2Text" destination="q5P-Zd-ANk" id="bwP-d4-gU1"/>
+                        <outlet property="pharmacy2Title" destination="cM2-oF-Obm" id="6lU-Kp-stA"/>
+                        <outlet property="pharmacy3Imagen" destination="jmv-Fd-GN6" id="CQ5-jZ-NcZ"/>
+                        <outlet property="pharmacy3Text" destination="Cyk-fV-AOh" id="Lng-bk-FWD"/>
+                        <outlet property="pharmacy3Title" destination="G7z-98-Der" id="BrZ-5h-Uh5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RVW-Dp-88b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

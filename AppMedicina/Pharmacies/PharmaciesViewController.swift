@@ -9,21 +9,31 @@ import UIKit
 
 class PharmaciesViewController: UIViewController {
 
+    @IBOutlet weak var pharmaciesTitle: UITextView!
+    
+    @IBOutlet weak var pharmacy1Title: UITextView!
+    @IBOutlet weak var pharmacy1Text: UITextView!
+    @IBOutlet weak var pharmacy1Imagen: UIImageView!
+    
+    
+    @IBOutlet weak var pharmacy2Title: UITextView!
+    @IBOutlet weak var pharmacy2Text: UITextView!
+    @IBOutlet weak var pharmacy2Imagen: UIImageView!
+    
+    @IBOutlet weak var pharmacy3Title: UITextView!
+    @IBOutlet weak var pharmacy3Text: UITextView!
+    @IBOutlet weak var pharmacy3Imagen: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        // Do any additional setup after loading the view.
+    @IBAction func pharmacy1Button(_ sender: UIButton) {
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func pharmacy2Button(_ sender: UIButton) {
     }
-    */
-
+    
+    @IBAction func pharmacy3Button(_ sender: UIButton) {
+    }
 }

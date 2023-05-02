@@ -62,7 +62,6 @@
 		A82D614829D4E706001B2EF5 /* SuggestedMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614729D4E706001B2EF5 /* SuggestedMedicineViewController.swift */; };
 		A82D614C29D4E845001B2EF5 /* PharmaciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614B29D4E845001B2EF5 /* PharmaciesViewController.swift */; };
 		A82D614E29D4E858001B2EF5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614D29D4E858001B2EF5 /* SettingsViewController.swift */; };
-		A82D615029D4E869001B2EF5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D614F29D4E869001B2EF5 /* Profile.swift */; };
 		A82D615229D62A6A001B2EF5 /* InfoTip1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */; };
 		A8485CC829F0AFA300F02EE6 /* InfoTip2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8485CC729F0AFA300F02EE6 /* InfoTip2ViewController.swift */; };
 		A8485CCA29F0AFC800F02EE6 /* InfoTip3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8485CC929F0AFC800F02EE6 /* InfoTip3ViewController.swift */; };
@@ -130,7 +129,6 @@
 		A82D614729D4E706001B2EF5 /* SuggestedMedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedMedicineViewController.swift; sourceTree = "<group>"; };
 		A82D614B29D4E845001B2EF5 /* PharmaciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaciesViewController.swift; sourceTree = "<group>"; };
 		A82D614D29D4E858001B2EF5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		A82D614F29D4E869001B2EF5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		A82D615129D62A6A001B2EF5 /* InfoTip1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTip1ViewController.swift; sourceTree = "<group>"; };
 		A8485CC729F0AFA300F02EE6 /* InfoTip2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTip2ViewController.swift; sourceTree = "<group>"; };
 		A8485CC929F0AFC800F02EE6 /* InfoTip3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTip3ViewController.swift; sourceTree = "<group>"; };
@@ -315,7 +313,6 @@
 		36DF31252A001965003F27CD /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				A82D614F29D4E869001B2EF5 /* Profile.swift */,
 				A82D614D29D4E858001B2EF5 /* SettingsViewController.swift */,
 			);
 			path = Configuration;
@@ -501,7 +498,6 @@
 				A82D613829D3A4E6001B2EF5 /* SignUpViewController.swift in Sources */,
 				36C4EE622A009A9C006115E5 /* Dis7MedViewController.swift in Sources */,
 				A82D613C29D4DC0B001B2EF5 /* NewProfileViewController.swift in Sources */,
-				A82D615029D4E869001B2EF5 /* Profile.swift in Sources */,
 				A8485CCC29F0AFED00F02EE6 /* InfoTip4ViewController.swift in Sources */,
 				369783622A00ECA4004D5810 /* Pharmacy2ViewController.swift in Sources */,
 				36C4EE5C2A009A72006115E5 /* Dis4MedViewController.swift in Sources */,

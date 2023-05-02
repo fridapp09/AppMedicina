@@ -8,7 +8,6 @@
 import UIKit
 
 class InfoTip2ViewController: UIViewController {
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
