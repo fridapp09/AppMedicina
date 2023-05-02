@@ -17,17 +17,10 @@ class Dis8MedViewController: UIViewController {
     
     @IBOutlet weak var med1Text: UITextView!
     
-    @IBOutlet weak var dis8Med2: UITextView!
-    
-    @IBOutlet weak var med2Text: UITextView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     @IBAction func dis8Med1Button(_ sender: UIButton) {
-    }
-    
-    @IBAction func dis8Med2Button(_ sender: UIButton) {
     }
 }

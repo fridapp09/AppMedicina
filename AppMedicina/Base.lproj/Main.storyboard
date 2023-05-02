@@ -780,6 +780,11 @@ Relief of moderate to severe pain and reduces fever.</mutableString>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="rav-02-xpd"/>
+                    <connections>
+                        <outlet property="med1Imagen" destination="df5-7h-AHW" id="qzT-iX-XRJ"/>
+                        <outlet property="med1Text" destination="Avs-EU-TAj" id="faq-UT-HF6"/>
+                        <outlet property="med1Title" destination="ewN-1u-Vsc" id="DTY-1y-QTa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hzo-jb-NPc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -830,6 +835,11 @@ Auxiliary for the relief of pain and fever, as well as some discomfort related t
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="GIc-DF-OUH"/>
+                    <connections>
+                        <outlet property="med1Imagen" destination="lhW-g3-3bK" id="0nD-SQ-MXG"/>
+                        <outlet property="med1Text" destination="zkd-BY-GER" id="DRG-da-kfd"/>
+                        <outlet property="med2Title" destination="afs-Om-P7h" id="L64-Lw-S8R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xjc-Nn-qgN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -847,7 +857,7 @@ Auxiliary for the relief of pain and fever, as well as some discomfort related t
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OVp-hm-jO4">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Naproxeno" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OVp-hm-jO4">
                                 <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -872,6 +882,11 @@ Auxiliary for the relief of pain and fever, as well as some discomfort related t
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Ve-KC-Dtk"/>
+                    <connections>
+                        <outlet property="med2Imagen" destination="afj-dU-1bh" id="ysj-aw-sMk"/>
+                        <outlet property="med2Text" destination="gmA-vg-Iqp" id="ROP-fx-kXY"/>
+                        <outlet property="med2Title" destination="OVp-hm-jO4" id="f2D-fC-t0P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6j-94-6Yx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -919,6 +934,11 @@ Your purchase requires a medical prescription. Store at room temperature at no m
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="WQM-YG-yKg"/>
+                    <connections>
+                        <outlet property="med1Imagen" destination="XaA-Co-9e8" id="JVv-S4-haO"/>
+                        <outlet property="med1Text" destination="jU2-y4-qpr" id="1sd-mR-RqT"/>
+                        <outlet property="med1Title" destination="YsP-lX-3Rz" id="VLJ-n7-SSh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TYe-fA-Dhn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -936,7 +956,7 @@ Your purchase requires a medical prescription. Store at room temperature at no m
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFI-HB-MgB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Buscapina" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFI-HB-MgB">
                                 <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -952,7 +972,7 @@ Your purchase requires a medical prescription. Store at room temperature at no m
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ixy-MW-yPA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0e487ef775c9b80a18cbd13f261c8be8bd4d8c1cc9e504ddb5ce2ff9c5e84d39" translatesAutoresizingMaskIntoConstraints="NO" id="ixy-MW-yPA">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -961,6 +981,11 @@ Your purchase requires a medical prescription. Store at room temperature at no m
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZcE-4E-jEt"/>
+                    <connections>
+                        <outlet property="med2Imagen" destination="ixy-MW-yPA" id="TTH-6R-3Ld"/>
+                        <outlet property="med2Text" destination="S6j-mk-BSN" id="dJh-n3-0yI"/>
+                        <outlet property="med2Title" destination="HFI-HB-MgB" id="9id-ua-X2I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1fy-bV-F9d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1016,6 +1041,11 @@ Take 1 vial 2 times a day.</mutableString>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="zX2-3e-cjV"/>
+                    <connections>
+                        <outlet property="med1Imagen" destination="hRo-v0-Stl" id="ZqL-6L-Nko"/>
+                        <outlet property="med1Texy" destination="XYR-V0-Xhg" id="dAc-H9-ffi"/>
+                        <outlet property="med1Title" destination="j3O-AP-CBj" id="RDg-LK-Fl7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PaQ-dW-hIj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1058,6 +1088,11 @@ Take 1 vial 2 times a day.</mutableString>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="n3h-sv-1DL"/>
+                    <connections>
+                        <outlet property="med1Imagen" destination="JW0-7F-Z9z" id="ODM-Pn-axx"/>
+                        <outlet property="med1Text" destination="FAP-kQ-hcL" id="YBT-85-6AK"/>
+                        <outlet property="med1Title" destination="ZML-Nq-1hW" id="Yhy-mh-zTc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geE-oh-Ein" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1108,6 +1143,11 @@ Laxative 100% of natural origin.</mutableString>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="CeH-Hh-1bp"/>
+                    <connections>
+                        <outlet property="med1Imagen" destination="Qdf-6l-Kcg" id="Pjf-xN-x0B"/>
+                        <outlet property="med1Text" destination="fK9-82-f07" id="QX8-Tv-UDM"/>
+                        <outlet property="med1Title" destination="oRN-ro-LU2" id="zTa-Rh-Rzf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LDj-ZQ-R2D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1125,7 +1165,7 @@ Laxative 100% of natural origin.</mutableString>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ej8-M3-obr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Metamucil" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ej8-M3-obr">
                                 <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1141,7 +1181,7 @@ Laxative 100% of natural origin.</mutableString>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mPk-cf-tnf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="P028785" translatesAutoresizingMaskIntoConstraints="NO" id="mPk-cf-tnf">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1197,6 +1237,11 @@ Use in pregnancy and lactation: Do not administer during pregnancy and lactation
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="a5b-Lc-pST"/>
+                    <connections>
+                        <outlet property="med1Imagen" destination="ElM-3R-sUr" id="YJn-CP-1u2"/>
+                        <outlet property="med1Text" destination="Qsx-Hd-G1r" id="rn4-s0-T9O"/>
+                        <outlet property="med1Title" destination="94Z-au-xZB" id="tLz-Pe-qVW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pK3-xo-nZz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1235,7 +1280,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d71-KT-ilY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11284-Suero-rehidratante-fresa-kiwi-Electrolit-625-ml" translatesAutoresizingMaskIntoConstraints="NO" id="d71-KT-ilY">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1244,15 +1289,20 @@ Once the container is opened, consume the content within 24 hours or discard the
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="8cV-Kw-6rB"/>
+                    <connections>
+                        <outlet property="med1Imagen" destination="d71-KT-ilY" id="ZaE-hw-PGF"/>
+                        <outlet property="med1Text" destination="hPY-FK-nKQ" id="BqT-DG-yBv"/>
+                        <outlet property="med1Title" destination="wWz-Hg-apC" id="4lw-Pq-3Fz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ow0-hc-bHW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7653.6231884057979" y="2582.8125"/>
         </scene>
-        <!--Med2 Dis8 View Controller-->
+        <!--Med2 Dis4 View Controller-->
         <scene sceneID="ohs-ek-8RU">
             <objects>
-                <viewController id="j3Z-58-FgO" customClass="Med2Dis8ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="j3Z-58-FgO" customClass="Med2Dis4ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ubP-pE-WrA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1261,7 +1311,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Nesajar" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SN2-dX-ZYu">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Pepto-Bismol" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SN2-dX-ZYu">
                                 <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1277,7 +1327,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mp0-NE-kIh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1001240-800-auto" translatesAutoresizingMaskIntoConstraints="NO" id="mp0-NE-kIh">
                                 <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1286,10 +1336,15 @@ Once the container is opened, consume the content within 24 hours or discard the
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="7cU-dr-GeP"/>
+                    <connections>
+                        <outlet property="med2Imagen" destination="mp0-NE-kIh" id="aer-qs-iPN"/>
+                        <outlet property="med2Text" destination="ipe-Mw-LHF" id="cjt-Hl-eaI"/>
+                        <outlet property="med2Title" destination="SN2-dX-ZYu" id="Vke-un-eIj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wj-B4-OeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7653.6231884057979" y="3287.9464285714284"/>
+            <point key="canvasLocation" x="4790" y="3288"/>
         </scene>
         <!--Dis1 Med View Controller-->
         <scene sceneID="bZw-Dp-Rus">
@@ -1499,7 +1554,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1N-Bg-NuK">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Buscapina" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1N-Bg-NuK">
                                 <rect key="frame" x="47" y="441" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1507,10 +1562,11 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JpG-9S-snW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JpG-9S-snW">
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Plidán Compuesto is a brand medicine that serves as an analgesic in conditions of the digestive system such as painful spastic syndrome, esophageal, gastric, pyloric and colitis. Bile duct disorders: Hepatic colitis, cholecystitis, post-cholecystectomy syndrome.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1623,6 +1679,14 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Pepto-Bismol" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oSn-SH-H4e">
+                                <rect key="frame" x="47" y="441" width="320" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Diarrhea" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UJR-aw-aNi">
                                 <rect key="frame" x="47" y="154" width="336" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1653,6 +1717,14 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sh4-H4-FHo">
+                                <rect key="frame" x="47" y="491" width="320" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymc-Qe-tvk">
                                 <rect key="frame" x="47" y="391" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1663,6 +1735,19 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <connections>
                                     <action selector="dis4Med1Button:" destination="m5P-Oi-IKg" eventType="touchUpInside" id="8Qe-ac-ofk"/>
                                     <segue destination="vtD-4k-UMy" kind="show" id="Lqc-au-z2a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ix-wN-evA">
+                                <rect key="frame" x="47" y="602" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="See More">
+                                    <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dis4Med1Button:" destination="m5P-Oi-IKg" eventType="touchUpInside" id="D9h-kb-Tc4"/>
+                                    <action selector="dis4Med2Button:" destination="m5P-Oi-IKg" eventType="touchUpInside" id="azf-T6-h8Q"/>
+                                    <segue destination="j3Z-58-FgO" kind="show" id="HaX-9a-8z9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1953,24 +2038,8 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KL2-Xr-gzx">
-                                <rect key="frame" x="47" y="441" width="320" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpZ-lS-olF">
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bj5-Qt-7Ff">
-                                <rect key="frame" x="47" y="491" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1989,18 +2058,6 @@ Once the container is opened, consume the content within 24 hours or discard the
                                     <segue destination="Lmd-D2-1fW" kind="show" id="I6V-53-ZhT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKo-lg-S1a">
-                                <rect key="frame" x="47" y="602" width="320" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="See More">
-                                    <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="dis8Med2Button:" destination="U7z-nd-x9G" eventType="touchUpInside" id="YC9-OH-nJG"/>
-                                    <segue destination="j3Z-58-FgO" kind="show" id="T3n-hG-EW1"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1KT-TM-76Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2008,10 +2065,8 @@ Once the container is opened, consume the content within 24 hours or discard the
                     <navigationItem key="navigationItem" id="elo-1C-4dc"/>
                     <connections>
                         <outlet property="dis8Med1" destination="clW-Xa-Fjd" id="bFA-cD-kn5"/>
-                        <outlet property="dis8Med2" destination="KL2-Xr-gzx" id="1y8-ki-l4X"/>
                         <outlet property="disTitle8" destination="4sZ-fx-IFB" id="K1t-yY-9MS"/>
                         <outlet property="med1Text" destination="PpZ-lS-olF" id="foP-bK-bfJ"/>
-                        <outlet property="med2Text" destination="Bj5-Qt-7Ff" id="inR-m5-Mfq"/>
                         <outlet property="search8" destination="CtO-1U-kdj" id="opg-uM-0Ld"/>
                     </connections>
                 </viewController>
@@ -2915,7 +2970,10 @@ Once the container is opened, consume the content within 24 hours or discard the
     </inferredMetricsTieBreakers>
     <resources>
         <image name="06c4df3dafebc99bb416c9b8f7cd82d3d29af4b4a4f7eada625ebd0c18f9100b" width="700" height="700"/>
+        <image name="0e487ef775c9b80a18cbd13f261c8be8bd4d8c1cc9e504ddb5ce2ff9c5e84d39" width="700" height="700"/>
+        <image name="1001240-800-auto" width="800" height="800"/>
         <image name="10897_PINAVERIO DIMETICONA 100 300MG C16 CAPS  NESAJAR" width="850" height="850"/>
+        <image name="11284-Suero-rehidratante-fresa-kiwi-Electrolit-625-ml" width="720" height="720"/>
         <image name="3664798025705_A" width="1000" height="1000"/>
         <image name="7501300408259_01.jpg" width="1200" height="1200"/>
         <image name="7803510000590_2_1_" width="500" height="500"/>
@@ -2923,6 +2981,7 @@ Once the container is opened, consume the content within 24 hours or discard the
         <image name="Close-up-of-woman-washing-her-hands-with-soap-1296x728-header.jpg" width="1155" height="648"/>
         <image name="Layer-16" width="422" height="345"/>
         <image name="NYPICHPDPICT000007191289.jpg" width="1024" height="653"/>
+        <image name="P028785" width="800" height="800"/>
         <image name="Screen Shot 2023-02-21 at 17.26.12-2" width="1924" height="1120"/>
         <image name="best-time-to-drink-water" width="850" height="567"/>
         <image name="cart" catalog="system" width="128" height="102"/>

@@ -23,4 +23,7 @@ class Dis4MedViewController: UIViewController {
 
     @IBAction func dis4Med1Button(_ sender: UIButton) {
     }
+    
+    @IBAction func dis4Med2Button(_ sender: UIButton) {
+    }
 }

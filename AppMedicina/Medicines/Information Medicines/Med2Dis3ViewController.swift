@@ -9,21 +9,13 @@ import UIKit
 
 class Med2Dis3ViewController: UIViewController {
 
+    @IBOutlet weak var med2Title: UITextView!
+    
+    @IBOutlet weak var med2Imagen: UIImageView!
+    
+    @IBOutlet weak var med2Text: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
