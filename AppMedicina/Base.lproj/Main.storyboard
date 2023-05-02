@@ -1770,9 +1770,6 @@ Consult your doctor if you take blood thinners or tetracycline.</string>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="tip1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="XKb-fo-NsW"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBV-iw-AN6">
                                 <rect key="frame" x="47" y="293" width="320" height="45"/>
@@ -1791,9 +1788,6 @@ Consult your doctor if you take blood thinners or tetracycline.</string>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="tip1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="Sxq-vD-9if"/>
-                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Settings" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JLx-6I-cQI">
                                 <rect key="frame" x="39" y="91" width="336" height="73"/>
@@ -1811,9 +1805,8 @@ Consult your doctor if you take blood thinners or tetracycline.</string>
                                     <color key="baseBackgroundColor" red="0.041142754259999997" green="0.32737079260000002" blue="0.58073890210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="doneProfileButton:" destination="cup-cL-kSj" eventType="touchUpInside" id="flK-wk-p9d"/>
-                                    <action selector="logOutButton:" destination="A72-9h-2O7" eventType="touchUpInside" id="2RK-5g-6nL"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="vRG-5U-MjH"/>
+                                    <action selector="logOutButton:" destination="A72-9h-2O7" eventType="touchUpInside" id="tKE-Ig-tzt"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="OSS-Pb-8dF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZ7-e9-oFC">
@@ -1824,9 +1817,6 @@ Consult your doctor if you take blood thinners or tetracycline.</string>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="tip1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="uPR-lb-g9h"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZl-BP-HyL">
                                 <rect key="frame" x="47" y="563" width="320" height="45"/>
@@ -1836,9 +1826,6 @@ Consult your doctor if you take blood thinners or tetracycline.</string>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="tip1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="pYu-eZ-J27"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kAU-BO-8nJ"/>
@@ -1846,11 +1833,7 @@ Consult your doctor if you take blood thinners or tetracycline.</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="gearshape" catalog="system" selectedImage="gearshape.fill" id="PXH-gu-7LL"/>
                     <connections>
-                        <outlet property="helpButton" destination="TZ7-e9-oFC" id="N1I-oV-BoZ"/>
-                        <outlet property="profileButton" destination="PeK-WX-tRX" id="cJC-nb-Y0n"/>
-                        <outlet property="settingTitle" destination="JLx-6I-cQI" id="a3l-hr-wRH"/>
-                        <outlet property="termsButton" destination="xZl-BP-HyL" id="bgN-cN-b4Q"/>
-                        <outlet property="versionButton" destination="vW0-sq-xe7" id="v3a-LS-Zsv"/>
+                        <outlet property="settingTitle" destination="JLx-6I-cQI" id="KAG-mU-qzO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FYr-w9-Sal" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1869,14 +1852,6 @@ Consult your doctor if you take blood thinners or tetracycline.</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="929"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacia Guadalajara" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-uy-AC8">
-                                <rect key="frame" x="39" y="85" width="336" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jzW-45-o2u">
                                 <rect key="frame" x="39" y="430" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1952,6 +1927,14 @@ Hours of attention from 10 a.m. to 5 p.m.</string>
                                 <rect key="frame" x="39" y="168" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacia Guadalajara" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-uy-AC8">
+                                <rect key="frame" x="14" y="85" width="386" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zzF-03-QYD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1960,7 +1943,7 @@ Hours of attention from 10 a.m. to 5 p.m.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dan-LH-ptQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="2395"/>
+            <point key="canvasLocation" x="253.62318840579712" y="2394.6428571428569"/>
         </scene>
         <!--Pharmacy1 View Controller-->
         <scene sceneID="2jk-fw-KgP">
@@ -2914,7 +2897,7 @@ TEL: 800 911 6666</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Pharmacies" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fQy-F1-GvH">
-                                <rect key="frame" x="39" y="80" width="336" height="73"/>
+                                <rect key="frame" x="39" y="65" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2922,7 +2905,7 @@ TEL: 800 911 6666</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacia del Ahorro" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YJj-nU-WbT">
-                                <rect key="frame" x="30" y="150" width="355" height="49"/>
+                                <rect key="frame" x="26" y="146" width="362" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2930,7 +2913,7 @@ TEL: 800 911 6666</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EBT-Y4-hBM">
-                                <rect key="frame" x="30" y="200" width="355" height="103"/>
+                                <rect key="frame" x="26" y="196" width="362" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">You can find prescription and over-the-counter medications, as well as personal care products, baby care items, beauty and skin care products, and a variety of vitamins and dietary supplements. It also has medical clinics and consultation services.</string>
@@ -2939,7 +2922,7 @@ TEL: 800 911 6666</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4l-ry-7Jv">
-                                <rect key="frame" x="30" y="311" width="355" height="46"/>
+                                <rect key="frame" x="26" y="307" width="362" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="More information">
@@ -2951,8 +2934,8 @@ TEL: 800 911 6666</string>
                                     <segue destination="Sap-Ah-gRe" kind="show" id="MbY-6H-Agp"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacias Similares" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cM2-oF-Obm">
-                                <rect key="frame" x="30" y="371" width="355" height="49"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacia Similares" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cM2-oF-Obm">
+                                <rect key="frame" x="26" y="367" width="362" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2960,7 +2943,7 @@ TEL: 800 911 6666</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q5P-Zd-ANk">
-                                <rect key="frame" x="30" y="421" width="355" height="103"/>
+                                <rect key="frame" x="26" y="417" width="362" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">You can find prescription and over-the-counter medications, as well as personal care products, baby care items, beauty and skin care products, and a variety of vitamins and dietary supplements. It also has medical clinics and consultation services.</string>
@@ -2969,7 +2952,7 @@ TEL: 800 911 6666</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9O-NB-kRv">
-                                <rect key="frame" x="30" y="532" width="355" height="46"/>
+                                <rect key="frame" x="26" y="528" width="362" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="More information">
@@ -2981,8 +2964,8 @@ TEL: 800 911 6666</string>
                                     <segue destination="rnJ-kP-Y4b" kind="show" id="9jj-Ut-O8s"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacias Guadalajara" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G7z-98-Der">
-                                <rect key="frame" x="30" y="592" width="355" height="49"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacia Guadalajara" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G7z-98-Der">
+                                <rect key="frame" x="26" y="588" width="362" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -2990,7 +2973,7 @@ TEL: 800 911 6666</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cyk-fV-AOh">
-                                <rect key="frame" x="30" y="642" width="355" height="103"/>
+                                <rect key="frame" x="26" y="638" width="362" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">you can find prescription and over-the-counter medicines, as well as personal care products, baby care items, beauty and skin care products, and a variety of vitamins and food supplements, in addition to being a small convenience store groceries.</string>
@@ -2999,7 +2982,7 @@ TEL: 800 911 6666</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6F9-op-La1">
-                                <rect key="frame" x="30" y="753" width="355" height="46"/>
+                                <rect key="frame" x="26" y="749" width="362" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="More information">
@@ -3012,15 +2995,15 @@ TEL: 800 911 6666</string>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Farmacias-del-Ahorro-Logo-Vector-730x730" translatesAutoresizingMaskIntoConstraints="NO" id="a9a-MN-8T2">
-                                <rect key="frame" x="320" y="147" width="55" height="55"/>
+                                <rect key="frame" x="333" y="143" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="farmacias-de-similares-sa-de-cv-E28379EF56F5EAE7175431thumbnail.png" translatesAutoresizingMaskIntoConstraints="NO" id="BH4-ic-JcX">
-                                <rect key="frame" x="320" y="368" width="55" height="55"/>
+                                <rect key="frame" x="333" y="364" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Farmacia-Guadalajara" translatesAutoresizingMaskIntoConstraints="NO" id="jmv-Fd-GN6">
-                                <rect key="frame" x="320" y="589" width="55" height="55"/>
+                                <rect key="frame" x="333" y="585" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -3402,7 +3385,7 @@ TEL: 800 911 6666</string>
                         <segue destination="9fT-Q7-rM5" kind="relationship" relationship="viewControllers" id="lDv-O5-QOx"/>
                         <segue destination="4Ix-DU-pII" kind="relationship" relationship="viewControllers" id="7ce-j5-IpQ"/>
                         <segue destination="iy3-3l-RJ9" kind="relationship" relationship="viewControllers" id="wmg-XB-MBd"/>
-                        <segue destination="A72-9h-2O7" kind="relationship" relationship="viewControllers" id="O5C-aa-hnW"/>
+                        <segue destination="A72-9h-2O7" kind="relationship" relationship="viewControllers" id="myS-vx-c3v"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGf-eW-f42" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -3412,7 +3395,7 @@ TEL: 800 911 6666</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="fsR-uY-lyE"/>
-        <segue reference="vRG-5U-MjH"/>
+        <segue reference="OSS-Pb-8dF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="06c4df3dafebc99bb416c9b8f7cd82d3d29af4b4a4f7eada625ebd0c18f9100b" width="700" height="700"/>
