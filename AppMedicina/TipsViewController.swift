@@ -44,4 +44,5 @@ class TipsViewController: UIViewController {
     
     @IBAction func tip5Button(_ sender: UIButton) {
     }
+    
 }

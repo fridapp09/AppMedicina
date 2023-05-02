@@ -25,4 +25,5 @@ class SignUpViewController: UIViewController {
     
     @IBAction func nextSignButton(_ sender: UIButton) {
     }
+    
 }

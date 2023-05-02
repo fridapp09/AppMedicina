@@ -17,6 +17,6 @@ class Med1Dis2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
+    
 }

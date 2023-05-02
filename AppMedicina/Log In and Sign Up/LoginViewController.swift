@@ -25,4 +25,5 @@ class LoginViewController: UIViewController {
 
     @IBAction func nextLogButton(_ sender: UIButton) {
     }
+    
 }

@@ -11,7 +11,6 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
     @IBAction func logOutButton(_ sender: UIButton) {

@@ -18,4 +18,5 @@ class Med2Dis3ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
 }

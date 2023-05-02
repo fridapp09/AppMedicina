@@ -58,4 +58,5 @@ class SuggestedMedicineViewController: UIViewController {
     
     @IBAction func disease8Button(_ sender: UIButton) {
     }
+    
 }

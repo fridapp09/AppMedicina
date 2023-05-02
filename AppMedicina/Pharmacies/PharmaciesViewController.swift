@@ -36,4 +36,5 @@ class PharmaciesViewController: UIViewController {
     
     @IBAction func pharmacy3Button(_ sender: UIButton) {
     }
+    
 }

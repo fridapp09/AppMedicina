@@ -37,4 +37,5 @@ class NewProfileViewController: UIViewController {
     
     @IBAction func doneProfileButton(_ sender: UIButton) {
     }
+    
 }
