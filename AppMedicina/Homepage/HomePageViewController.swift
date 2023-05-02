@@ -19,7 +19,6 @@ class HomePageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     @IBAction func startDiagnoButton(_ sender: UIButton) {

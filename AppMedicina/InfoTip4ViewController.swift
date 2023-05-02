@@ -9,11 +9,7 @@ import UIKit
 
 class InfoTip4ViewController: UIViewController {
 
-    @IBOutlet weak var titleTip4: UITextView!
-    
-    @IBOutlet weak var descripTip4: UITextView!
-    
-    @IBOutlet weak var imageTip4: UIImageView!
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()

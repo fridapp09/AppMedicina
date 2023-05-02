@@ -326,6 +326,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tip1Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="qc1-W6-Vk0"/>
+                                                    <segue destination="bgw-Il-sRn" kind="show" id="MHV-sf-ewC"/>
+                                                </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tip 2" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIA-O0-ahk">
                                                 <rect key="frame" x="39" y="305" width="320" height="46"/>
@@ -351,6 +355,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tip2Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="ga4-zo-1Gk"/>
+                                                    <segue destination="w8n-fu-6zY" kind="show" id="FQp-h5-bRG"/>
+                                                </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tip 3" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXx-ck-N70">
                                                 <rect key="frame" x="39" y="526" width="320" height="46"/>
@@ -401,6 +409,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tip4Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="GEt-oz-VzQ"/>
+                                                    <segue destination="KG8-0f-KAf" kind="show" id="Tue-mF-hB2"/>
+                                                </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tip 5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAz-BV-dLH">
                                                 <rect key="frame" x="39" y="968" width="320" height="46"/>
@@ -426,6 +438,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tip5Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="Xe3-gN-RND"/>
+                                                    <segue destination="9ze-dr-80G" kind="show" id="QhN-yW-PxU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mph-Ec-TrM">
                                                 <rect key="frame" x="39" y="687" width="320" height="47"/>
@@ -434,6 +450,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <buttonConfiguration key="configuration" style="filled" title="More Information">
                                                     <color key="baseBackgroundColor" red="0.2399881482" green="0.52030605080000003" blue="0.77793198819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tip3Button:" destination="XBu-Yz-esN" eventType="touchUpInside" id="cfs-9Q-6GR"/>
+                                                    <segue destination="HPm-z1-YaM" kind="show" id="jkg-C8-aE7"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -462,6 +482,19 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                     </view>
                     <navigationItem key="navigationItem" id="YtQ-ck-rqG"/>
                     <size key="freeformSize" width="414" height="1146"/>
+                    <connections>
+                        <outlet property="tip1Text" destination="MlX-Uu-UaR" id="aBQ-gn-beP"/>
+                        <outlet property="tip1Title" destination="gzP-Nn-8BD" id="lxf-5U-2Ip"/>
+                        <outlet property="tip2Text" destination="NGQ-fk-6TA" id="5fp-S3-VPV"/>
+                        <outlet property="tip2Title" destination="IIA-O0-ahk" id="XQj-dB-AJV"/>
+                        <outlet property="tip3Text" destination="EmD-Mg-qJ2" id="1wG-vI-SCr"/>
+                        <outlet property="tip3Title" destination="xXx-ck-N70" id="jsV-TD-bpJ"/>
+                        <outlet property="tip4Text" destination="fHf-UO-9cI" id="S7B-xq-juc"/>
+                        <outlet property="tip4Title" destination="Ibc-Dc-o93" id="1ca-tT-FtM"/>
+                        <outlet property="tip5Text" destination="26L-h6-bL8" id="uZ7-bN-icS"/>
+                        <outlet property="tip5Title" destination="dAz-BV-dLH" id="EAy-l2-Q2G"/>
+                        <outlet property="tipsTitle" destination="zmq-Gn-gyb" id="4Hf-lr-3Bw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D0z-De-fbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -852,7 +885,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Get enough sleep" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8o6-al-kWi">
-                                <rect key="frame" x="39" y="81" width="336" height="73"/>
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -860,7 +893,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="puA-cR-NQX">
-                                <rect key="frame" x="39" y="419" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Get enough sleep each night to help your body recharge and stay healthy. Most adults need 7-8 hours of sleep each night, although some may require more or less. Good sleep habits include going to bed and waking up at the same time each day, avoiding caffeine and alcohol before bedtime, and creating a relaxing sleep environment.</string>
@@ -869,7 +902,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9d6d45ca-f7f2-4a0d-adcb-a79701d8c12e-GettyImages-904149370.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nDJ-QN-jRD">
-                                <rect key="frame" x="39" y="202" width="336" height="167"/>
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -895,7 +928,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Exercise regularly" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C93-dF-QPR">
-                                <rect key="frame" x="39" y="81" width="336" height="73"/>
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -903,7 +936,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S9S-3V-muC">
-                                <rect key="frame" x="39" y="419" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Stay active and exercise regularly to improve your overall health and reduce your risk of chronic diseases. Aim for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity aerobic exercise per week. This can include activities such as brisk walking, running, swimming, or cycling. Strength training exercises can also help to build muscle and improve bone density.</string>
@@ -912,7 +945,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NYPICHPDPICT000007191289.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fBJ-LP-Fss">
-                                <rect key="frame" x="39" y="202" width="336" height="167"/>
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -938,7 +971,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Drink plenty water" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PgE-rB-glm">
-                                <rect key="frame" x="39" y="81" width="336" height="73"/>
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -946,7 +979,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sTH-2f-T6V">
-                                <rect key="frame" x="39" y="419" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Drink plenty of water to stay hydrated and help your body function properly. The amount of water you need depends on factors such as your body weight, activity level, and climate. A general guideline is to aim for 8-10 glasses of water per day, although you may need more if you're sweating heavily or in a hot environment. Other good sources of hydration include unsweetened tea and low-sugar fruit juices.</string>
@@ -955,7 +988,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="best-time-to-drink-water" translatesAutoresizingMaskIntoConstraints="NO" id="eY0-DW-N14">
-                                <rect key="frame" x="39" y="202" width="336" height="167"/>
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -981,7 +1014,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Have a balanced diet" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n60-0l-aVT">
-                                <rect key="frame" x="39" y="81" width="336" height="73"/>
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -989,7 +1022,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8mN-mB-i7O">
-                                <rect key="frame" x="39" y="419" width="336" height="344"/>
+                                <rect key="frame" x="39" y="435" width="336" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Eat a balanced diet that includes a variety of fruits, vegetables, lean proteins, and whole grains to provide your body with the nutrients it needs. Choose foods that are low in saturated and trans fats, added sugars, and sodium. Aim to eat at least 5 servings of fruits and vegetables per day, and include sources of lean protein such as chicken, fish, beans, and tofu. Whole grains like whole wheat bread, brown rice, and quinoa are good sources of fiber and can help you feel full and satisfied.</string>
@@ -998,7 +1031,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="Sac-yN-YiI">
-                                <rect key="frame" x="39" y="202" width="336" height="167"/>
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1024,7 +1057,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Wash your hands" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="waA-ln-UTt">
-                                <rect key="frame" x="39" y="81" width="336" height="73"/>
+                                <rect key="frame" x="39" y="110" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1032,7 +1065,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Sk-E5-DNd">
-                                <rect key="frame" x="39" y="419" width="336" height="267"/>
+                                <rect key="frame" x="39" y="435" width="336" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Wash your hands frequently to prevent the spread of germs and reduce your risk of getting sick. This is especially important during cold and flu season, or if you're around someone who is sick. Make sure to use soap and warm water, and scrub your hands for at least 20 seconds. If soap and water are not available, use an alcohol-based hand sanitizer.</string>
@@ -1041,7 +1074,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Close-up-of-woman-washing-her-hands-with-soap-1296x728-header.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GnM-P6-MGS">
-                                <rect key="frame" x="39" y="202" width="336" height="167"/>
+                                <rect key="frame" x="39" y="220" width="336" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
