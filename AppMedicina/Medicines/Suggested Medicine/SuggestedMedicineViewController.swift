@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SuggestedViewController: UIViewController {
+class SuggestedMedicineViewController: UIViewController {
 
     @IBOutlet weak var suggestedTitle: UILabel!
     
