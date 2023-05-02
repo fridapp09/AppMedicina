@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="1nd-pg-8Gt">
@@ -68,7 +68,7 @@
             <objects>
                 <viewController id="rh1-gS-gy6" customClass="TermsConditionsViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gAJ-Yh-Vhm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1838"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1892"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="Ogl-b7-Bxj">
@@ -76,7 +76,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pm7-x2-0C8">
-                                <rect key="frame" x="0.0" y="44" width="414" height="1794"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1770"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BqY-ZL-2AQ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1880"/>
@@ -196,7 +196,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             <objects>
                 <viewController id="9fT-Q7-rM5" customClass="HomePageViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tye-NO-U3y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="I5u-Zb-TV5">
@@ -287,7 +287,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             <objects>
                 <viewController id="iy3-3l-RJ9" customClass="SuggestedMedicineViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u9F-eE-Imi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1196"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="6WX-A7-1PW">
@@ -295,7 +295,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcE-DM-XME">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1196"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1162"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r66-A1-Fth">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1250"/>
@@ -524,7 +524,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             <objects>
                 <viewController id="XBu-Yz-esN" customClass="TipsViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CPO-VO-lav">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1092"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="PQK-eB-vgy">
@@ -532,7 +532,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OeU-L1-OGG">
-                                <rect key="frame" x="0.0" y="44" width="414" height="1048"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1058"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1p-zM-niB">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
@@ -740,7 +740,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             <objects>
                 <viewController id="4Nn-ao-KFq" customClass="Med1Dis1ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sme-0q-4iC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="BBW-lf-dmO">
@@ -795,7 +795,7 @@ Relief of moderate to severe pain and reduces fever.</string>
             <objects>
                 <viewController id="iV0-ZS-euc" customClass="Med1Dis2ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MuH-jY-7KW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="5fc-MX-Cbw">
@@ -850,7 +850,7 @@ Auxiliary for the relief of pain and fever, as well as some discomfort related t
             <objects>
                 <viewController id="vXT-Xh-QbE" customClass="Med2Dis2ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N37-U3-TLw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="esf-Mb-0lw">
@@ -897,7 +897,7 @@ Auxiliary for the relief of pain and fever, as well as some discomfort related t
             <objects>
                 <viewController id="8Yt-Hw-TBJ" customClass="Med1Dis3ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jWm-ng-FwU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="cu3-e3-kMB">
@@ -949,7 +949,7 @@ Your purchase requires a medical prescription. Store at room temperature at no m
             <objects>
                 <viewController id="tQr-dV-pV8" customClass="Med2Dis3ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jr3-P5-45c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="UgK-6D-41U">
@@ -996,7 +996,7 @@ Your purchase requires a medical prescription. Store at room temperature at no m
             <objects>
                 <viewController id="vtD-4k-UMy" customClass="Med1Dis4ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T3g-He-Xmt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="Rgy-Cy-IZK">
@@ -1056,7 +1056,7 @@ Take 1 vial 2 times a day.</string>
             <objects>
                 <viewController id="btS-Qk-3D0" customClass="Med1Dis5ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h18-iS-Pgo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="Cmn-ie-xBU">
@@ -1103,7 +1103,7 @@ Take 1 vial 2 times a day.</string>
             <objects>
                 <viewController id="lgJ-oK-1hj" customClass="Med1Dis6ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qNo-YK-8YF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="Q1Z-cK-PSb">
@@ -1158,7 +1158,7 @@ Laxative 100% of natural origin.</string>
             <objects>
                 <viewController id="GbZ-lQ-hBG" customClass="Med2Dis6ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ceF-X0-n5h">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="mgK-1l-iUh">
@@ -1205,7 +1205,7 @@ Laxative 100% of natural origin.</string>
             <objects>
                 <viewController id="KgB-Jy-P6t" customClass="Med1Dis7ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="znF-Zj-iLY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="GfS-Je-9It">
@@ -1257,7 +1257,7 @@ Use in pregnancy and lactation: Do not administer during pregnancy and lactation
             <objects>
                 <viewController id="Lmd-D2-1fW" customClass="Med1Dis8ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mza-kp-8vD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="s8K-yp-51K">
@@ -1309,7 +1309,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="j3Z-58-FgO" customClass="Med2Dis4ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ubP-pE-WrA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="BHl-Oh-6IP">
@@ -1356,7 +1356,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="ATC-e6-1Ib" customClass="Dis1MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M22-C4-fWr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="V0A-DC-4Mc">
@@ -1426,7 +1426,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="1l0-8n-lfd" customClass="Dis2MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AhO-bn-Dr0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="Etx-AW-0ez">
@@ -1531,7 +1531,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="iHd-QB-40v" customClass="Dis3MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aJC-VS-i1k">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="NjK-hb-44v">
@@ -1632,16 +1632,156 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="A72-9h-2O7" customClass="ConfigurationViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JCw-Zq-NmP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Base Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfR-TF-SXH">
+                                <rect key="frame" x="154" y="274" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name: Juan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZU1-2c-r6p">
+                                <rect key="frame" x="171" y="292" width="91" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Genere: Male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKv-JD-htT">
+                                <rect key="frame" x="166" y="311" width="101" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Age: 22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L06-z3-GAG">
+                                <rect key="frame" x="187" y="331" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Loction: Puebla, Mexico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAz-ZR-Jhq">
+                                <rect key="frame" x="126" y="351" width="181" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Healt Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkC-a6-QhN">
+                                <rect key="frame" x="151" y="390" width="132" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Height: 1.75 cm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yp-UZ-EOD">
+                                <rect key="frame" x="158" y="410" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Weight: 75 kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYD-k6-EaO">
+                                <rect key="frame" x="164" y="434" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Medical Informtion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cym-wc-5WQ">
+                                <rect key="frame" x="146" y="480" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Smoker: Yes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1B-eb-TzC">
+                                <rect key="frame" x="169" y="502" width="95" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Blood Type: O+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNO-TG-FH9">
+                                <rect key="frame" x="158" y="525" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Diabetes: No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vA4-dY-QIJ">
+                                <rect key="frame" x="165" y="547" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H73-Zl-Sf3">
+                                <rect key="frame" x="169" y="614" width="91" height="65"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Edit"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Allergies: None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJQ-bo-Bzm">
+                                <rect key="frame" x="158" y="568" width="115" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8c-2s-K2j">
+                                <rect key="frame" x="119" y="695" width="188" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="Npb-xl-ugf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Log Out"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kD3-Bt-dkC">
+                                <rect key="frame" x="175" y="78" width="84" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8dh-4W-mW1">
+                                <rect key="frame" x="99" y="135" width="229" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="tCR-PL-f59"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="W2m-z0-nEc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="933"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="kAU-BO-8nJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FJQ-bo-Bzm" firstAttribute="top" secondItem="vA4-dY-QIJ" secondAttribute="bottom" id="2NO-h9-utw"/>
+                            <constraint firstItem="i1B-eb-TzC" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="4fQ-w6-sOS"/>
+                            <constraint firstItem="i1B-eb-TzC" firstAttribute="top" secondItem="cym-wc-5WQ" secondAttribute="bottom" constant="1" id="Ah3-Q1-IER"/>
+                            <constraint firstItem="NNO-TG-FH9" firstAttribute="top" secondItem="i1B-eb-TzC" secondAttribute="bottom" constant="2" id="BFW-t3-0dR"/>
+                            <constraint firstItem="NNO-TG-FH9" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="CTd-YY-ixi"/>
+                            <constraint firstItem="NYD-k6-EaO" firstAttribute="centerX" secondItem="H73-Zl-Sf3" secondAttribute="centerX" id="CUa-Np-9jb"/>
+                            <constraint firstItem="L06-z3-GAG" firstAttribute="top" secondItem="ZU1-2c-r6p" secondAttribute="bottom" constant="18" id="Ffm-1z-sDF"/>
+                            <constraint firstItem="8dh-4W-mW1" firstAttribute="top" secondItem="kD3-Bt-dkC" secondAttribute="bottom" constant="8" id="LTi-iy-YqF"/>
+                            <constraint firstItem="7Yp-UZ-EOD" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="LkK-Wy-MKZ"/>
+                            <constraint firstItem="FJQ-bo-Bzm" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="MSg-fe-FVa"/>
+                            <constraint firstItem="hKv-JD-htT" firstAttribute="top" secondItem="mfR-TF-SXH" secondAttribute="bottom" constant="16" id="Nbg-jn-5wL"/>
+                            <constraint firstItem="pkC-a6-QhN" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="NtI-mA-eqx"/>
+                            <constraint firstItem="ZU1-2c-r6p" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="Pz1-9z-RjN"/>
+                            <constraint firstItem="NYD-k6-EaO" firstAttribute="top" secondItem="7Yp-UZ-EOD" secondAttribute="bottom" constant="3" id="UAO-Vx-OMf"/>
+                            <constraint firstItem="8dh-4W-mW1" firstAttribute="centerX" secondItem="kD3-Bt-dkC" secondAttribute="centerX" id="bVv-cf-Li4"/>
+                            <constraint firstItem="pkC-a6-QhN" firstAttribute="top" secondItem="iAz-ZR-Jhq" secondAttribute="bottom" constant="18" id="cKj-aj-dpf"/>
+                            <constraint firstItem="hKv-JD-htT" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="gVC-77-B9q"/>
+                            <constraint firstItem="H73-Zl-Sf3" firstAttribute="top" secondItem="FJQ-bo-Bzm" secondAttribute="bottom" constant="35" id="iUe-iX-9eB"/>
+                            <constraint firstItem="iAz-ZR-Jhq" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="kGK-fT-gzP"/>
+                            <constraint firstItem="cym-wc-5WQ" firstAttribute="top" secondItem="NYD-k6-EaO" secondAttribute="bottom" constant="25" id="nqf-Gl-fpf"/>
+                            <constraint firstItem="NYD-k6-EaO" firstAttribute="centerX" secondItem="I8c-2s-K2j" secondAttribute="centerX" id="okZ-XX-I3o"/>
+                            <constraint firstItem="8dh-4W-mW1" firstAttribute="centerX" secondItem="ZU1-2c-r6p" secondAttribute="centerX" id="smx-LD-xyv"/>
+                            <constraint firstItem="mfR-TF-SXH" firstAttribute="top" secondItem="8dh-4W-mW1" secondAttribute="bottom" constant="8" id="sqq-X7-Ix7"/>
+                            <constraint firstItem="vA4-dY-QIJ" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="u2h-oG-7Gt"/>
+                            <constraint firstItem="cym-wc-5WQ" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="uUJ-pc-NR8"/>
+                            <constraint firstItem="NYD-k6-EaO" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="wMX-Cf-tMJ"/>
+                            <constraint firstItem="I8c-2s-K2j" firstAttribute="top" secondItem="H73-Zl-Sf3" secondAttribute="bottom" constant="24" id="x8X-qf-yq1"/>
+                            <constraint firstItem="L06-z3-GAG" firstAttribute="centerX" secondItem="mfR-TF-SXH" secondAttribute="centerX" id="y6g-UV-xuR"/>
+                            <constraint firstItem="iAz-ZR-Jhq" firstAttribute="top" secondItem="hKv-JD-htT" secondAttribute="bottom" constant="19" id="z0h-Pm-8yp"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Configuration" image="gearshape" catalog="system" selectedImage="gearshape.fill" id="PXH-gu-7LL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FYr-w9-Sal" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="480" y="1708"/>
+            <point key="canvasLocation" x="479.71014492753625" y="1707.5892857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2jk-fw-KgP">
@@ -1650,13 +1790,47 @@ Once the container is opened, consume the content within 24 hours or discard the
                     <view key="view" contentMode="scaleToFill" id="gI9-Rz-1wH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="QbP-n2-gcp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="907"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Dirección 1" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lg0-Py-dJV">
+                                <rect key="frame" x="39" y="111" width="336" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="njS-12-EAM">
+                                <rect key="frame" x="39" y="436" width="336" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Instructions
+Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
+
+Warnings
+Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
+
+Benefits
+Relief of moderate to severe pain and reduces fever.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d971cbcc987707e33f314717ee6d3164fdd1a155144bac1b0cd594fc597a5f0a" translatesAutoresizingMaskIntoConstraints="NO" id="p0P-xB-7YT">
+                                <rect key="frame" x="39" y="221" width="336" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="51r-OJ-2JE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HXN-XW-Eee" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-689" y="2466"/>
+            <point key="canvasLocation" x="-681" y="2446"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uti-t0-CSu">
@@ -1665,20 +1839,55 @@ Once the container is opened, consume the content within 24 hours or discard the
                     <view key="view" contentMode="scaleToFill" id="FcL-uT-gsS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="Ccm-nt-JiA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="907"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Dirección 2 " textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIc-ud-xIn">
+                                <rect key="frame" x="39" y="106" width="336" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B77-bx-Bhu">
+                                <rect key="frame" x="39" y="431" width="336" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Instructions
+Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
+
+Warnings
+Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
+
+Benefits
+Relief of moderate to severe pain and reduces fever.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d971cbcc987707e33f314717ee6d3164fdd1a155144bac1b0cd594fc597a5f0a" translatesAutoresizingMaskIntoConstraints="NO" id="yAc-qP-mPH">
+                                <rect key="frame" x="39" y="216" width="336" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="N6d-dH-pgN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="kYQ-06-syU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o33-VH-aON" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256" y="2446"/>
+            <point key="canvasLocation" x="255.07246376811597" y="2445.5357142857142"/>
         </scene>
         <!--Dis4 Med View Controller-->
         <scene sceneID="CSi-KG-8tw">
             <objects>
                 <viewController id="m5P-Oi-IKg" customClass="Dis4MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q7K-j5-2Ll">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="m84-QC-I2G">
@@ -1778,7 +1987,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="zf5-J7-Ee5" customClass="Dis5MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TAp-3a-DFs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="cRd-TO-x2p">
@@ -1848,7 +2057,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="8eq-P7-A4k" customClass="Dis6MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fhX-eZ-wE7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="tfo-7X-Iyw">
@@ -1949,7 +2158,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="10X-lq-e9e" customClass="Dis7MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7s5-Z7-dTd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="I12-jc-Nyv">
@@ -1977,10 +2186,11 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FpG-wT-h9W">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FpG-wT-h9W">
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Nesajar is an antispasmodic, intestinal transit regulator and antiflatulent that is indicated for the treatment of symptoms of colitis and irritable bowel syndrome. Characterized by abdominal pain, bloating or colic, cramps, gas production, diarrhea or constipation due to emotional stress, infections, trauma and poor diet.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2018,7 +2228,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="U7z-nd-x9G" customClass="Dis8MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eoQ-NU-WWX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="1af-Yf-Ca9">
@@ -2046,10 +2256,11 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpZ-lS-olF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpZ-lS-olF">
                                 <rect key="frame" x="47" y="280" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Oral electrolytes prevent or treat dehydration by replenishing the fluid and electrolytes contained in your formula, as well as providing glucose, which is a useful source of calories.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2087,7 +2298,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="r9i-fk-Gze" customClass="DiagnosticViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kKY-Lc-RId">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="DuA-VO-iAT">
@@ -2095,10 +2306,10 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="x5G-UY-Xes">
-                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yyj-Gf-1Mb" userLabel="QuestionView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="355"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="343"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="middleTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gL-6a-Z8k">
                                                 <rect key="frame" x="25" y="164" width="364" height="183"/>
@@ -2117,13 +2328,13 @@ Once the container is opened, consume the content within 24 hours or discard the
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J7Z-7F-2WE" userLabel="ButtonsView">
-                                        <rect key="frame" x="0.0" y="443" width="414" height="355"/>
+                                        <rect key="frame" x="0.0" y="431" width="414" height="343"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="C2p-bt-ffU">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="303"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm0-jf-uuo">
-                                                        <rect key="frame" x="10" y="0.0" width="394" height="69"/>
+                                                        <rect key="frame" x="10" y="0.0" width="394" height="66"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Button">
                                                             <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </buttonConfiguration>
@@ -2132,7 +2343,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KsM-AK-fWH">
-                                                        <rect key="frame" x="10" y="82" width="394" height="69"/>
+                                                        <rect key="frame" x="10" y="79" width="394" height="66"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Button">
                                                             <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </buttonConfiguration>
@@ -2141,7 +2352,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVg-eF-H9x">
-                                                        <rect key="frame" x="10" y="164" width="394" height="69"/>
+                                                        <rect key="frame" x="10" y="158" width="394" height="66"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Button">
                                                             <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </buttonConfiguration>
@@ -2150,7 +2361,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXF-04-0jY">
-                                                        <rect key="frame" x="10" y="246" width="394" height="69"/>
+                                                        <rect key="frame" x="10" y="237" width="394" height="66"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Button">
                                                             <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </buttonConfiguration>
@@ -2222,7 +2433,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="w8n-fu-6zY" customClass="InfoTip2ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8BO-nS-fB1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="17v-jT-4Gh">
@@ -2265,7 +2476,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="HPm-z1-YaM" customClass="InfoTip3ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xEV-GR-Rpf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="B6i-s6-djs">
@@ -2308,7 +2519,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="KG8-0f-KAf" customClass="InfoTip4ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VQN-vD-2go">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="ymU-ol-ulN">
@@ -2351,7 +2562,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="9ze-dr-80G" customClass="InfoTip5ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SpU-Nb-ErC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="j8f-oY-5Yj">
@@ -2394,7 +2605,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="bgw-Il-sRn" customClass="InfoTip1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SFW-HB-bhF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="8hg-CX-WfR">
@@ -2437,183 +2648,30 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="4Ix-DU-pII" customClass="ProfileViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5dL-po-Um8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Base Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Fc-RO-LMb">
-                                <rect key="frame" x="144.5" y="264" width="129" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name: Juan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u56-su-w5p">
-                                <rect key="frame" x="161.5" y="282" width="91" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Genere: Male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rab-Z8-2sT">
-                                <rect key="frame" x="156.5" y="301" width="101" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Age: 22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Jo-5J-Dih">
-                                <rect key="frame" x="177.5" y="321" width="59" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loction: Puebla, Mexico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88d-qN-ecj">
-                                <rect key="frame" x="116.5" y="341" width="181" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Healt Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rM-Sa-2uA">
-                                <rect key="frame" x="141" y="380" width="132" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Height: 1.75 cm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPm-Td-vP7">
-                                <rect key="frame" x="148" y="400" width="118" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Weight: 75 kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5L-Jh-sX5">
-                                <rect key="frame" x="154.5" y="424" width="105" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Medical Informtion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6w-Tv-VVl">
-                                <rect key="frame" x="136" y="470" width="142" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Smoker: Yes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaq-hB-rk4">
-                                <rect key="frame" x="159.5" y="492" width="95" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Blood Type: O+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OP4-oI-a87">
-                                <rect key="frame" x="148" y="515" width="118" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Diabetes: No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkn-SF-oTL">
-                                <rect key="frame" x="155" y="537" width="99" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrI-TR-HHz">
-                                <rect key="frame" x="159" y="604" width="91" height="65"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Edit"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Allergies: None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pri-cf-BbP">
-                                <rect key="frame" x="148" y="558" width="115" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sh-8o-ngA">
-                                <rect key="frame" x="109" y="685" width="188" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="Tme-CI-lPw"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Log Out"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="udd-1E-4Km"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ly9-3u-w5m">
-                                <rect key="frame" x="165" y="68" width="84" height="37"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jsC-G5-j4p">
-                                <rect key="frame" x="89" y="125" width="229" height="131"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="99" id="J2c-WJ-9Ft"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="bze-w7-Dtf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="933"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HiS-1l-lwc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Rab-Z8-2sT" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="1Db-r1-Nog"/>
-                            <constraint firstItem="8Jo-5J-Dih" firstAttribute="top" secondItem="u56-su-w5p" secondAttribute="bottom" constant="18" id="23D-yf-Bzb"/>
-                            <constraint firstItem="Jkn-SF-oTL" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="2LN-dc-BSk"/>
-                            <constraint firstItem="9Fc-RO-LMb" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="2S4-rb-VEN"/>
-                            <constraint firstItem="iaq-hB-rk4" firstAttribute="top" secondItem="q6w-Tv-VVl" secondAttribute="bottom" constant="1" id="2bF-pb-xFg"/>
-                            <constraint firstItem="u56-su-w5p" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="4bQ-kI-uAz"/>
-                            <constraint firstItem="nrI-TR-HHz" firstAttribute="top" secondItem="Pri-cf-BbP" secondAttribute="bottom" constant="35" id="7eR-TW-hhu"/>
-                            <constraint firstItem="9rM-Sa-2uA" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="7nr-be-2am"/>
-                            <constraint firstItem="88d-qN-ecj" firstAttribute="top" secondItem="5dL-po-Um8" secondAttribute="top" constant="294" id="8WG-ed-9r2"/>
-                            <constraint firstItem="Jkn-SF-oTL" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="9wq-o6-npz"/>
-                            <constraint firstItem="88d-qN-ecj" firstAttribute="top" secondItem="Rab-Z8-2sT" secondAttribute="bottom" constant="19" id="AKQ-QQ-J5z"/>
-                            <constraint firstItem="HiS-1l-lwc" firstAttribute="bottom" secondItem="0sh-8o-ngA" secondAttribute="bottom" constant="84" id="Bye-qQ-Ifv"/>
-                            <constraint firstItem="U5L-Jh-sX5" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="FGV-ow-AWg"/>
-                            <constraint firstItem="u56-su-w5p" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="FXu-BX-LIU"/>
-                            <constraint firstItem="9Fc-RO-LMb" firstAttribute="top" secondItem="jsC-G5-j4p" secondAttribute="bottom" constant="8" id="HcZ-0y-w3h"/>
-                            <constraint firstItem="9rM-Sa-2uA" firstAttribute="top" secondItem="88d-qN-ecj" secondAttribute="bottom" constant="18" id="I9r-4P-kpR"/>
-                            <constraint firstItem="Rab-Z8-2sT" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="ICn-x7-bHE"/>
-                            <constraint firstItem="U5L-Jh-sX5" firstAttribute="centerX" secondItem="nrI-TR-HHz" secondAttribute="centerX" id="MKV-CV-NvD"/>
-                            <constraint firstItem="iaq-hB-rk4" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="OK9-k3-05X"/>
-                            <constraint firstItem="jsC-G5-j4p" firstAttribute="centerX" secondItem="u56-su-w5p" secondAttribute="centerX" id="RTH-mR-4JW"/>
-                            <constraint firstItem="jsC-G5-j4p" firstAttribute="centerX" secondItem="Ly9-3u-w5m" secondAttribute="centerX" id="Uig-Hn-Ccq"/>
-                            <constraint firstItem="OP4-oI-a87" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="VT7-ng-Gu2"/>
-                            <constraint firstItem="OP4-oI-a87" firstAttribute="top" secondItem="iaq-hB-rk4" secondAttribute="bottom" constant="2" id="YHZ-NY-e5n"/>
-                            <constraint firstItem="q6w-Tv-VVl" firstAttribute="top" secondItem="U5L-Jh-sX5" secondAttribute="bottom" constant="25" id="a4g-B0-rwN"/>
-                            <constraint firstItem="9rM-Sa-2uA" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="a64-MB-15c"/>
-                            <constraint firstItem="U5L-Jh-sX5" firstAttribute="top" secondItem="yPm-Td-vP7" secondAttribute="bottom" constant="3" id="aQC-en-BXV"/>
-                            <constraint firstItem="88d-qN-ecj" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="aex-Uo-j0L"/>
-                            <constraint firstItem="U5L-Jh-sX5" firstAttribute="top" secondItem="5dL-po-Um8" secondAttribute="top" constant="377" id="b26-cv-ytN"/>
-                            <constraint firstItem="U5L-Jh-sX5" firstAttribute="centerX" secondItem="0sh-8o-ngA" secondAttribute="centerX" id="dLN-aW-3bf"/>
-                            <constraint firstItem="Pri-cf-BbP" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="dOq-W8-7Fc"/>
-                            <constraint firstItem="OP4-oI-a87" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="eP2-rf-2e9"/>
-                            <constraint firstItem="Pri-cf-BbP" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="eZu-5E-mAG"/>
-                            <constraint firstItem="u56-su-w5p" firstAttribute="top" secondItem="5dL-po-Um8" secondAttribute="top" constant="235" id="fif-LE-lsr"/>
-                            <constraint firstItem="yPm-Td-vP7" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="mST-sj-wvF"/>
-                            <constraint firstItem="iaq-hB-rk4" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="mih-38-jVe"/>
-                            <constraint firstItem="8Jo-5J-Dih" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="opl-Lm-maz"/>
-                            <constraint firstItem="88d-qN-ecj" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="osG-TF-oLs"/>
-                            <constraint firstItem="jsC-G5-j4p" firstAttribute="top" secondItem="Ly9-3u-w5m" secondAttribute="bottom" constant="8" id="ozX-Jf-gWZ"/>
-                            <constraint firstItem="yPm-Td-vP7" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="pOB-JD-DZD"/>
-                            <constraint firstItem="q6w-Tv-VVl" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="rqT-Gq-mPL"/>
-                            <constraint firstAttribute="bottom" secondItem="Pri-cf-BbP" secondAttribute="bottom" constant="310" id="rwj-o3-amK"/>
-                            <constraint firstItem="U5L-Jh-sX5" firstAttribute="centerX" secondItem="9Fc-RO-LMb" secondAttribute="centerX" id="tUc-q7-Jzl"/>
-                            <constraint firstItem="8Jo-5J-Dih" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="tZF-Ks-xvx"/>
-                            <constraint firstItem="0sh-8o-ngA" firstAttribute="leading" secondItem="HiS-1l-lwc" secondAttribute="leading" constant="153" id="tuS-QZ-MnD"/>
-                            <constraint firstItem="Pri-cf-BbP" firstAttribute="top" secondItem="Jkn-SF-oTL" secondAttribute="bottom" id="uLv-bS-W6L"/>
-                            <constraint firstItem="Rab-Z8-2sT" firstAttribute="top" secondItem="9Fc-RO-LMb" secondAttribute="bottom" constant="16" id="uwQ-ed-5Rh"/>
-                            <constraint firstItem="q6w-Tv-VVl" firstAttribute="centerX" secondItem="5dL-po-Um8" secondAttribute="centerX" id="vHn-nd-pCK"/>
-                            <constraint firstItem="0sh-8o-ngA" firstAttribute="top" secondItem="nrI-TR-HHz" secondAttribute="bottom" constant="24" id="vR4-Rs-QH2"/>
-                            <constraint firstItem="jsC-G5-j4p" firstAttribute="leading" secondItem="HiS-1l-lwc" secondAttribute="leading" constant="114" id="y70-1L-28Z"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="cart" catalog="system" selectedImage="cart.fill" id="Ixp-3h-GMR"/>
                     <navigationItem key="navigationItem" id="2Tb-VG-uPb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RVW-Dp-88b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-426" y="1708"/>
+            <point key="canvasLocation" x="-426.08695652173918" y="1707.5892857142856"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="vLh-02-pio">
             <objects>
                 <viewController id="prA-jF-Zk5" customClass="SignUpViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cbr-H6-aI1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="hhd-Uv-AKL">
@@ -2690,7 +2748,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="LwN-w3-1J2" customClass="LoginViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TPi-2c-6Gi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="xZu-v9-e6m">
@@ -2767,7 +2825,7 @@ Once the container is opened, consume the content within 24 hours or discard the
             <objects>
                 <viewController id="cup-cL-kSj" customClass="NewProfileViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8om-BZ-kIp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="Vf4-mt-luZ">
@@ -2974,7 +3032,6 @@ Once the container is opened, consume the content within 24 hours or discard the
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="fsR-uY-lyE"/>
-        <segue reference="udd-1E-4Km"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="06c4df3dafebc99bb416c9b8f7cd82d3d29af4b4a4f7eada625ebd0c18f9100b" width="700" height="700"/>
