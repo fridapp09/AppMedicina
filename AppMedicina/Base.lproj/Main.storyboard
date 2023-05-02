@@ -311,7 +311,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="47" y="882" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" title="See Medicines">
                                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -323,7 +323,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="47" y="282" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" title="See Medicines">
                                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -335,7 +335,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="47" y="1002" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" title="See Medicines">
                                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -347,7 +347,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="47" y="642" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" title="See Medicines">
                                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -359,7 +359,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="47" y="402" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" title="See Medicines">
                                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -371,7 +371,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="47" y="522" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" title="See Medicines">
                                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -383,7 +383,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="47" y="762" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" title="See Medicines">
                                                     <color key="baseBackgroundColor" red="0.056418865919999998" green="0.3252962828" blue="0.57911849019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -468,7 +468,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                                 <rect key="frame" x="47" y="1122" width="320" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                                <buttonConfiguration key="configuration" style="filled" title="See Medicines">
                                                     <color key="baseBackgroundColor" red="0.23962998390000001" green="0.52178406720000003" blue="0.77709352970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
