@@ -1,5 +1,5 @@
 //
-//  MedicineGroup8ViewController.swift
+//  Med1Dis8ViewController.swift
 //  AppMedicina
 //
 //  Created by Frida Pérez on 01/05/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MedicineGroup8ViewController: UIViewController {
+class Med1Dis8ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

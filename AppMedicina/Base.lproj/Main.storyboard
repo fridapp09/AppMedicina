@@ -821,6 +821,28 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="3250.7246376811595" y="2582.8125"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="7QN-LR-g6g">
+            <objects>
+                <viewController id="vXT-Xh-QbE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N37-U3-TLw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="esf-Mb-0lw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vFl-GZ-1dv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Ve-KC-Dtk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6j-94-6Yx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3250.7246376811595" y="3287.9464285714284"/>
+        </scene>
         <!--Medicine Group3 View Controller-->
         <scene sceneID="aOU-MB-bjX">
             <objects>
@@ -863,6 +885,28 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TYe-fA-Dhn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4005.7971014492755" y="2582.8125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2DE-6e-V05">
+            <objects>
+                <viewController id="tQr-dV-pV8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jr3-P5-45c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-papel-tapiz-colorido-borroso-vivo" translatesAutoresizingMaskIntoConstraints="NO" id="UgK-6D-41U">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="an7-Cr-dhC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZcE-4E-jEt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1fy-bV-F9d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4005.7971014492755" y="3287.9464285714284"/>
         </scene>
         <!--Medicine Group4 View Controller-->
         <scene sceneID="UTn-hJ-bGY">
@@ -993,6 +1037,22 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="6289.8550724637689" y="2582.8125"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xsB-Xs-Dwq">
+            <objects>
+                <viewController id="GbZ-lQ-hBG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ceF-X0-n5h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4KW-Ji-8Iv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="J3J-M9-Wfe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I6S-tx-hxW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6290" y="3288"/>
+        </scene>
         <!--Medicine Group7 View Controller-->
         <scene sceneID="Sjb-We-qXi">
             <objects>
@@ -1079,10 +1139,26 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="7653.6231884057979" y="2582.8125"/>
         </scene>
-        <!--Disease1 View Controller-->
+        <!--View Controller-->
+        <scene sceneID="ohs-ek-8RU">
+            <objects>
+                <viewController id="j3Z-58-FgO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ubP-pE-WrA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="eyl-nE-qHq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7cU-dr-GeP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Wj-B4-OeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7654" y="3288"/>
+        </scene>
+        <!--Dis1 Med View Controller-->
         <scene sceneID="bZw-Dp-Rus">
             <objects>
-                <viewController id="ATC-e6-1Ib" customClass="Disease1ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ATC-e6-1Ib" customClass="Dis1MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M22-C4-fWr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1149,10 +1225,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="2462.3188405797105" y="1868.9732142857142"/>
         </scene>
-        <!--Disease2 View Controller-->
+        <!--Dis2 Med View Controller-->
         <scene sceneID="Ebb-oA-Z3q">
             <objects>
-                <viewController id="1l0-8n-lfd" customClass="Disease2ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1l0-8n-lfd" customClass="Dis2MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AhO-bn-Dr0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1233,7 +1309,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="dis2Med2Button:" destination="1l0-8n-lfd" eventType="touchUpInside" id="LZ9-Hy-bPn"/>
-                                    <segue destination="iV0-ZS-euc" kind="show" id="hPI-Iw-gpA"/>
+                                    <segue destination="vXT-Xh-QbE" kind="show" id="9NN-kF-adA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1254,10 +1330,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="3250.7246376811595" y="1868.9732142857142"/>
         </scene>
-        <!--Disease3 View Controller-->
+        <!--Dis3 Med View Controller-->
         <scene sceneID="3Ua-E0-df9">
             <objects>
-                <viewController id="iHd-QB-40v" customClass="Disease3ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iHd-QB-40v" customClass="Dis3MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aJC-VS-i1k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1334,7 +1410,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="dis3Med2Button:" destination="iHd-QB-40v" eventType="touchUpInside" id="5rk-jn-vTa"/>
-                                    <segue destination="8Yt-Hw-TBJ" kind="show" id="bzY-0j-9Eh"/>
+                                    <segue destination="tQr-dV-pV8" kind="show" id="r0V-Kf-DAX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1371,10 +1447,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="480" y="1708"/>
         </scene>
-        <!--Disease4 View Controller-->
+        <!--Dis4 Med View Controller-->
         <scene sceneID="CSi-KG-8tw">
             <objects>
-                <viewController id="m5P-Oi-IKg" customClass="Disease4ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m5P-Oi-IKg" customClass="Dis4MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q7K-j5-2Ll">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1441,10 +1517,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="4789.8550724637689" y="1868.9732142857142"/>
         </scene>
-        <!--Disease5 View Controller-->
+        <!--Dis5 Med View Controller-->
         <scene sceneID="9HQ-9q-b1y">
             <objects>
-                <viewController id="zf5-J7-Ee5" customClass="Disease5ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zf5-J7-Ee5" customClass="Dis5MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TAp-3a-DFs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1511,10 +1587,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="5550.7246376811599" y="1868.9732142857142"/>
         </scene>
-        <!--Disease6 View Controller-->
+        <!--Dis6 Med View Controller-->
         <scene sceneID="gSb-3n-Dgo">
             <objects>
-                <viewController id="8eq-P7-A4k" customClass="Disease6ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8eq-P7-A4k" customClass="Dis6MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fhX-eZ-wE7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1591,7 +1667,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="dis6Med2Button:" destination="8eq-P7-A4k" eventType="touchUpInside" id="ON5-W0-fWH"/>
-                                    <segue destination="lgJ-oK-1hj" kind="show" id="Jgn-8V-eRX"/>
+                                    <segue destination="GbZ-lQ-hBG" kind="show" id="pMi-qG-aTc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1612,10 +1688,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="6289.8550724637689" y="1868.9732142857142"/>
         </scene>
-        <!--Disease7 View Controller-->
+        <!--Dis7 Med View Controller-->
         <scene sceneID="3JR-7a-Flz">
             <objects>
-                <viewController id="10X-lq-e9e" customClass="Disease7ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="10X-lq-e9e" customClass="Dis7MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7s5-Z7-dTd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1682,10 +1758,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="6976.811594202899" y="1868.9732142857142"/>
         </scene>
-        <!--Disease8 View Controller-->
+        <!--Dis8 Med View Controller-->
         <scene sceneID="Vd1-TX-JvG">
             <objects>
-                <viewController id="U7z-nd-x9G" customClass="Disease8ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="U7z-nd-x9G" customClass="Dis8MedViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eoQ-NU-WWX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1762,7 +1838,7 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="dis8Med2Button:" destination="U7z-nd-x9G" eventType="touchUpInside" id="YC9-OH-nJG"/>
-                                    <segue destination="Lmd-D2-1fW" kind="show" id="mFW-pS-tag"/>
+                                    <segue destination="j3Z-58-FgO" kind="show" id="T3n-hG-EW1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2675,10 +2751,6 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="fsR-uY-lyE"/>
-        <segue reference="I6V-53-ZhT"/>
-        <segue reference="Jgn-8V-eRX"/>
-        <segue reference="gu8-A7-TN0"/>
-        <segue reference="EQQ-Wf-n4b"/>
         <segue reference="udd-1E-4Km"/>
     </inferredMetricsTieBreakers>
     <resources>

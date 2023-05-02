@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Disease5ViewController: UIViewController {
+class Dis5MedViewController.swift: UIViewController {
 
     @IBOutlet weak var search5: UISearchBar!
     
