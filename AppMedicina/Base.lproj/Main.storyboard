@@ -759,14 +759,14 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Instructions
+                                <string key="text">Instructions
 Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
 
 Warnings
 Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
 
 Benefits
-Relief of moderate to severe pain and reduces fever.</mutableString>
+Relief of moderate to severe pain and reduces fever.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -814,14 +814,14 @@ Relief of moderate to severe pain and reduces fever.</mutableString>
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Instructions
+                                <string key="text">Instructions
 For the relief of pain and fever, as well as some discomfort related to flu and cold. Pediatric use: Tempra should not be used in children under 12 years of age. Oral. Adults and over 12 years: 1 or 2 tablets every 4 to 6 hours, not to exceed eight tablets per day. For a maximum period of 5 days.
 
 Warnings
 Do not use Tempra if you have hypersensitivity to the components of the formula, renal insufficiency or liver and kidney damage; simultaneous administration with anticoagulants, severe malnutrition or chronic alcoholism. In case of pregnancy or lactation, consult your doctor. The use of Tempra can cause: skin rash, stomach pain, diarrhea. Paracetamol can cause skin reactions. Symptoms may include: reddening of the skin, blisters, and rashes. If skin reactions occur, stop taking the medicine and consult your doctor immediately. If you use Tempra do not take phenytoin, probenecid, salicylamide, enzyme-inducing substances and anticoagulants. If you use another medication, consult your doctor before taking Tempra. Overdose with an acute ingestion of 7.5 g or more of acetaminophen in adults or 140 mg/kg body weight in children causes severe liver damage, metabolic acidosis, and encephalopathy. Symptoms generally appear within the first 24 hours and include nausea, vomiting, anorexia, paleness, malaise, and diaphoresis. Keep out of reach of children. If symptoms are persistent, consult your doctor. Protect yourself from light. Store at no more than 30°C. Keep the box tightly closed.
 
 Benefits
-Auxiliary for the relief of pain and fever, as well as some discomfort related to the cold.</mutableString>
+Auxiliary for the relief of pain and fever, as well as some discomfort related to the cold.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1015,7 +1015,7 @@ Your purchase requires a medical prescription. Store at room temperature at no m
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Instructions
+                                <string key="text">Instructions
 Infants and children under 12 years: 1 vial every 12 hours. Without exceeding 2 vials a day. Children over 12 years of age and adults: 1 vial every 8 hours, without exceeding 3 vials per day.
 
 Warnings
@@ -1027,7 +1027,7 @@ Helps relieve diarrhea.
 Restores and protects the balance of the intestinal flora.
 2 billion CFU.
 Stimulates the body's natural defenses.
-Take 1 vial 2 times a day.</mutableString>
+Take 1 vial 2 times a day.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1122,14 +1122,14 @@ Take 1 vial 2 times a day.</mutableString>
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Instructions
+                                <string key="text">Instructions
 Dose: 2 tablets a day with a glass of water at bedtime. Administration way: Oral. Indications: auxiliary laxative in the treatment of constipation.
 
 Warnings
 Contraindications: do not administer in the following cases: hypersensitivity to the components of the formula; intestinal obstruction; nausea, vomiting, or fever; severe dehydration; abdominal pain of unknown cause; appendicitis; undiagnosed rectal bleeding; pyloric stenosis, and under 10 years of age. Use in pregnancy and lactation: its use is safe during the second and third month of pregnancy. Its use during the first trimester of pregnancy is at the discretion of the physician, who must determine its administration. It can be used at the recommended dose in mothers who are breastfeeding, since it does not have laxative or harmful effects on the infant. Pediatric use: use in children over 10 years of age, only under medical prescription. General precautions: do not administer more than the recommended dose, nor for more than 2 weeks, if necessary, require medical supervision. If you are taking any medication, consult your doctor before taking the product. Frequent and prolonged use of laxatives can be habit forming. Side reactions: colic, meteorism, nausea may occur. when its use is prolonged or with overdosage, there is the possibility of diarrhea and an increase in loss of water and salts. Drug and Food Interactions: Due to the loss of potassium, the use of this drug may potentiate the toxic effects of digitalis glycosides. Do not use concomitantly with thiazide diuretics, adrenocorticoids and liquorice root, may exacerbate electrolyte imbalance. Laxatives can decrease the absorption of any medication, in addition to interacting with anti-arrhythmics (quinidines). Do not take together with antidiarrheals, unless medically indicated. If you are taking an oral potassium medication or supplement, or potassium-sparing diuretics, take it 2 hours before or after the product. Accidental ingestion and overdose: diarrhea occurs and consequently
 
 Benefits
-Laxative 100% of natural origin.</mutableString>
+Laxative 100% of natural origin.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1190,6 +1190,11 @@ Laxative 100% of natural origin.</mutableString>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="J3J-M9-Wfe"/>
+                    <connections>
+                        <outlet property="med2Imagen" destination="mPk-cf-tnf" id="Y6T-hL-sze"/>
+                        <outlet property="med2Text" destination="Vaj-nN-cab" id="0qm-tl-jQt"/>
+                        <outlet property="med2Title" destination="Ej8-M3-obr" id="Kcd-LO-G0i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I6S-tx-hxW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1219,11 +1224,11 @@ Laxative 100% of natural origin.</mutableString>
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Instructions
+                                <string key="text">Instructions
 Dosage and directions for use: Adults take one capsule every 12 hours. Administration way: Oral.
 
 Warnings
-Use in pregnancy and lactation: Do not administer during pregnancy and lactation. Pediatric use: Consult your doctor. Contraindications: Hypersensitivity to the components of the formula, patients with intestinal obstruction, stomach ulcer, duodenal ulcer or sphagitis. Precautions and Warnings: This medicine contains red dye no. 6 that can cause allergic hypersensitivity reactions. Adverse reactions: nausea, rash, pruritus, rash, diarrhea, dry mouth, constipation, regurgitation, difficulty swallowing, headache, and drowsiness may occur. Drug and food interactions: None have been reported to date. Accidental ingestion and overdose: No cases of toxic effects due to overdose have been reported. Keep out of reach of children. If symptoms are persistent, consult your doctor. Store at no more than 30°C and in a dry place.</mutableString>
+Use in pregnancy and lactation: Do not administer during pregnancy and lactation. Pediatric use: Consult your doctor. Contraindications: Hypersensitivity to the components of the formula, patients with intestinal obstruction, stomach ulcer, duodenal ulcer or sphagitis. Precautions and Warnings: This medicine contains red dye no. 6 that can cause allergic hypersensitivity reactions. Adverse reactions: nausea, rash, pruritus, rash, diarrhea, dry mouth, constipation, regurgitation, difficulty swallowing, headache, and drowsiness may occur. Drug and food interactions: None have been reported to date. Accidental ingestion and overdose: No cases of toxic effects due to overdose have been reported. Keep out of reach of children. If symptoms are persistent, consult your doctor. Store at no more than 30°C and in a dry place.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1271,11 +1276,11 @@ Use in pregnancy and lactation: Do not administer during pregnancy and lactation
                                 <rect key="frame" x="39" y="435" width="336" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Instructions
+                                <string key="text">Instructions
 Administration way: Oral. Dose: take 1 to 2 liters the first 24 hours.
 
 Warnings
-Once the container is opened, consume the content within 24 hours or discard the excess. Store at no more than 30°C. Keep out of reach of children. If symptoms are persistent, consult your doctor. Use in pregnancy and lactation: the use of this product during these states does not require special care as long as the dose and instructions for use are followed, unless your doctor indicates otherwise. Contraindications: Do not administer in case of intestinal obstruction or perforation or paralytic ileus. This medicine contains blue color No. 1, which can cause allergic reactions. Note: to treat dehydration caused by diarrhea or vomiting in children under 6 years of age, it is recommended to take pediatric serums.</mutableString>
+Once the container is opened, consume the content within 24 hours or discard the excess. Store at no more than 30°C. Keep out of reach of children. If symptoms are persistent, consult your doctor. Use in pregnancy and lactation: the use of this product during these states does not require special care as long as the dose and instructions for use are followed, unless your doctor indicates otherwise. Contraindications: Do not administer in case of intestinal obstruction or perforation or paralytic ileus. This medicine contains blue color No. 1, which can cause allergic reactions. Note: to treat dehydration caused by diarrhea or vomiting in children under 6 years of age, it is recommended to take pediatric serums.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1337,9 +1342,9 @@ Once the container is opened, consume the content within 24 hours or discard the
                     </view>
                     <navigationItem key="navigationItem" id="7cU-dr-GeP"/>
                     <connections>
-                        <outlet property="med2Imagen" destination="mp0-NE-kIh" id="aer-qs-iPN"/>
-                        <outlet property="med2Text" destination="ipe-Mw-LHF" id="cjt-Hl-eaI"/>
-                        <outlet property="med2Title" destination="SN2-dX-ZYu" id="Vke-un-eIj"/>
+                        <outlet property="med2Imagen" destination="mp0-NE-kIh" id="YQx-Ww-rR1"/>
+                        <outlet property="med2Text" destination="ipe-Mw-LHF" id="ES8-6z-M1p"/>
+                        <outlet property="med2Title" destination="SN2-dX-ZYu" id="NLI-Id-cyd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wj-B4-OeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1571,10 +1576,11 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pel-U6-dQw">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pel-U6-dQw">
                                 <rect key="frame" x="47" y="491" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Buscopan is an antispasmodic medication used to treat muscle spasms and cramps in the gastrointestinal tract, particularly the intestine, and relieve pain associated with them. It can also be used to relieve muscle spasms in other parts of the body, such as the urinary bladder.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1717,10 +1723,11 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sh4-H4-FHo">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sh4-H4-FHo">
                                 <rect key="frame" x="47" y="491" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Pepto Bismol is an over-the-counter medication used to treat symptoms of upset stomach, such as heartburn, indigestion, diarrhea, and nausea.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1869,7 +1876,7 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Medicine 1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VVZ-Jn-yVP">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Metamucil" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VVZ-Jn-yVP">
                                 <rect key="frame" x="47" y="441" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1886,10 +1893,11 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="xxxxxx" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-g9-gvd">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-g9-gvd">
                                 <rect key="frame" x="47" y="491" width="320" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Metamucil works by increasing the volume of feces, favoring intestinal transit. Metamucil is indicated for the symptomatic relief of constipation, facilitating the evacuation of feces, for example in case of hemorrhoids.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

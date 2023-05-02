@@ -19,6 +19,8 @@
 		3689F0B429FF178A00515797 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A829FF178A00515797 /* RobotoSlab-Regular.ttf */; };
 		3689F0B529FF178A00515797 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A929FF178A00515797 /* README.txt */; };
 		3689F0B629FF178A00515797 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0AA29FF178A00515797 /* LICENSE.txt */; };
+		3697835C2A00E556004D5810 /* Med2Dis6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697835B2A00E556004D5810 /* Med2Dis6ViewController.swift */; };
+		3697835E2A00E61E004D5810 /* Med2Dis4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697835D2A00E61E004D5810 /* Med2Dis4ViewController.swift */; };
 		36B676DF29FF5DCC00A8957A /* Diagnostic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B676DE29FF5DCC00A8957A /* Diagnostic.swift */; };
 		36B676E129FF5EEA00A8957A /* DiagnosticBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B676E029FF5EEA00A8957A /* DiagnosticBank.swift */; };
 		36C4EE562A009A3A006115E5 /* Dis1MedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE552A009A3A006115E5 /* Dis1MedViewController.swift */; };
@@ -39,7 +41,6 @@
 		36C4EE792A00ABE9006115E5 /* Med1Dis6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE782A00ABE9006115E5 /* Med1Dis6ViewController.swift */; };
 		36C4EE7C2A00C9E2006115E5 /* Med1Dis7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE7B2A00C9E2006115E5 /* Med1Dis7ViewController.swift */; };
 		36C4EE7E2A00C9FA006115E5 /* Med1Dis8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE7D2A00C9FA006115E5 /* Med1Dis8ViewController.swift */; };
-		36C4EE802A00CA0A006115E5 /* Med2Dis4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE7F2A00CA0A006115E5 /* Med2Dis4ViewController.swift */; };
 		A80621C229FC606600EAAFC3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80621C129FC606600EAAFC3 /* Question.swift */; };
 		A80621C429FC64C000EAAFC3 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80621C329FC64C000EAAFC3 /* QuestionBank.swift */; };
 		A82D610229D39EEB001B2EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D610129D39EEB001B2EF5 /* AppDelegate.swift */; };
@@ -81,6 +82,8 @@
 		3689F0A829FF178A00515797 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		3689F0A929FF178A00515797 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		3689F0AA29FF178A00515797 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3697835B2A00E556004D5810 /* Med2Dis6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med2Dis6ViewController.swift; sourceTree = "<group>"; };
+		3697835D2A00E61E004D5810 /* Med2Dis4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med2Dis4ViewController.swift; sourceTree = "<group>"; };
 		36B676DE29FF5DCC00A8957A /* Diagnostic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic.swift; sourceTree = "<group>"; };
 		36B676E029FF5EEA00A8957A /* DiagnosticBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticBank.swift; sourceTree = "<group>"; };
 		36C4EE552A009A3A006115E5 /* Dis1MedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dis1MedViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +104,6 @@
 		36C4EE782A00ABE9006115E5 /* Med1Dis6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med1Dis6ViewController.swift; sourceTree = "<group>"; };
 		36C4EE7B2A00C9E2006115E5 /* Med1Dis7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med1Dis7ViewController.swift; sourceTree = "<group>"; };
 		36C4EE7D2A00C9FA006115E5 /* Med1Dis8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med1Dis8ViewController.swift; sourceTree = "<group>"; };
-		36C4EE7F2A00CA0A006115E5 /* Med2Dis4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med2Dis4ViewController.swift; sourceTree = "<group>"; };
 		A80621C129FC606600EAAFC3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A80621C329FC64C000EAAFC3 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		A82D60FE29D39EEB001B2EF5 /* AppMedicina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMedicina.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,10 +223,11 @@
 				36C4EE6E2A00AB9D006115E5 /* Med2Dis2ViewController.swift */,
 				36C4EE702A00ABAD006115E5 /* Med1Dis3ViewController.swift */,
 				36C4EE722A00ABB9006115E5 /* Med2Dis3ViewController.swift */,
+				3697835D2A00E61E004D5810 /* Med2Dis4ViewController.swift */,
 				36C4EE742A00ABCC006115E5 /* Med1Dis4ViewController.swift */,
-				36C4EE7F2A00CA0A006115E5 /* Med2Dis4ViewController.swift */,
 				36C4EE762A00ABD7006115E5 /* Med1Dis5ViewController.swift */,
 				36C4EE782A00ABE9006115E5 /* Med1Dis6ViewController.swift */,
+				3697835B2A00E556004D5810 /* Med2Dis6ViewController.swift */,
 				36C4EE7B2A00C9E2006115E5 /* Med1Dis7ViewController.swift */,
 				36C4EE7D2A00C9FA006115E5 /* Med1Dis8ViewController.swift */,
 			);
@@ -454,7 +457,9 @@
 				36C4EE602A009A8C006115E5 /* Dis6MedViewController.swift in Sources */,
 				36C4EE562A009A3A006115E5 /* Dis1MedViewController.swift in Sources */,
 				A82D613E29D4DC60001B2EF5 /* HomePageViewController.swift in Sources */,
+				3697835E2A00E61E004D5810 /* Med2Dis4ViewController.swift in Sources */,
 				A82D614029D4E370001B2EF5 /* TipsViewController.swift in Sources */,
+				3697835C2A00E556004D5810 /* Med2Dis6ViewController.swift in Sources */,
 				A82D615229D62A6A001B2EF5 /* InfoTip1ViewController.swift in Sources */,
 				36C4EE752A00ABCC006115E5 /* Med1Dis4ViewController.swift in Sources */,
 				A82D610429D39EEB001B2EF5 /* SceneDelegate.swift in Sources */,
@@ -463,7 +468,6 @@
 				A82D614229D4E380001B2EF5 /* DiagnosticViewController.swift in Sources */,
 				A8485CCE29F0B00F00F02EE6 /* InfoTip5ViewController.swift in Sources */,
 				36B676DF29FF5DCC00A8957A /* Diagnostic.swift in Sources */,
-				36C4EE802A00CA0A006115E5 /* Med2Dis4ViewController.swift in Sources */,
 				A82D614829D4E706001B2EF5 /* SuggestedMedicineViewController.swift in Sources */,
 				A8485CC829F0AFA300F02EE6 /* InfoTip2ViewController.swift in Sources */,
 				36C4EE6F2A00AB9D006115E5 /* Med2Dis2ViewController.swift in Sources */,
