@@ -1750,6 +1750,22 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uA-ao-zPD">
+                                <rect key="frame" x="39" y="172" width="336" height="598"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Instructions
+Administration way: Oral. Dosage and directions for use: adults and children over 12 years of age: take one tablet every 8 hours, depending on the severity of symptoms, not to exceed 3 tablets per day. Do not take this product for more than 5 days if you are trying to relieve pain or for more than 3 days if you are trying to reduce fever. Do not exceed recommended dose. Therapeutic indication: it is indicated for the relief of moderate to severe pain with effective and rapid action. Relieves headaches, back pain, muscle pain, migraine pain, mild joint osteoarthritis, dental pain, associated with the common cold, caused by menstrual colic, reduces fever.
+
+Warnings
+Contraindications: Do not use if you are hypersensitive to ibuprofen, acetylsalicylic acid, other anti-inflammatories or steroids, or any ingredient in this medication, or if you have a history or presence of gastrointestinal ulceration or bleeding, or during pregnancy and lactation. Use in pregnancy and lactation: Do not use during pregnancy and lactation. Cautions and Warnings: Discontinue use and consult your doctor if a severe allergic reaction including skin redness, rash, or blisters occurs, or if blood is observed in vomit or black or bloody stools. Consult your doctor before use if you have asthma, heart or kidney disease, high blood pressure, or are taking any other nonsteroidal anti-inflammatory drugs.
+
+Benefits
+Relief of moderate to severe pain and reduces fever.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="97f-eR-KJU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1772,8 +1788,8 @@ Once the container is opened, consume the content within 24 hours or discard the
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="929"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Dirección 2 " textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-uy-AC8">
-                                <rect key="frame" x="39" y="106" width="336" height="73"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacia Guadalajara" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-uy-AC8">
+                                <rect key="frame" x="39" y="106" width="336" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1822,7 +1838,7 @@ Relief of moderate to severe pain and reduces fever.</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="907"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Dirección 1" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lg0-Py-dJV">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacia del Ahorro" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lg0-Py-dJV">
                                 <rect key="frame" x="39" y="111" width="336" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1872,7 +1888,7 @@ Relief of moderate to severe pain and reduces fever.</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="907"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Dirección 2 " textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIc-ud-xIn">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farmacia Similares" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIc-ud-xIn">
                                 <rect key="frame" x="39" y="106" width="336" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
