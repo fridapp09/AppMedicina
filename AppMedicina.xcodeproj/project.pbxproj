@@ -19,6 +19,7 @@
 		3689F0B429FF178A00515797 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A829FF178A00515797 /* RobotoSlab-Regular.ttf */; };
 		3689F0B529FF178A00515797 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0A929FF178A00515797 /* README.txt */; };
 		3689F0B629FF178A00515797 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3689F0AA29FF178A00515797 /* LICENSE.txt */; };
+		369A02252A00CD9C000FC65E /* Med2Dis6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369A02242A00CD9C000FC65E /* Med2Dis6ViewController.swift */; };
 		36B676DF29FF5DCC00A8957A /* Diagnostic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B676DE29FF5DCC00A8957A /* Diagnostic.swift */; };
 		36B676E129FF5EEA00A8957A /* DiagnosticBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B676E029FF5EEA00A8957A /* DiagnosticBank.swift */; };
 		36C4EE562A009A3A006115E5 /* Dis1MedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C4EE552A009A3A006115E5 /* Dis1MedViewController.swift */; };
@@ -81,6 +82,7 @@
 		3689F0A829FF178A00515797 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		3689F0A929FF178A00515797 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		3689F0AA29FF178A00515797 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		369A02242A00CD9C000FC65E /* Med2Dis6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med2Dis6ViewController.swift; sourceTree = "<group>"; };
 		36B676DE29FF5DCC00A8957A /* Diagnostic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic.swift; sourceTree = "<group>"; };
 		36B676E029FF5EEA00A8957A /* DiagnosticBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticBank.swift; sourceTree = "<group>"; };
 		36C4EE552A009A3A006115E5 /* Dis1MedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dis1MedViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				36C4EE742A00ABCC006115E5 /* Med1Dis4ViewController.swift */,
 				36C4EE762A00ABD7006115E5 /* Med1Dis5ViewController.swift */,
 				36C4EE782A00ABE9006115E5 /* Med1Dis6ViewController.swift */,
+				369A02242A00CD9C000FC65E /* Med2Dis6ViewController.swift */,
 				36C4EE7B2A00C9E2006115E5 /* Med1Dis7ViewController.swift */,
 				36C4EE7D2A00C9FA006115E5 /* Med1Dis8ViewController.swift */,
 				36C4EE7F2A00CA0A006115E5 /* Med2Dis8ViewController.swift */,
@@ -455,6 +458,7 @@
 				36C4EE562A009A3A006115E5 /* Dis1MedViewController.swift in Sources */,
 				A82D613E29D4DC60001B2EF5 /* HomePageViewController.swift in Sources */,
 				A82D614029D4E370001B2EF5 /* TipsViewController.swift in Sources */,
+				369A02252A00CD9C000FC65E /* Med2Dis6ViewController.swift in Sources */,
 				A82D615229D62A6A001B2EF5 /* InfoTip1ViewController.swift in Sources */,
 				36C4EE752A00ABCC006115E5 /* Med1Dis4ViewController.swift in Sources */,
 				A82D610429D39EEB001B2EF5 /* SceneDelegate.swift in Sources */,

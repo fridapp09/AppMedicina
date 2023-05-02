@@ -735,10 +735,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="2464" y="1064"/>
         </scene>
-        <!--Medicine Group1 View Controller-->
+        <!--Med1 Dis1 View Controller-->
         <scene sceneID="TOx-3v-z5Q">
             <objects>
-                <viewController id="4Nn-ao-KFq" customClass="MedicineGroup1ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4Nn-ao-KFq" customClass="Med1Dis1ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sme-0q-4iC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -778,10 +778,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="2460.8695652173915" y="2582.8125"/>
         </scene>
-        <!--Medicine Group2 View Controller-->
+        <!--Med1 Dis2 View Controller-->
         <scene sceneID="Yuw-wP-X50">
             <objects>
-                <viewController id="iV0-ZS-euc" customClass="MedicineGroup2ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iV0-ZS-euc" customClass="Med1Dis2ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MuH-jY-7KW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -821,10 +821,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="3250.7246376811595" y="2582.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Med2 Dis2 View Controller-->
         <scene sceneID="7QN-LR-g6g">
             <objects>
-                <viewController id="vXT-Xh-QbE" sceneMemberID="viewController">
+                <viewController id="vXT-Xh-QbE" customClass="Med2Dis2ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N37-U3-TLw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -843,10 +843,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="3250.7246376811595" y="3287.9464285714284"/>
         </scene>
-        <!--Medicine Group3 View Controller-->
+        <!--Med1 Dis3 View Controller-->
         <scene sceneID="aOU-MB-bjX">
             <objects>
-                <viewController id="8Yt-Hw-TBJ" customClass="MedicineGroup3ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8Yt-Hw-TBJ" customClass="Med1Dis3ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jWm-ng-FwU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -886,10 +886,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="4005.7971014492755" y="2582.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Med2 Dis3 View Controller-->
         <scene sceneID="2DE-6e-V05">
             <objects>
-                <viewController id="tQr-dV-pV8" sceneMemberID="viewController">
+                <viewController id="tQr-dV-pV8" customClass="Med2Dis3ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jr3-P5-45c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -908,10 +908,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="4005.7971014492755" y="3287.9464285714284"/>
         </scene>
-        <!--Medicine Group4 View Controller-->
+        <!--Med1 Dis4 View Controller-->
         <scene sceneID="UTn-hJ-bGY">
             <objects>
-                <viewController id="vtD-4k-UMy" customClass="MedicineGroup4ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vtD-4k-UMy" customClass="Med1Dis4ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T3g-He-Xmt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -951,10 +951,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="4789.8550724637689" y="2582.8125"/>
         </scene>
-        <!--Medicine Group5 View Controller-->
+        <!--Med1 Dis5 View Controller-->
         <scene sceneID="wOA-yY-hsj">
             <objects>
-                <viewController id="btS-Qk-3D0" customClass="MedicineGroup5ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="btS-Qk-3D0" customClass="Med1Dis5ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h18-iS-Pgo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -994,10 +994,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="5550.7246376811599" y="2582.8125"/>
         </scene>
-        <!--Medicine Group6 View Controller-->
+        <!--Med1 Dis6 View Controller-->
         <scene sceneID="Hsj-NV-PfZ">
             <objects>
-                <viewController id="lgJ-oK-1hj" customClass="MedicineGroup6ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lgJ-oK-1hj" customClass="Med1Dis6ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qNo-YK-8YF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1037,10 +1037,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="6289.8550724637689" y="2582.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Med2 Dis6 View Controller-->
         <scene sceneID="xsB-Xs-Dwq">
             <objects>
-                <viewController id="GbZ-lQ-hBG" sceneMemberID="viewController">
+                <viewController id="GbZ-lQ-hBG" customClass="Med2Dis6ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ceF-X0-n5h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1053,10 +1053,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="6290" y="3288"/>
         </scene>
-        <!--Medicine Group7 View Controller-->
+        <!--Med1 Dis7 View Controller-->
         <scene sceneID="Sjb-We-qXi">
             <objects>
-                <viewController id="KgB-Jy-P6t" customClass="MedicineGroup7ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KgB-Jy-P6t" customClass="Med1Dis7ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="znF-Zj-iLY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1096,10 +1096,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="6976.811594202899" y="2582.8125"/>
         </scene>
-        <!--Medicine Group8 View Controller-->
+        <!--Med1 Dis8 View Controller-->
         <scene sceneID="z1f-VI-HGn">
             <objects>
-                <viewController id="Lmd-D2-1fW" customClass="MedicineGroup8ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Lmd-D2-1fW" customClass="Med1Dis8ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mza-kp-8vD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1139,10 +1139,10 @@ The use of our app is at your own risk. We shall not be liable for any direct, i
             </objects>
             <point key="canvasLocation" x="7653.6231884057979" y="2582.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Med2 Dis8 View Controller-->
         <scene sceneID="ohs-ek-8RU">
             <objects>
-                <viewController id="j3Z-58-FgO" sceneMemberID="viewController">
+                <viewController id="j3Z-58-FgO" customClass="Med2Dis8ViewController" customModule="AppMedicina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ubP-pE-WrA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
